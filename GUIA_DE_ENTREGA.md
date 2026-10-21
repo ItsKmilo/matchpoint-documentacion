@@ -53,7 +53,7 @@ git push -u origin main
 - [ ] La sección «HU y mockups» muestra las 20 tarjetas y filtra por Sprint 1 / Sprint 2.
 - [ ] Los botones para descargar SVG y Excel abren los archivos correctos.
 - [ ] La URL se abre también desde un celular.
-- [x] Los cuatro nombres están correctos: Santiago Solano, Maicol Rubiano, Diego Romero y Camilo Bastias.
+- [x] Los cuatro nombres están correctos: Santiago Solano, Maicol Rubiano, Diego Romero y Camilo Bastidas.
 
 ### Nota académica
 

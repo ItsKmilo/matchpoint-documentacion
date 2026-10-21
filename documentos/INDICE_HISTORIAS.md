@@ -1,7 +1,7 @@
 # MatchPoint · Índice de historias de usuario
 
 **Empresa:** Nexo Digital Labs
-**Equipo:** Santiago Solano · Maicol Rubiano · Diego Romero · Camilo Bastias
+**Equipo:** Santiago Solano · Maicol Rubiano · Diego Romero · Camilo Bastidas
 **Estado:** Propuesta a revisar con el equipo y la docente.
 
 ## Organización en sprints

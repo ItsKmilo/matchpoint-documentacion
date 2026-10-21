@@ -1,6 +1,6 @@
 # MatchPoint — Team Canvas / Lienzo de equipo
 
-**Equipo:** Santiago Solano · Maicol Rubiano · Diego Romero · Camilo Bastias  
+**Equipo:** Santiago Solano · Maicol Rubiano · Diego Romero · Camilo Bastidas  
 **Empresa solicitante:** Nexo Digital Labs  
 **Estado:** Los roles están propuestos para el equipo; metas personales y reglas de colaboración son propuestas para validación grupal.
 
@@ -23,7 +23,7 @@ Este lienzo es una propuesta inicial para ser conversada entre los cuatro integr
 | Santiago Solano | Scrum Master | Organización del equipo, reuniones y seguimiento de avances. |
 | Maicol Rubiano | Backend Developer | Lógica del negocio, servicios, pronósticos y créditos virtuales. |
 | Diego Romero | Frontend Developer | Interfaces, navegación, accesibilidad y experiencia de usuario. |
-| Camilo Bastias | Database Administrator (DBA) | Modelo de datos, consultas, integridad y apoyo a las pruebas. |
+| Camilo Bastidas | Database Administrator (DBA) | Modelo de datos, consultas, integridad y apoyo a las pruebas. |
 
 Los roles técnicos son especialidades del equipo: no equivalen todos a responsabilidades formales de Scrum. La coordinación técnica es colaborativa.
 

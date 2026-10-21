@@ -1,7 +1,7 @@
 # MatchPoint · Product Backlog
 
 > **Empresa solicitante:** Nexo Digital Labs
-> **Equipo:** Santiago Solano, Maicol Rubiano, Diego Romero y Camilo Bastias
+> **Equipo:** Santiago Solano, Maicol Rubiano, Diego Romero y Camilo Bastidas
 > **Fase:** Inicio · Backlog reducido a 20 historias y planificado en **2 sprints / 2 entregas**, pendiente de revisión con la docente
 
 ## Visión
@@ -45,21 +45,21 @@ Los créditos **no son dinero**, no tienen valor monetario, no pueden retirarse 
 | HU002 | Acceso y usuarios | Registrar participante | Must | Sprint 1 | 3 | Diego Romero |
 | HU003 | Torneos y eventos | Crear torneo | Must | Sprint 1 | 3 | Diego Romero |
 | HU004 | Torneos y eventos | Editar torneo | Should | Sprint 1 | 3 | Diego Romero |
-| HU005 | Torneos y eventos | Eliminar torneo | Should | Sprint 1 | 3 | Camilo Bastias |
+| HU005 | Torneos y eventos | Eliminar torneo | Should | Sprint 1 | 3 | Camilo Bastidas |
 | HU006 | Torneos y eventos | Programar evento | Must | Sprint 1 | 5 | Maicol Rubiano |
 | HU007 | Pronósticos | Consultar torneos y eventos | Must | Sprint 1 | 3 | Diego Romero |
 | HU008 | Pronósticos | Registrar pronóstico | Must | Sprint 1 | 8 | Maicol Rubiano |
-| HU009 | Créditos virtuales | Asignar créditos iniciales | Must | Sprint 1 | 3 | Camilo Bastias |
+| HU009 | Créditos virtuales | Asignar créditos iniciales | Must | Sprint 1 | 3 | Camilo Bastidas |
 | HU010 | Créditos virtuales | Consultar saldo y movimientos | Must | Sprint 1 | 3 | Diego Romero |
 | HU011 | Pronósticos | Consultar mis pronósticos | Must | Sprint 2 | 3 | Diego Romero |
 | HU012 | Pronósticos | Anular pronóstico | Should | Sprint 2 | 5 | Maicol Rubiano |
 | HU013 | Resultados y liquidación | Cerrar recepción de pronósticos | Must | Sprint 2 | 3 | Maicol Rubiano |
 | HU014 | Resultados y liquidación | Publicar resultado oficial | Must | Sprint 2 | 3 | Maicol Rubiano |
 | HU015 | Resultados y liquidación | Liquidar evento y acreditar premios | Must | Sprint 2 | 8 | Maicol Rubiano |
-| HU016 | Resultados y liquidación | Corregir resultado publicado | Should | Sprint 2 | 5 | Camilo Bastias |
-| HU017 | Créditos virtuales | Ajustar créditos autorizados | Should | Sprint 2 | 5 | Camilo Bastias |
-| HU018 | Auditoría y reportes | Consultar transacciones | Must | Sprint 2 | 5 | Camilo Bastias |
-| HU019 | Auditoría y reportes | Conciliar saldos | Could | Sprint 2 | 3 | Camilo Bastias |
+| HU016 | Resultados y liquidación | Corregir resultado publicado | Should | Sprint 2 | 5 | Camilo Bastidas |
+| HU017 | Créditos virtuales | Ajustar créditos autorizados | Should | Sprint 2 | 5 | Camilo Bastidas |
+| HU018 | Auditoría y reportes | Consultar transacciones | Must | Sprint 2 | 5 | Camilo Bastidas |
+| HU019 | Auditoría y reportes | Conciliar saldos | Could | Sprint 2 | 3 | Camilo Bastidas |
 | HU020 | Auditoría y reportes | Generar reporte del torneo | Could | Sprint 2 | 3 | Diego Romero |
 
 ## Historias de usuario: paso a paso y mockup
@@ -144,7 +144,7 @@ SVG editable: `descargas/mockups/HU004_mockup.svg`
 
 ### HU005 · Eliminar torneo
 
-**Épica:** Torneos y eventos · **Actividad:** Gestionar torneos · **Prioridad:** Should · **Sprint 1** · **Puntos:** 3 · **Responsable propuesto:** Camilo Bastias · Database Administrator (DBA) · **Dependencias:** HU003
+**Épica:** Torneos y eventos · **Actividad:** Gestionar torneos · **Prioridad:** Should · **Sprint 1** · **Puntos:** 3 · **Responsable propuesto:** Camilo Bastidas · Database Administrator (DBA) · **Dependencias:** HU003
 
 | **Identificador** | **HU005** |
 |---|---|
@@ -224,7 +224,7 @@ SVG editable: `descargas/mockups/HU008_mockup.svg`
 
 ### HU009 · Asignar créditos iniciales
 
-**Épica:** Créditos virtuales · **Actividad:** Asignar créditos · **Prioridad:** Must · **Sprint 1** · **Puntos:** 3 · **Responsable propuesto:** Camilo Bastias · Database Administrator (DBA) · **Dependencias:** HU002
+**Épica:** Créditos virtuales · **Actividad:** Asignar créditos · **Prioridad:** Must · **Sprint 1** · **Puntos:** 3 · **Responsable propuesto:** Camilo Bastidas · Database Administrator (DBA) · **Dependencias:** HU002
 
 | **Identificador** | **HU009** |
 |---|---|
@@ -357,7 +357,7 @@ SVG editable: `descargas/mockups/HU015_mockup.svg`
 
 ### HU016 · Corregir resultado publicado
 
-**Épica:** Resultados y liquidación · **Actividad:** Liquidar y corregir · **Prioridad:** Should · **Sprint 2** · **Puntos:** 5 · **Responsable propuesto:** Camilo Bastias · Database Administrator (DBA) · **Dependencias:** HU015
+**Épica:** Resultados y liquidación · **Actividad:** Liquidar y corregir · **Prioridad:** Should · **Sprint 2** · **Puntos:** 5 · **Responsable propuesto:** Camilo Bastidas · Database Administrator (DBA) · **Dependencias:** HU015
 
 | **Identificador** | **HU016** |
 |---|---|
@@ -376,7 +376,7 @@ SVG editable: `descargas/mockups/HU016_mockup.svg`
 
 ### HU017 · Ajustar créditos autorizados
 
-**Épica:** Créditos virtuales · **Actividad:** Consultar y ajustar saldo · **Prioridad:** Should · **Sprint 2** · **Puntos:** 5 · **Responsable propuesto:** Camilo Bastias · Database Administrator (DBA) · **Dependencias:** HU010
+**Épica:** Créditos virtuales · **Actividad:** Consultar y ajustar saldo · **Prioridad:** Should · **Sprint 2** · **Puntos:** 5 · **Responsable propuesto:** Camilo Bastidas · Database Administrator (DBA) · **Dependencias:** HU010
 
 | **Identificador** | **HU017** |
 |---|---|
@@ -395,7 +395,7 @@ SVG editable: `descargas/mockups/HU017_mockup.svg`
 
 ### HU018 · Consultar transacciones
 
-**Épica:** Auditoría y reportes · **Actividad:** Auditar movimientos · **Prioridad:** Must · **Sprint 2** · **Puntos:** 5 · **Responsable propuesto:** Camilo Bastias · Database Administrator (DBA) · **Dependencias:** HU010
+**Épica:** Auditoría y reportes · **Actividad:** Auditar movimientos · **Prioridad:** Must · **Sprint 2** · **Puntos:** 5 · **Responsable propuesto:** Camilo Bastidas · Database Administrator (DBA) · **Dependencias:** HU010
 
 | **Identificador** | **HU018** |
 |---|---|
@@ -413,7 +413,7 @@ SVG editable: `descargas/mockups/HU018_mockup.svg`
 
 ### HU019 · Conciliar saldos
 
-**Épica:** Auditoría y reportes · **Actividad:** Auditar movimientos · **Prioridad:** Could · **Sprint 2** · **Puntos:** 3 · **Responsable propuesto:** Camilo Bastias · Database Administrator (DBA) · **Dependencias:** HU018
+**Épica:** Auditoría y reportes · **Actividad:** Auditar movimientos · **Prioridad:** Could · **Sprint 2** · **Puntos:** 3 · **Responsable propuesto:** Camilo Bastidas · Database Administrator (DBA) · **Dependencias:** HU018
 
 | **Identificador** | **HU019** |
 |---|---|

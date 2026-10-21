@@ -2,7 +2,7 @@
 
 ## Verificación realizada
 
-- [x] Nombre del cuarto integrante corregido a **Camilo Bastias** en web, SVG, CSV, Excel y archivos de texto.
+- [x] Nombre del cuarto integrante corregido a **Camilo Bastidas** en web, SVG, CSV, Excel y archivos de texto.
 - [x] Logo de la Universidad Manuela Beltrán aportado por los estudiantes, incluido sin alteraciones en la web.
 - [x] Identificación explícita como trabajo académico, no sitio oficial ni producto MatchPoint desarrollado.
 - [x] Team Canvas con metas, roles, propósito, valores, reglas y propuestas individuales.

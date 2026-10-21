@@ -3,7 +3,7 @@
 **Empresa solicitante:** Nexo Digital Labs  
 **Producto:** MatchPoint  
 **Fase:** Inicio del proyecto  
-**Equipo:** Santiago Solano, Maicol Rubiano, Diego Romero y Camilo Bastias
+**Equipo:** Santiago Solano, Maicol Rubiano, Diego Romero y Camilo Bastidas
 
 > **Visión:** Desarrollar MatchPoint como una plataforma deportiva confiable y fácil de utilizar, donde los usuarios puedan participar en torneos, realizar pronósticos y administrar sus créditos virtuales, mientras los administradores mantienen un control organizado sobre los eventos, resultados y transacciones.
 
