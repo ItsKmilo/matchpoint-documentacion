@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2260" height="2360" viewBox="0 0 2260 2360" version="1.1">
+<rect x="0" y="0" width="2260" height="2360" rx="0" fill="#F6F9FD" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="2260" height="250" rx="0" fill="#10284A" stroke="none" stroke-width="1"/>
+<rect x="80" y="65" width="64" height="62" rx="13" fill="#F4B740" stroke="none" stroke-width="1"/>
+<path d="M 97 81 h 30 v 18 q -2 13 -15 13 q -13 0 -15 -13 z" fill="#10284A"/>
+<path d="M 97 86 h -12 q -1 14 13 15 M 127 86 h 12 q 1 14 -13 15" stroke="#10284A" fill="none" stroke-width="5"/>
+<text x="162" y="108" font-family="Arial, Liberation Sans, sans-serif" font-size="62" fill="#FFFFFF" font-weight="bold" text-anchor="start">MATCHPOINT</text>
+<text x="165" y="167" font-family="Arial, Liberation Sans, sans-serif" font-size="27" fill="#D4E9FC" font-weight="normal" text-anchor="start">Mapa de historias de usuario · Tramo 1 de 4</text>
+<rect x="1949.16" y="58" width="217.84" height="87" rx="14" fill="#2563EB" stroke="none" stroke-width="1"/>
+<text x="2058.08" y="114" font-family="Arial, Liberation Sans, sans-serif" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">PREPARAR</text>
+<text x="101" y="312" font-family="Arial, Liberation Sans, sans-serif" font-size="37" fill="#10284A" font-weight="bold" text-anchor="start">Administración de competencias</text>
+<text x="2158" y="311" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#536783" font-weight="bold" text-anchor="end">2 ÉPICAS  ·  6 HISTORIAS</text>
+<rect x="85" y="360" width="2090" height="90" rx="14" fill="#2563EB" stroke="none" stroke-width="1"/>
+<text x="125" y="417" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="start">VERDE: ÉPICAS    •    MORADO: ACTIVIDADES    •    AMARILLO: HISTORIAS    •    CADA HISTORIA TIENE MOCKUP</text>
+<rect x="90.0" y="482" width="1028.0" height="160" rx="14" fill="#BDF0D5" stroke="#6FCB9B" stroke-width="2"/>
+<text x="108.0" y="521" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#146746" font-weight="bold" text-anchor="start">ÉPICA 01</text>
+<text x="108.0" y="568" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#163153" font-weight="bold" text-anchor="start">Acceso y usuarios</text>
+<text x="108.0" y="610" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#146746" font-weight="normal" text-anchor="start">Para ingresar de forma segura y contar con participantes registrados.</text>
+<rect x="1142.0" y="482" width="1028.0" height="160" rx="14" fill="#BDF0D5" stroke="#6FCB9B" stroke-width="2"/>
+<text x="1160.0" y="521" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#146746" font-weight="bold" text-anchor="start">ÉPICA 02</text>
+<text x="1160.0" y="568" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#163153" font-weight="bold" text-anchor="start">Torneos y eventos</text>
+<text x="1160.0" y="610" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#146746" font-weight="normal" text-anchor="start">Para organizar competencias con fechas, plazos y opciones claras.</text>
+<rect x="90.0" y="660" width="502.0" height="160" rx="13" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="108.0" y="696" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6551A4" font-weight="bold" text-anchor="start">ACTIVIDAD</text>
+<rect x="104.0" y="712" width="474.0" height="82" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="118.0" y="760" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#3F3470" font-weight="bold" text-anchor="start">Ingresar a la plataforma</text>
+<rect x="616.0" y="660" width="502.0" height="160" rx="13" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="634.0" y="696" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6551A4" font-weight="bold" text-anchor="start">ACTIVIDAD</text>
+<rect x="630.0" y="712" width="474.0" height="82" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="644.0" y="760" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#3F3470" font-weight="bold" text-anchor="start">Gestionar participantes</text>
+<rect x="1142.0" y="660" width="502.0" height="160" rx="13" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="1160.0" y="696" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6551A4" font-weight="bold" text-anchor="start">ACTIVIDAD</text>
+<rect x="1156.0" y="712" width="474.0" height="82" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="1170.0" y="760" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#3F3470" font-weight="bold" text-anchor="start">Gestionar torneos</text>
+<rect x="1668.0" y="660" width="502.0" height="160" rx="13" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="1686.0" y="696" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6551A4" font-weight="bold" text-anchor="start">ACTIVIDAD</text>
+<rect x="1682.0" y="712" width="474.0" height="82" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="1696.0" y="760" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#3F3470" font-weight="bold" text-anchor="start">Programar eventos</text>
+<rect x="90" y="852" width="2080" height="51" rx="10" fill="#E3F7E8" stroke="none" stroke-width="1"/>
+<text x="110" y="887" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">SPRINT 1  ·  ENTREGA 1  ·  6 HISTORIAS</text>
+<g id="HU001" data-story-id="HU001" data-sprint="1">
+<rect x="90.0" y="935" width="502.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="104.0" y="948" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="113.0" y="973" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU001</text>
+<text x="571.0" y="975" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Must</text>
+<text x="110.0" y="1017" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Iniciar sesión</text>
+<text x="110.0" y="1056" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero iniciar sesión con mi usuario y contraseña</text>
+<text x="110.0" y="1081" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">para acceder únicamente a las funciones</text>
+<text x="110.0" y="1106" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">autorizadas para mi rol.</text>
+<line x1="110.0" y1="1133" x2="572.0" y2="1133" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="110.0" y="1157" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al ingresar a MatchPoint sin una sesión activa,</text>
+<text x="110.0" y="1180" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">el sistema deberá mostrar la pantalla de inicio de…</text>
+<text x="110.0" y="1215" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">5 SP · Maicol R.</text>
+<text x="572.0" y="1215" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU001</text>
+</g>
+<g id="HU002" data-story-id="HU002" data-sprint="1">
+<rect x="616.0" y="935" width="502.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="630.0" y="948" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="639.0" y="973" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU002</text>
+<text x="1097.0" y="975" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Must</text>
+<text x="636.0" y="1017" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Registrar participante</text>
+<text x="636.0" y="1056" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero registrar participantes para que puedan</text>
+<text x="636.0" y="1081" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">ingresar a MatchPoint y participar en los torneos.</text>
+<line x1="636.0" y1="1108" x2="1098.0" y2="1108" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="636.0" y="1132" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al seleccionar la opción «Nuevo participante»</text>
+<text x="636.0" y="1155" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">desde la lista de participantes, el sistema deberá…</text>
+<text x="636.0" y="1215" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Diego R.</text>
+<text x="1098.0" y="1215" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU002</text>
+</g>
+<g id="HU003" data-story-id="HU003" data-sprint="1">
+<rect x="1142.0" y="935" width="502.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1156.0" y="948" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1165.0" y="973" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU003</text>
+<text x="1623.0" y="975" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Must</text>
+<text x="1162.0" y="1017" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Crear torneo</text>
+<text x="1162.0" y="1056" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero crear un torneo deportivo para organizar sus</text>
+<text x="1162.0" y="1081" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">eventos y habilitar la participación.</text>
+<line x1="1162.0" y1="1108" x2="1624.0" y2="1108" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="1162.0" y="1132" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al seleccionar la opción «Crear torneo» desde</text>
+<text x="1162.0" y="1155" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">la lista de torneos, el sistema deberá mostrar el…</text>
+<text x="1162.0" y="1215" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Diego R.</text>
+<text x="1624.0" y="1215" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU003</text>
+</g>
+<g id="HU004" data-story-id="HU004" data-sprint="1">
+<rect x="1142.0" y="1255" width="502.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1156.0" y="1268" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1165.0" y="1293" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU004</text>
+<text x="1623.0" y="1295" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Should</text>
+<text x="1162.0" y="1337" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Editar torneo</text>
+<text x="1162.0" y="1376" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero editar los datos de un torneo para corregir o</text>
+<text x="1162.0" y="1401" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">actualizar su información sin afectar los</text>
+<text x="1162.0" y="1426" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">pronósticos registrados.</text>
+<line x1="1162.0" y1="1453" x2="1624.0" y2="1453" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="1162.0" y="1477" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al seleccionar la opción «Editar» en un torneo</text>
+<text x="1162.0" y="1500" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">de la lista, el sistema deberá mostrar el formulario…</text>
+<text x="1162.0" y="1535" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Diego R.</text>
+<text x="1624.0" y="1535" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU004</text>
+</g>
+<g id="HU005" data-story-id="HU005" data-sprint="1">
+<rect x="1142.0" y="1575" width="502.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1156.0" y="1588" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1165.0" y="1613" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU005</text>
+<text x="1623.0" y="1615" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Should</text>
+<text x="1162.0" y="1657" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Eliminar torneo</text>
+<text x="1162.0" y="1696" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero eliminar un torneo para retirarlo de la</text>
+<text x="1162.0" y="1721" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">plataforma en caso de que ya no se necesite,</text>
+<text x="1162.0" y="1746" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">siempre y cuando no tenga eventos asociados.</text>
+<line x1="1162.0" y1="1773" x2="1624.0" y2="1773" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="1162.0" y="1797" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al seleccionar la opción «Eliminar torneo»</text>
+<text x="1162.0" y="1820" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">desde la lista de torneos, el sistema deberá validar si…</text>
+<text x="1162.0" y="1855" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Camilo B.</text>
+<text x="1624.0" y="1855" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU005</text>
+</g>
+<g id="HU006" data-story-id="HU006" data-sprint="1">
+<rect x="1668.0" y="935" width="502.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1682.0" y="948" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1691.0" y="973" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU006</text>
+<text x="2149.0" y="975" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Must</text>
+<text x="1688.0" y="1017" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Programar evento</text>
+<text x="1688.0" y="1056" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero programar un evento dentro de un torneo</text>
+<text x="1688.0" y="1081" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">para definir los contendientes, la fecha límite para</text>
+<text x="1688.0" y="1106" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">pronosticar, el costo y el premio en créditos.</text>
+<line x1="1688.0" y1="1133" x2="2150.0" y2="1133" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="1688.0" y="1157" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al seleccionar la opción «Agregar evento»</text>
+<text x="1688.0" y="1180" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">dentro del detalle de un torneo, el sistema deberá…</text>
+<text x="1688.0" y="1215" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">5 SP · Maicol R.</text>
+<text x="2150.0" y="1215" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU006</text>
+</g>
+<rect x="90" y="1917" width="2080" height="51" rx="10" fill="#FFF1D8" stroke="none" stroke-width="1"/>
+<text x="110" y="1952" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">SPRINT 2  ·  ENTREGA 2  ·  0 HISTORIAS</text>
+<rect x="90" y="2000" width="2080" height="90" rx="12" fill="#FFFFFF" stroke="#DBE4EF" stroke-width="2"/>
+<text x="120" y="2055" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#536783" font-weight="normal" text-anchor="start">Sin historias de este tramo en el sprint.</text>
+<rect x="90" y="2160" width="2080" height="150" rx="15" fill="#FFFFFF" stroke="#DBE4EF" stroke-width="2"/>
+<text x="121" y="2216" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#10284A" font-weight="bold" text-anchor="start">Paso a paso completo y mockup de cada historia: Product Backlog (web, PDF y Excel).</text>
+<text x="121" y="2271" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#536783" font-weight="normal" text-anchor="start">Archivo vectorial: tarjetas, colores y textos son editables en Illustrator.</text>
+</svg>

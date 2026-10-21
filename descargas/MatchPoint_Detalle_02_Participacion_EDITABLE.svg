@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2260" height="2240" viewBox="0 0 2260 2240" version="1.1">
+<rect x="0" y="0" width="2260" height="2240" rx="0" fill="#F6F9FD" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="2260" height="250" rx="0" fill="#10284A" stroke="none" stroke-width="1"/>
+<rect x="80" y="65" width="64" height="62" rx="13" fill="#F4B740" stroke="none" stroke-width="1"/>
+<path d="M 97 81 h 30 v 18 q -2 13 -15 13 q -13 0 -15 -13 z" fill="#10284A"/>
+<path d="M 97 86 h -12 q -1 14 13 15 M 127 86 h 12 q 1 14 -13 15" stroke="#10284A" fill="none" stroke-width="5"/>
+<text x="162" y="108" font-family="Arial, Liberation Sans, sans-serif" font-size="62" fill="#FFFFFF" font-weight="bold" text-anchor="start">MATCHPOINT</text>
+<text x="165" y="167" font-family="Arial, Liberation Sans, sans-serif" font-size="27" fill="#D4E9FC" font-weight="normal" text-anchor="start">Mapa de historias de usuario · Tramo 2 de 4</text>
+<rect x="1912.2" y="58" width="254.8" height="87" rx="14" fill="#7C3AED" stroke="none" stroke-width="1"/>
+<text x="2039.6" y="114" font-family="Arial, Liberation Sans, sans-serif" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">PARTICIPAR</text>
+<text x="101" y="312" font-family="Arial, Liberation Sans, sans-serif" font-size="37" fill="#10284A" font-weight="bold" text-anchor="start">Pronósticos</text>
+<text x="2158" y="311" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#536783" font-weight="bold" text-anchor="end">1 ÉPICA  ·  4 HISTORIAS</text>
+<rect x="85" y="360" width="2090" height="90" rx="14" fill="#7C3AED" stroke="none" stroke-width="1"/>
+<text x="125" y="417" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="start">VERDE: ÉPICAS    •    MORADO: ACTIVIDADES    •    AMARILLO: HISTORIAS    •    CADA HISTORIA TIENE MOCKUP</text>
+<rect x="90.0" y="482" width="2080.0" height="160" rx="14" fill="#BDF0D5" stroke="#6FCB9B" stroke-width="2"/>
+<text x="108.0" y="521" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#146746" font-weight="bold" text-anchor="start">ÉPICA 03</text>
+<text x="108.0" y="568" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#163153" font-weight="bold" text-anchor="start">Pronósticos</text>
+<text x="108.0" y="610" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#146746" font-weight="normal" text-anchor="start">Para participar dentro del plazo y conservar evidencia de cada elección.</text>
+<rect x="90.0" y="660" width="1028.0" height="160" rx="13" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="108.0" y="696" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6551A4" font-weight="bold" text-anchor="start">ACTIVIDAD</text>
+<rect x="104.0" y="712" width="1000.0" height="82" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="118.0" y="760" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#3F3470" font-weight="bold" text-anchor="start">Explorar eventos</text>
+<rect x="1142.0" y="660" width="1028.0" height="160" rx="13" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="1160.0" y="696" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6551A4" font-weight="bold" text-anchor="start">ACTIVIDAD</text>
+<rect x="1156.0" y="712" width="1000.0" height="82" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="1170.0" y="760" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#3F3470" font-weight="bold" text-anchor="start">Pronosticar y seguir</text>
+<rect x="90" y="852" width="2080" height="51" rx="10" fill="#E3F7E8" stroke="none" stroke-width="1"/>
+<text x="110" y="887" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">SPRINT 1  ·  ENTREGA 1  ·  2 HISTORIAS</text>
+<g id="HU007" data-story-id="HU007" data-sprint="1">
+<rect x="90.0" y="935" width="1028.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="104.0" y="948" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="113.0" y="973" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU007</text>
+<text x="1097.0" y="975" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Must</text>
+<text x="110.0" y="1017" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Consultar torneos y eventos</text>
+<text x="110.0" y="1056" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero consultar los torneos activos y sus eventos para conocer en qué puedo pronosticar, hasta cuándo y con</text>
+<text x="110.0" y="1081" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">qué costo.</text>
+<line x1="110.0" y1="1108" x2="1098.0" y2="1108" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="110.0" y="1132" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al ingresar al panel de participante, el sistema deberá mostrar la lista de torneos activos con nombre,</text>
+<text x="110.0" y="1155" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">deporte y fechas.</text>
+<text x="110.0" y="1215" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Diego R.</text>
+<text x="1098.0" y="1215" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU007</text>
+</g>
+<g id="HU008" data-story-id="HU008" data-sprint="1">
+<rect x="1142.0" y="935" width="1028.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1156.0" y="948" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1165.0" y="973" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU008</text>
+<text x="2149.0" y="975" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Must</text>
+<text x="1162.0" y="1017" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Registrar pronóstico</text>
+<text x="1162.0" y="1056" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero registrar un pronóstico en un evento abierto para participar usando mis créditos virtuales.</text>
+<line x1="1162.0" y1="1083" x2="2150.0" y2="1083" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="1162.0" y="1107" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al seleccionar la opción «Pronosticar» en un evento abierto, el sistema deberá mostrar las opciones válidas, el</text>
+<text x="1162.0" y="1130" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">costo en créditos y el saldo disponible.</text>
+<text x="1162.0" y="1215" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">8 SP · Maicol R.</text>
+<text x="2150.0" y="1215" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU008</text>
+</g>
+<rect x="90" y="1277" width="2080" height="51" rx="10" fill="#FFF1D8" stroke="none" stroke-width="1"/>
+<text x="110" y="1312" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">SPRINT 2  ·  ENTREGA 2  ·  2 HISTORIAS</text>
+<g id="HU011" data-story-id="HU011" data-sprint="2">
+<rect x="1142.0" y="1360" width="1028.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1156.0" y="1373" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1165.0" y="1398" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU011</text>
+<text x="2149.0" y="1400" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Must</text>
+<text x="1162.0" y="1442" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Consultar mis pronósticos</text>
+<text x="1162.0" y="1481" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero consultar mis pronósticos y su estado para saber cuáles están pendientes, cuáles acerté y qué premio</text>
+<text x="1162.0" y="1506" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">recibí.</text>
+<line x1="1162.0" y1="1533" x2="2150.0" y2="1533" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="1162.0" y="1557" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al seleccionar la opción «Mis pronósticos», el sistema deberá mostrar la lista de pronósticos del participante</text>
+<text x="1162.0" y="1580" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">con torneo, evento, opción elegida, créditos y estado.</text>
+<text x="1162.0" y="1640" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Diego R.</text>
+<text x="2150.0" y="1640" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU011</text>
+</g>
+<g id="HU012" data-story-id="HU012" data-sprint="2">
+<rect x="1142.0" y="1680" width="1028.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1156.0" y="1693" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1165.0" y="1718" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU012</text>
+<text x="2149.0" y="1720" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Should</text>
+<text x="1162.0" y="1762" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Anular pronóstico</text>
+<text x="1162.0" y="1801" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero anular un pronóstico antes de la fecha límite para recuperar mis créditos si cambio de decisión, siempre</text>
+<text x="1162.0" y="1826" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">y cuando el evento siga abierto.</text>
+<line x1="1162.0" y1="1853" x2="2150.0" y2="1853" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="1162.0" y="1877" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al seleccionar la opción «Anular» en un pronóstico pendiente, el sistema deberá validar si el evento sigue</text>
+<text x="1162.0" y="1900" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">abierto.</text>
+<text x="1162.0" y="1960" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">5 SP · Maicol R.</text>
+<text x="2150.0" y="1960" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU012</text>
+</g>
+<rect x="90" y="2040" width="2080" height="150" rx="15" fill="#FFFFFF" stroke="#DBE4EF" stroke-width="2"/>
+<text x="121" y="2096" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#10284A" font-weight="bold" text-anchor="start">Paso a paso completo y mockup de cada historia: Product Backlog (web, PDF y Excel).</text>
+<text x="121" y="2151" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#536783" font-weight="normal" text-anchor="start">Archivo vectorial: tarjetas, colores y textos son editables en Illustrator.</text>
+</svg>

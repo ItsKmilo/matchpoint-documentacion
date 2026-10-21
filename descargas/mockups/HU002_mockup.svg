@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" version="1.1">
+<title>HU002 · mockup</title><desc>HU002 Registrar participante: Lista de participantes con el diálogo «Nuevo participante» y validación de correo duplicado.</desc>
+<rect x="0" y="0" width="1280" height="800" rx="14" fill="#F6F9FD" stroke="#C3D0DF" stroke-width="1"/>
+<rect x="0" y="0" width="1280" height="44" rx="14" fill="#E3EAF2" stroke="none" stroke-width="1"/>
+<rect x="0" y="30" width="1280" height="14" rx="0" fill="#E3EAF2" stroke="none" stroke-width="1"/>
+<circle cx="24" cy="22" r="6" fill="#F87171" stroke="none" stroke-width="1"/>
+<circle cx="44" cy="22" r="6" fill="#FBBF24" stroke="none" stroke-width="1"/>
+<circle cx="64" cy="22" r="6" fill="#34D399" stroke="none" stroke-width="1"/>
+<rect x="120" y="10" width="620" height="24" rx="12" fill="#fff" stroke="none" stroke-width="1"/>
+<text x="140" y="27" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" text-anchor="start">🔒</text>
+<text x="160" y="27" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" text-anchor="start">matchpoint.app/admin/participantes</text>
+<rect x="0" y="44" width="1280" height="64" rx="0" fill="#10284A" stroke="none" stroke-width="1"/>
+<rect x="32" y="58" width="36" height="36" rx="9" fill="#F4B740" stroke="none" stroke-width="1"/>
+<path d="M 41 66 h 18 v 10 q -1 8 -9 8 q -8 0 -9 -8 z" fill="#10284A"/>
+<path d="M 46 85 v 4 m -4 0 h 8" stroke="#10284A" stroke-width="2.4" fill="none"/>
+<text x="80" y="84" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="21" fill="#fff" font-weight="bold" text-anchor="start">MATCH</text>
+<text x="155.29000000000002" y="84" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="21" fill="#63B3FA" font-weight="bold" text-anchor="start">POINT</text>
+<text x="260" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#B9CDE6" text-anchor="start">Torneos</text>
+<text x="350.81" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#fff" font-weight="bold" text-anchor="start">Participantes</text>
+<rect x="350.81" y="100" width="98.89000000000003" height="4" rx="2" fill="#F4B740" stroke="none" stroke-width="1"/>
+<text x="485.70000000000005" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#B9CDE6" text-anchor="start">Resultados</text>
+<text x="595.6500000000001" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#B9CDE6" text-anchor="start">Control</text>
+<circle cx="1070" cy="76" r="17" fill="#2D4A73" stroke="none" stroke-width="1"/>
+<text x="1070" y="81" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#fff" font-weight="bold" text-anchor="middle">AT</text>
+<text x="1096" y="72" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13.5" fill="#fff" font-weight="bold" text-anchor="start">Ana Torres</text>
+<rect x="1096" y="80" width="114.47000000000001" height="18" rx="9" fill="#2D4A73" stroke="none" stroke-width="1"/>
+<text x="1153.235" y="93" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#CFE2FF" font-weight="bold" text-anchor="middle">ADMINISTRADOR</text>
+<text x="40" y="140" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#6B7F97" text-anchor="start">Inicio  /  Participantes</text>
+<text x="40" y="174" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="27" fill="#10284A" font-weight="bold" text-anchor="start">Participantes</text>
+<rect x="1070" y="160" width="176.52000000000004" height="38" rx="8" fill="#2563EB" stroke="none" stroke-width="1.5"/>
+<text x="1158.26" y="184.04" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#fff" font-weight="bold" text-anchor="middle">+ Nuevo participante</text>
+<rect x="40" y="222" width="1200" height="258" rx="10" fill="#fff" stroke="#D9E3EE" stroke-width="1"/>
+<rect x="40" y="222" width="1200" height="38" rx="10" fill="#EEF3F9" stroke="none" stroke-width="1"/>
+<rect x="40" y="250" width="1200" height="10" rx="0" fill="#EEF3F9" stroke="none" stroke-width="1"/>
+<text x="54" y="246" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">NOMBRE</text>
+<text x="304" y="246" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">USUARIO</text>
+<text x="514" y="246" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">CORREO</text>
+<text x="874" y="246" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">SALDO</text>
+<text x="1044" y="246" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">ESTADO</text>
+<text x="54" y="287.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">Laura Gómez</text>
+<text x="304" y="287.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">laura.gomez</text>
+<text x="514" y="287.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">laura.gomez@umb.edu.co</text>
+<text x="874" y="287.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">900</text>
+<rect x="1044" y="268.0" width="58.16000000000001" height="22" rx="11" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="1073.08" y="284.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#166534" font-weight="bold" text-anchor="middle">Activo</text>
+<rect x="41" y="304" width="1198" height="44" rx="0" fill="#FAFCFE" stroke="none" stroke-width="1"/>
+<line x1="40" y1="304" x2="1240" y2="304" stroke="#D9E3EE" stroke-width="1"/>
+<text x="54" y="331.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">Carlos Ruiz</text>
+<text x="304" y="331.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">carlos.ruiz</text>
+<text x="514" y="331.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">carlos.ruiz@umb.edu.co</text>
+<text x="874" y="331.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">1.150</text>
+<rect x="1044" y="312.0" width="58.16000000000001" height="22" rx="11" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="1073.08" y="328.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#166534" font-weight="bold" text-anchor="middle">Activo</text>
+<line x1="40" y1="348" x2="1240" y2="348" stroke="#D9E3EE" stroke-width="1"/>
+<text x="54" y="375.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">Sofía Díaz</text>
+<text x="304" y="375.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">sofia.diaz</text>
+<text x="514" y="375.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">sofia.diaz@umb.edu.co</text>
+<text x="874" y="375.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">1.000</text>
+<rect x="1044" y="356.0" width="58.16000000000001" height="22" rx="11" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="1073.08" y="372.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#166534" font-weight="bold" text-anchor="middle">Activo</text>
+<rect x="41" y="392" width="1198" height="44" rx="0" fill="#FAFCFE" stroke="none" stroke-width="1"/>
+<line x1="40" y1="392" x2="1240" y2="392" stroke="#D9E3EE" stroke-width="1"/>
+<text x="54" y="419.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">Julián Mora</text>
+<text x="304" y="419.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">julian.mora</text>
+<text x="514" y="419.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">julian.mora@umb.edu.co</text>
+<text x="874" y="419.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">750</text>
+<rect x="1044" y="400.0" width="58.16000000000001" height="22" rx="11" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="1073.08" y="416.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#166534" font-weight="bold" text-anchor="middle">Activo</text>
+<line x1="40" y1="436" x2="1240" y2="436" stroke="#D9E3EE" stroke-width="1"/>
+<text x="54" y="463.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">Valentina Ríos</text>
+<text x="304" y="463.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">vale.rios</text>
+<text x="514" y="463.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">vale.rios@umb.edu.co</text>
+<text x="874" y="463.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">1.000</text>
+<rect x="1044" y="444.0" width="58.16000000000001" height="22" rx="11" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="1073.08" y="460.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#166534" font-weight="bold" text-anchor="middle">Activo</text>
+<rect x="0" y="44" width="1280" height="756" rx="0" fill="#10284A" stroke="none" stroke-width="1" opacity="0.34"/>
+<rect x="363" y="170" width="560" height="490" rx="16" fill="#06182E" stroke="none" stroke-width="1" opacity="0.25"/>
+<rect x="360" y="160" width="560" height="490" rx="16" fill="#fff" stroke="none" stroke-width="1"/>
+<text x="388" y="213" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="21" fill="#10284A" font-weight="bold" text-anchor="start">Nuevo participante</text>
+<path d="M 884 190 l 12 12 M 896 190 l -12 12" stroke="#7A8CA2" stroke-width="2.2"/>
+<text x="388" y="254" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" font-weight="bold" text-anchor="start">Nombre completo *</text>
+<rect x="388" y="262" width="504" height="40" rx="7" fill="#fff" stroke="#B8C7D9" stroke-width="1.2"/>
+<text x="400" y="287.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#163153" text-anchor="start">Mateo Hernández</text>
+<text x="388" y="326" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" font-weight="bold" text-anchor="start">Correo *</text>
+<rect x="388" y="334" width="504" height="40" rx="7" fill="#fff" stroke="#DC2626" stroke-width="1.6"/>
+<text x="400" y="359.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#163153" text-anchor="start">laura.gomez@umb.edu.co</text>
+<text x="388" y="392" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#DC2626" font-weight="bold" text-anchor="start">Ya existe un participante registrado con este correo.</text>
+<text x="388" y="414" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" font-weight="bold" text-anchor="start">Usuario *</text>
+<rect x="388" y="422" width="504" height="40" rx="7" fill="#fff" stroke="#B8C7D9" stroke-width="1.2"/>
+<text x="400" y="447.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#163153" text-anchor="start">mateo.hernandez</text>
+<rect x="388" y="484" width="504" height="50" rx="8" fill="#F0F9FF" stroke="none" stroke-width="1"/>
+<text x="404" y="515" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#075985" text-anchor="start">Al guardar se asignarán 1.000 créditos virtuales iniciales (HU009).</text>
+<line x1="360" y1="572" x2="920" y2="572" stroke="#D9E3EE" stroke-width="1"/>
+<rect x="630" y="590" width="120" height="38" rx="8" fill="#fff" stroke="#B8C7D9" stroke-width="1.5"/>
+<text x="690.0" y="614.04" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#10284A" font-weight="bold" text-anchor="middle">Cancelar</text>
+<rect x="762" y="590" width="130" height="38" rx="8" fill="#2563EB" stroke="none" stroke-width="1.5"/>
+<text x="827.0" y="614.04" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#fff" font-weight="bold" text-anchor="middle">Guardar</text>
+<rect x="42" y="735" width="511.83999999999975" height="48" rx="10" fill="#0B2440" stroke="none" stroke-width="1" opacity="0.12"/>
+<rect x="40" y="730" width="511.83999999999975" height="48" rx="10" fill="#10284A" stroke="none" stroke-width="1"/>
+<circle cx="66" cy="754" r="11" fill="#DC2626" stroke="none" stroke-width="1"/>
+<text x="66" y="759" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#fff" font-weight="bold" text-anchor="middle">!</text>
+<text x="88" y="759" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#fff" font-weight="bold" text-anchor="start">No se pudo guardar. Tus datos se conservaron, intenta de nuevo.</text>
+<g id="pasos">
+<circle cx="1253" cy="181" r="15" fill="#000" opacity=".18"/>
+<circle cx="1252" cy="179" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="1252" y="184.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">1</text>
+<circle cx="905" cy="378" r="15" fill="#000" opacity=".18"/>
+<circle cx="904" cy="376" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="904" y="381.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">3</text>
+<circle cx="905" cy="282" r="15" fill="#000" opacity=".18"/>
+<circle cx="904" cy="280" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="904" y="285.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">2</text>
+<circle cx="621" cy="611" r="15" fill="#000" opacity=".18"/>
+<circle cx="620" cy="609" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="620" y="614.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">5</text>
+<circle cx="905" cy="611" r="15" fill="#000" opacity=".18"/>
+<circle cx="904" cy="609" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="904" y="614.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">4</text>
+<circle cx="31" cy="726" r="15" fill="#000" opacity=".18"/>
+<circle cx="30" cy="724" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="30" y="729.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">6</text>
+</g>
+</svg>

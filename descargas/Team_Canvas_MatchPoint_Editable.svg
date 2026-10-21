@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="3200" height="2180" viewBox="0 0 3200 2180" role="img" aria-label="Lienzo de equipo MatchPoint editable">
+<title>MatchPoint - Team Canvas - Lienzo de equipo</title>
+<desc>Team Canvas vectorial con metas, metas individuales, roles, propósito, valores y acuerdos de trabajo para cuatro estudiantes. Todos los textos y figuras son editables.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eff5fc"/><stop offset="1" stop-color="#e4edf8"/></linearGradient>
+ <linearGradient id="topbar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#122b4d"/><stop offset="0.65" stop-color="#183b63"/><stop offset="1" stop-color="#0e2747"/></linearGradient>
+ <linearGradient id="center" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e0f4ff"/><stop offset="1" stop-color="#b9e4ff"/></linearGradient>
+ <pattern id="gridpaper" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#b6cce3" stroke-width="1" opacity="0.32"/></pattern>
+</defs>
+<g id="base" inkscape:groupmode="layer" inkscape:label="01 Fondo y encabezado">
+<rect x="0" y="0" width="3200" height="2180" rx="0" fill="url(#bg)" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="0" y="0" width="3200" height="2180" rx="0" fill="url(#gridpaper)" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="48" y="40" width="3104" height="2089" rx="40" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.95"/>
+<rect x="68" y="58" width="3064" height="156" rx="26" fill="url(#topbar)" stroke="none" stroke-width="0" opacity="1"/>
+<path d="M118 98 L195 98 L185 151 Q158 172 130 151 Z" fill="#f7bc48" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<path d="M125 108 H101 V130 Q103 147 129 147 M191 108 H214 V130 Q212 147 188 147" fill="none" stroke="#f7bc48" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="1"/>
+<rect x="153" y="162" width="12" height="17" rx="3" fill="#f7bc48" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="134" y="177" width="51" height="9" rx="3" fill="#f7bc48" stroke="none" stroke-width="0" opacity="1"/>
+<text x="240" y="146" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="72" text-anchor="start" letter-spacing="0" opacity="1">Match</text>
+<text x="429" y="146" fill="#58beff" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="72" text-anchor="start" letter-spacing="0" opacity="1">Point</text>
+<text x="760" y="130" fill="#d1e8fb" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="32" text-anchor="start" letter-spacing="1.4" opacity="1">TEAM CANVAS  /  LIENZO DE EQUIPO</text>
+<text x="760" y="174" fill="#b0d3f1" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="24" text-anchor="start" letter-spacing="0" opacity="1">Fase inicial • Plataforma de torneos, pronósticos y créditos virtuales</text>
+<path d="M2440 87 L2440 188" stroke="#7ea3cb" stroke-width="2" stroke-linecap="round" opacity="0.55" fill="none"/>
+<text x="2490" y="123" fill="#dceefd" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="25" text-anchor="start" letter-spacing="1" opacity="1">NEXO DIGITAL LABS</text>
+<text x="2490" y="160" fill="#b8d5ea" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">Equipo de 4 integrantes</text>
+<rect x="2920" y="92" width="177" height="71" rx="17" fill="#244c77" stroke="none" stroke-width="0" opacity="1"/>
+<text x="3008" y="136" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="middle" letter-spacing="0" opacity="1">MATCHPOINT</text>
+</g>
+<g id="paneles" inkscape:groupmode="layer" inkscape:label="02 Cuadrantes del lienzo">
+<rect x="91" y="246" width="1442" height="735" rx="24" fill="#f4f9ff" stroke="#c6dced" stroke-width="1.7" opacity="1"/>
+<rect x="1667" y="246" width="1442" height="735" rx="24" fill="#f7f6ff" stroke="#d9d1f0" stroke-width="1.7" opacity="1"/>
+<rect x="91" y="1237" width="1442" height="835" rx="24" fill="#f3fcf9" stroke="#c8e7d7" stroke-width="1.7" opacity="1"/>
+<rect x="1667" y="1237" width="1442" height="835" rx="24" fill="#fffbf1" stroke="#ebdfb9" stroke-width="1.7" opacity="1"/>
+<rect x="91" y="246" width="11" height="735" rx="6" fill="#448ce6" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="1667" y="246" width="11" height="735" rx="6" fill="#9670dd" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="91" y="1237" width="11" height="835" rx="6" fill="#2ba57d" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="1667" y="1237" width="11" height="835" rx="6" fill="#e9ae3c" stroke="none" stroke-width="0" opacity="1"/>
+</g>
+<g id="metas" inkscape:groupmode="layer" inkscape:label="03 Metas grupales e individuales">
+<rect x="132" y="277" width="224" height="36" rx="18" fill="#dcecff" stroke="none" stroke-width="0" opacity="1"/>
+<text x="244.0" y="302" fill="#185a9f" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="20" text-anchor="middle" letter-spacing="0" opacity="1">01  METAS · GOALS</text>
+<text x="132" y="357" fill="#203b5c" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="36" text-anchor="start" letter-spacing="0" opacity="1">¿Qué queremos lograr como equipo?</text>
+<text x="132" y="399" fill="#52769b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="19" text-anchor="start" letter-spacing="1.2" opacity="1">RESULTADOS DEL PRODUCTO</text>
+<g id="nota-35">
+<rect x="137" y="426" width="324" height="185" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="132" y="419" width="324" height="185" rx="13" fill="#bbd9ff" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="145" y="431" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<circle cx="428" cy="442" r="13" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="428" y="449" fill="#23557a" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="17" text-anchor="middle" letter-spacing="0" opacity="1">01</text>
+<text x="152" y="458" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">Gestionar torneos,</text>
+<text x="152" y="487" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">eventos, fechas,</text>
+<text x="152" y="516" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">participantes y</text>
+<text x="152" y="545" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">resultados desde un</text>
+<text x="152" y="574" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">mismo sistema.</text>
+</g>
+<g id="nota-47">
+<rect x="481" y="426" width="324" height="185" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="476" y="419" width="324" height="185" rx="13" fill="#bbd9ff" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="489" y="431" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<circle cx="772" cy="442" r="13" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="772" y="449" fill="#23557a" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="17" text-anchor="middle" letter-spacing="0" opacity="1">02</text>
+<text x="496" y="458" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">Permitir pronósticos</text>
+<text x="496" y="487" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">válidos solo durante el</text>
+<text x="496" y="516" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">periodo habilitado para</text>
+<text x="496" y="545" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">cada evento.</text>
+</g>
+<g id="nota-58">
+<rect x="825" y="426" width="324" height="185" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="820" y="419" width="324" height="185" rx="13" fill="#bbd9ff" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="833" y="431" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<circle cx="1116" cy="442" r="13" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="1116" y="449" fill="#23557a" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="17" text-anchor="middle" letter-spacing="0" opacity="1">03</text>
+<text x="840" y="458" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">Controlar créditos</text>
+<text x="840" y="487" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">virtuales sin saldos</text>
+<text x="840" y="516" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">negativos ni descuentos</text>
+<text x="840" y="545" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">duplicados.</text>
+</g>
+<g id="nota-69">
+<rect x="1169" y="426" width="324" height="185" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="1164" y="419" width="324" height="185" rx="13" fill="#bbd9ff" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="1177" y="431" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<circle cx="1460" cy="442" r="13" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="1460" y="449" fill="#23557a" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="17" text-anchor="middle" letter-spacing="0" opacity="1">04</text>
+<text x="1184" y="458" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">Liquidar resultados y</text>
+<text x="1184" y="487" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">premios de forma</text>
+<text x="1184" y="516" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">verificable, sin</text>
+<text x="1184" y="545" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">duplicaciones.</text>
+</g>
+<g id="nota-80">
+<rect x="137" y="635" width="324" height="112" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="132" y="628" width="324" height="112" rx="13" fill="#d8eaff" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="145" y="640" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="152" y="667" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Construir un MVP por entregas:</text>
+<text x="152" y="691" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">torneos, pronósticos, créditos y</text>
+<text x="152" y="715" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">liquidación.</text>
+</g>
+<g id="nota-88">
+<rect x="481" y="635" width="324" height="112" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="476" y="628" width="324" height="112" rx="13" fill="#d8eaff" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="489" y="640" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="496" y="667" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Documentar requisitos,</text>
+<text x="496" y="691" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">historias de usuario, decisiones</text>
+<text x="496" y="715" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">y avances del código.</text>
+</g>
+<g id="nota-96">
+<rect x="825" y="635" width="324" height="112" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="820" y="628" width="324" height="112" rx="13" fill="#d8eaff" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="833" y="640" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="840" y="667" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">Verificar operaciones,</text>
+<text x="840" y="691" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">permisos y trazabilidad</text>
+<text x="840" y="715" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">antes de cada entrega.</text>
+</g>
+<text x="132" y="790" fill="#7257a4" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="20" text-anchor="start" letter-spacing="1" opacity="1">METAS INDIVIDUALES</text>
+<g id="nota-105">
+<rect x="137" y="813" width="221" height="138" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="132" y="806" width="221" height="138" rx="13" fill="#e7d9ff" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="145" y="818" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="152" y="847" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">SANTIAGO</text>
+<text x="152" y="881" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Fortalecer liderazgo</text>
+<text x="152" y="905" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">y coordinación del</text>
+<text x="152" y="929" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">proyecto.</text>
+</g>
+<g id="nota-114">
+<rect x="376" y="813" width="221" height="138" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="371" y="806" width="221" height="138" rx="13" fill="#e7d9ff" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="384" y="818" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="391" y="847" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">MAICOL</text>
+<text x="391" y="881" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Mejorar la lógica de</text>
+<text x="391" y="905" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">negocio y los</text>
+<text x="391" y="929" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">servicios.</text>
+</g>
+<g id="nota-123">
+<rect x="615" y="813" width="221" height="138" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="610" y="806" width="221" height="138" rx="13" fill="#e7d9ff" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="623" y="818" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="630" y="847" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">DIEGO</text>
+<text x="630" y="881" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Crear interfaces</text>
+<text x="630" y="905" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">claras y fáciles de</text>
+<text x="630" y="929" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">utilizar.</text>
+</g>
+<g id="nota-132">
+<rect x="854" y="813" width="221" height="138" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="849" y="806" width="221" height="138" rx="13" fill="#e7d9ff" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="862" y="818" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="869" y="847" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">CAMILO</text>
+<text x="869" y="881" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="17" text-anchor="start" letter-spacing="0" opacity="1">Aplicar modelado de</text>
+<text x="869" y="905" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="17" text-anchor="start" letter-spacing="0" opacity="1">datos, integridad y</text>
+<text x="869" y="929" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="17" text-anchor="start" letter-spacing="0" opacity="1">pruebas.</text>
+</g>
+</g>
+<g id="roles" inkscape:groupmode="layer" inkscape:label="04 Roles y habilidades">
+<rect x="1703" y="277" width="231" height="36" rx="18" fill="#ebe1ff" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1818.5" y="302" fill="#6c48a6" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="20" text-anchor="middle" letter-spacing="0" opacity="1">02  ROLES &amp; SKILLS</text>
+<text x="1703" y="357" fill="#353257" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="36" text-anchor="start" letter-spacing="0" opacity="1">¿Quién hace qué en MatchPoint?</text>
+<g id="rol-santiago">
+<rect x="1708" y="426" width="327" height="525" rx="15" fill="#a8b6c8" stroke="none" stroke-width="0" opacity="0.17"/>
+<rect x="1703" y="419" width="327" height="525" rx="15" fill="#ffffff" stroke="#c5d6e8" stroke-width="1.6" opacity="1"/>
+<rect x="1703" y="419" width="327" height="142" rx="15" fill="#d8e7ff" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="1703" y="545" width="327" height="17" rx="0" fill="#d8e7ff" stroke="none" stroke-width="0" opacity="1"/>
+<circle cx="1988" cy="493" r="24" fill="#3e7cce" stroke="none" stroke-width="0"/>
+<rect x="1721" y="438" width="247" height="45" rx="10" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.72"/>
+<text x="1731" y="468" fill="#17334e" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">Santiago Solano</text>
+<text x="1725" y="526" fill="#1e3d59" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">Scrum Master</text>
+<text x="1725" y="604" fill="#6d849c" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="17" text-anchor="start" letter-spacing="1" opacity="1">RESPONSABILIDADES</text>
+<circle cx="1733" cy="638" r="4" fill="#3e7cce" stroke="none" stroke-width="0"/>
+<text x="1746" y="645" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Planificar reuniones</text>
+<circle cx="1733" cy="672" r="4" fill="#3e7cce" stroke="none" stroke-width="0"/>
+<text x="1746" y="679" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Seguir tareas y entregas</text>
+<circle cx="1733" cy="706" r="4" fill="#3e7cce" stroke="none" stroke-width="0"/>
+<text x="1746" y="713" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Registrar acuerdos</text>
+<circle cx="1733" cy="740" r="4" fill="#3e7cce" stroke="none" stroke-width="0"/>
+<text x="1746" y="747" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Resolver dificultades</text>
+<circle cx="1733" cy="774" r="4" fill="#3e7cce" stroke="none" stroke-width="0"/>
+<text x="1746" y="781" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Validar los avances</text>
+<path d="M1723 827 L2010 827" stroke="#d9e4ef" stroke-width="1.5" stroke-linecap="round" opacity="1" fill="none"/>
+<text x="1725" y="854" fill="#66819a" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="16" text-anchor="start" letter-spacing="0.7" opacity="1">HABILIDADES APLICADAS</text>
+<text x="1725" y="883" fill="#28506e" font-family="Arial,Helvetica,sans-serif" font-weight="500" font-size="19" text-anchor="start" letter-spacing="0" opacity="1">Organización, comunicación</text>
+<text x="1725" y="908" fill="#28506e" font-family="Arial,Helvetica,sans-serif" font-weight="500" font-size="19" text-anchor="start" letter-spacing="0" opacity="1">y liderazgo.</text>
+</g>
+<g id="rol-maicol">
+<rect x="2055" y="426" width="327" height="525" rx="15" fill="#a8b6c8" stroke="none" stroke-width="0" opacity="0.17"/>
+<rect x="2050" y="419" width="327" height="525" rx="15" fill="#ffffff" stroke="#c5d6e8" stroke-width="1.6" opacity="1"/>
+<rect x="2050" y="419" width="327" height="142" rx="15" fill="#d6f2df" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="2050" y="545" width="327" height="17" rx="0" fill="#d6f2df" stroke="none" stroke-width="0" opacity="1"/>
+<circle cx="2335" cy="493" r="24" fill="#249a67" stroke="none" stroke-width="0"/>
+<rect x="2068" y="438" width="247" height="45" rx="10" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.72"/>
+<text x="2078" y="468" fill="#17334e" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">Maicol Rubiano</text>
+<text x="2072" y="526" fill="#1e3d59" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">Backend Developer</text>
+<text x="2072" y="604" fill="#6d849c" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="17" text-anchor="start" letter-spacing="1" opacity="1">RESPONSABILIDADES</text>
+<circle cx="2080" cy="638" r="4" fill="#249a67" stroke="none" stroke-width="0"/>
+<text x="2093" y="645" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Reglas de pronósticos</text>
+<circle cx="2080" cy="672" r="4" fill="#249a67" stroke="none" stroke-width="0"/>
+<text x="2093" y="679" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Validar saldos y eventos</text>
+<circle cx="2080" cy="706" r="4" fill="#249a67" stroke="none" stroke-width="0"/>
+<text x="2093" y="713" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Evitar cobros duplicados</text>
+<circle cx="2080" cy="740" r="4" fill="#249a67" stroke="none" stroke-width="0"/>
+<text x="2093" y="747" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Crear servicios del sistema</text>
+<circle cx="2080" cy="774" r="4" fill="#249a67" stroke="none" stroke-width="0"/>
+<text x="2093" y="781" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Conectar base de datos</text>
+<path d="M2070 827 L2357 827" stroke="#d9e4ef" stroke-width="1.5" stroke-linecap="round" opacity="1" fill="none"/>
+<text x="2072" y="854" fill="#66819a" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="16" text-anchor="start" letter-spacing="0.7" opacity="1">HABILIDADES APLICADAS</text>
+<text x="2072" y="883" fill="#28506e" font-family="Arial,Helvetica,sans-serif" font-weight="500" font-size="19" text-anchor="start" letter-spacing="0" opacity="1">Programación, lógica y APIs.</text>
+</g>
+<g id="rol-diego">
+<rect x="2402" y="426" width="327" height="525" rx="15" fill="#a8b6c8" stroke="none" stroke-width="0" opacity="0.17"/>
+<rect x="2397" y="419" width="327" height="525" rx="15" fill="#ffffff" stroke="#c5d6e8" stroke-width="1.6" opacity="1"/>
+<rect x="2397" y="419" width="327" height="142" rx="15" fill="#fff0bc" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="2397" y="545" width="327" height="17" rx="0" fill="#fff0bc" stroke="none" stroke-width="0" opacity="1"/>
+<circle cx="2682" cy="493" r="24" fill="#c39528" stroke="none" stroke-width="0"/>
+<rect x="2415" y="438" width="247" height="45" rx="10" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.72"/>
+<text x="2425" y="468" fill="#17334e" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">Diego Romero</text>
+<text x="2419" y="526" fill="#1e3d59" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">Frontend Developer</text>
+<text x="2419" y="604" fill="#6d849c" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="17" text-anchor="start" letter-spacing="1" opacity="1">RESPONSABILIDADES</text>
+<circle cx="2427" cy="638" r="4" fill="#c39528" stroke="none" stroke-width="0"/>
+<text x="2440" y="645" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Diseñar las pantallas</text>
+<circle cx="2427" cy="672" r="4" fill="#c39528" stroke="none" stroke-width="0"/>
+<text x="2440" y="679" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Mostrar torneos y partidos</text>
+<circle cx="2427" cy="706" r="4" fill="#c39528" stroke="none" stroke-width="0"/>
+<text x="2440" y="713" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Crear formularios claros</text>
+<circle cx="2427" cy="740" r="4" fill="#c39528" stroke="none" stroke-width="0"/>
+<text x="2440" y="747" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Mostrar saldo e historial</text>
+<circle cx="2427" cy="774" r="4" fill="#c39528" stroke="none" stroke-width="0"/>
+<text x="2440" y="781" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Integrar vistas y servicios</text>
+<path d="M2417 827 L2704 827" stroke="#d9e4ef" stroke-width="1.5" stroke-linecap="round" opacity="1" fill="none"/>
+<text x="2419" y="854" fill="#66819a" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="16" text-anchor="start" letter-spacing="0.7" opacity="1">HABILIDADES APLICADAS</text>
+<text x="2419" y="883" fill="#28506e" font-family="Arial,Helvetica,sans-serif" font-weight="500" font-size="19" text-anchor="start" letter-spacing="0" opacity="1">Interfaz, UX y diseño</text>
+<text x="2419" y="908" fill="#28506e" font-family="Arial,Helvetica,sans-serif" font-weight="500" font-size="19" text-anchor="start" letter-spacing="0" opacity="1">adaptable.</text>
+</g>
+<g id="rol-camilo">
+<rect x="2749" y="426" width="327" height="525" rx="15" fill="#a8b6c8" stroke="none" stroke-width="0" opacity="0.17"/>
+<rect x="2744" y="419" width="327" height="525" rx="15" fill="#ffffff" stroke="#c5d6e8" stroke-width="1.6" opacity="1"/>
+<rect x="2744" y="419" width="327" height="142" rx="15" fill="#f6d9e8" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="2744" y="545" width="327" height="17" rx="0" fill="#f6d9e8" stroke="none" stroke-width="0" opacity="1"/>
+<circle cx="3029" cy="493" r="24" fill="#c06b98" stroke="none" stroke-width="0"/>
+<rect x="2762" y="438" width="247" height="45" rx="10" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.72"/>
+<text x="2772" y="468" fill="#17334e" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">Camilo Bastias</text>
+<text x="2766" y="526" fill="#1e3d59" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="20" text-anchor="start" letter-spacing="0" opacity="1">Database Administrator</text>
+<text x="2766" y="552" fill="#1e3d59" font-family="Arial,Helvetica,sans-serif" font-weight="600" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">(DBA)</text>
+<text x="2766" y="604" fill="#6d849c" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="17" text-anchor="start" letter-spacing="1" opacity="1">RESPONSABILIDADES</text>
+<circle cx="2774" cy="638" r="4" fill="#c06b98" stroke="none" stroke-width="0"/>
+<text x="2787" y="645" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Modelar tablas y relaciones</text>
+<circle cx="2774" cy="672" r="4" fill="#c06b98" stroke="none" stroke-width="0"/>
+<text x="2787" y="679" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Validar integridad de datos</text>
+<circle cx="2774" cy="706" r="4" fill="#c06b98" stroke="none" stroke-width="0"/>
+<text x="2787" y="713" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Registrar movimientos</text>
+<circle cx="2774" cy="740" r="4" fill="#c06b98" stroke="none" stroke-width="0"/>
+<text x="2787" y="747" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Crear consultas e informes</text>
+<circle cx="2774" cy="774" r="4" fill="#c06b98" stroke="none" stroke-width="0"/>
+<text x="2787" y="781" fill="#24405a" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Apoyar pruebas del sistema</text>
+<path d="M2764 827 L3051 827" stroke="#d9e4ef" stroke-width="1.5" stroke-linecap="round" opacity="1" fill="none"/>
+<text x="2766" y="854" fill="#66819a" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="16" text-anchor="start" letter-spacing="0.7" opacity="1">HABILIDADES APLICADAS</text>
+<text x="2766" y="883" fill="#28506e" font-family="Arial,Helvetica,sans-serif" font-weight="500" font-size="19" text-anchor="start" letter-spacing="0" opacity="1">SQL, modelado y</text>
+<text x="2766" y="908" fill="#28506e" font-family="Arial,Helvetica,sans-serif" font-weight="500" font-size="19" text-anchor="start" letter-spacing="0" opacity="1">validaciones.</text>
+</g>
+</g>
+<g id="valores" inkscape:groupmode="layer" inkscape:label="05 Valores">
+<rect x="132" y="1275" width="256" height="36" rx="18" fill="#d7f3e6" stroke="none" stroke-width="0" opacity="1"/>
+<text x="260.0" y="1300" fill="#247e60" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="20" text-anchor="middle" letter-spacing="0" opacity="1">04  VALORES · VALUES</text>
+<text x="132" y="1359" fill="#205948" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="36" text-anchor="start" letter-spacing="0" opacity="1">¿Cómo queremos trabajar juntos?</text>
+<g id="nota-251">
+<rect x="137" y="1430" width="320" height="214" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="132" y="1423" width="320" height="214" rx="13" fill="#cbf2e2" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="145" y="1435" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="152" y="1464" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">Respeto</text>
+<text x="152" y="1508" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">Escuchar las ideas de</text>
+<text x="152" y="1537" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">todos, incluso cuando</text>
+<text x="152" y="1566" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">pensemos diferente.</text>
+</g>
+<g id="nota-260">
+<rect x="485" y="1430" width="320" height="214" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="480" y="1423" width="320" height="214" rx="13" fill="#cbf2e2" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="493" y="1435" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="500" y="1464" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">Responsabilidad</text>
+<text x="500" y="1508" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">Responder por las tareas</text>
+<text x="500" y="1537" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">y avisar a tiempo si hay</text>
+<text x="500" y="1566" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">retrasos.</text>
+</g>
+<g id="nota-269">
+<rect x="833" y="1430" width="320" height="214" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="828" y="1423" width="320" height="214" rx="13" fill="#cbf2e2" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="841" y="1435" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="848" y="1464" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">Compromiso</text>
+<text x="848" y="1508" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">Participar activamente y</text>
+<text x="848" y="1537" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">cumplir los objetivos</text>
+<text x="848" y="1566" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">acordados.</text>
+</g>
+<g id="nota-278">
+<rect x="1181" y="1430" width="320" height="214" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="1176" y="1423" width="320" height="214" rx="13" fill="#cbf2e2" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="1189" y="1435" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="1196" y="1464" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">Comunicación</text>
+<text x="1196" y="1508" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">Compartir dudas,</text>
+<text x="1196" y="1537" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">decisiones y avances con</text>
+<text x="1196" y="1566" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">claridad.</text>
+</g>
+<g id="nota-287">
+<rect x="137" y="1667" width="320" height="214" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="132" y="1660" width="320" height="214" rx="13" fill="#cbf2e2" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="145" y="1672" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="152" y="1701" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">Confianza</text>
+<text x="152" y="1745" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">Pedir ayuda sin temor y</text>
+<text x="152" y="1774" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">dar seguimiento sin</text>
+<text x="152" y="1803" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">culpas.</text>
+</g>
+<g id="nota-296">
+<rect x="485" y="1667" width="320" height="214" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="480" y="1660" width="320" height="214" rx="13" fill="#cbf2e2" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="493" y="1672" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="500" y="1701" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">Calidad</text>
+<text x="500" y="1745" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">Revisar código, datos y</text>
+<text x="500" y="1774" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">documentación antes de</text>
+<text x="500" y="1803" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">entregar.</text>
+</g>
+<g id="nota-305">
+<rect x="833" y="1667" width="320" height="214" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="828" y="1660" width="320" height="214" rx="13" fill="#cbf2e2" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="841" y="1672" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="848" y="1701" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">Colaboración</text>
+<text x="848" y="1745" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">Apoyar a otro integrante</text>
+<text x="848" y="1774" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">cuando una actividad lo</text>
+<text x="848" y="1803" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">requiera.</text>
+</g>
+<g id="nota-314">
+<rect x="1181" y="1667" width="320" height="214" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="1176" y="1660" width="320" height="214" rx="13" fill="#cbf2e2" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="1189" y="1672" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="1196" y="1701" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">Aprendizaje</text>
+<text x="1196" y="1745" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">Investigar, recibir</text>
+<text x="1196" y="1774" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">retroalimentación y</text>
+<text x="1196" y="1803" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="21" text-anchor="start" letter-spacing="0" opacity="1">mejorar continuamente.</text>
+</g>
+<rect x="132" y="1924" width="1344" height="93" rx="18" fill="#e2f5ed" stroke="none" stroke-width="0" opacity="1"/>
+<text x="156" y="1962" fill="#25755a" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="18" text-anchor="start" letter-spacing="1" opacity="1">ACUERDO CENTRAL</text>
+<text x="156" y="1996" fill="#205c49" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="25" text-anchor="start" letter-spacing="0" opacity="1">Aprendemos juntos y priorizamos la confianza del usuario.</text>
+</g>
+<g id="acuerdos" inkscape:groupmode="layer" inkscape:label="06 Reglas y actividades">
+<rect x="1703" y="1275" width="271" height="36" rx="18" fill="#fff0c6" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1838.5" y="1300" fill="#a77722" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="20" text-anchor="middle" letter-spacing="0" opacity="1">05  RULES &amp; ACTIVITIES</text>
+<text x="1703" y="1359" fill="#67512d" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="36" text-anchor="start" letter-spacing="0" opacity="1">¿Cómo nos organizaremos?</text>
+<g id="nota-331">
+<rect x="1708" y="1430" width="416" height="225" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="1703" y="1423" width="416" height="225" rx="13" fill="#fff0b7" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="1716" y="1435" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="1723" y="1464" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">COMUNICACIÓN</text>
+<text x="1723" y="1508" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">Usar WhatsApp para avisos</text>
+<text x="1723" y="1537" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">rápidos. Registrar decisiones,</text>
+<text x="1723" y="1566" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">cambios y archivos importantes</text>
+<text x="1723" y="1595" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">en GitHub.</text>
+</g>
+<g id="nota-341">
+<rect x="2164" y="1430" width="416" height="225" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="2159" y="1423" width="416" height="225" rx="13" fill="#ffe8b6" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="2172" y="1435" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="2179" y="1464" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">REUNIONES</text>
+<text x="2179" y="1508" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">Revisar el estado de tareas al</text>
+<text x="2179" y="1537" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">menos una vez por semana y</text>
+<text x="2179" y="1566" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">acordar los siguientes pasos.</text>
+</g>
+<g id="nota-350">
+<rect x="2620" y="1430" width="416" height="225" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="2615" y="1423" width="416" height="225" rx="13" fill="#fff0b7" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="2628" y="1435" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="2635" y="1464" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">TAREAS Y PLAZOS</text>
+<text x="2635" y="1508" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">Asignar un responsable y una</text>
+<text x="2635" y="1537" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">fecha por actividad. Reportar</text>
+<text x="2635" y="1566" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">bloqueos antes del vencimiento.</text>
+</g>
+<g id="nota-359">
+<rect x="1708" y="1681" width="416" height="225" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="1703" y="1674" width="416" height="225" rx="13" fill="#ffe8b6" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="1716" y="1686" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="1723" y="1715" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">GITHUB Y CAMBIOS</text>
+<text x="1723" y="1759" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">Trabajar con ramas, mensajes</text>
+<text x="1723" y="1788" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">claros y revisión de cambios</text>
+<text x="1723" y="1817" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">antes de integrarlos al proyecto.</text>
+</g>
+<g id="nota-368">
+<rect x="2164" y="1681" width="416" height="225" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="2159" y="1674" width="416" height="225" rx="13" fill="#fff0b7" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="2172" y="1686" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="2179" y="1715" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">DECISIONES</text>
+<text x="2179" y="1759" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">Escuchar a todos, buscar</text>
+<text x="2179" y="1788" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">consenso y dejar por escrito las</text>
+<text x="2179" y="1817" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">decisiones que afecten el</text>
+<text x="2179" y="1846" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">producto.</text>
+</g>
+<g id="nota-378">
+<rect x="2620" y="1681" width="416" height="225" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
+<rect x="2615" y="1674" width="416" height="225" rx="13" fill="#ffe8b6" stroke="#6787ab" stroke-width="1" opacity="1"/>
+<rect x="2628" y="1686" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
+<text x="2635" y="1715" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" text-anchor="start" letter-spacing="0" opacity="1">CALIDAD Y PRUEBAS</text>
+<text x="2635" y="1759" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">Verificar permisos, cierres,</text>
+<text x="2635" y="1788" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">saldos, duplicados y registros de</text>
+<text x="2635" y="1817" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">transacciones; documentar</text>
+<text x="2635" y="1846" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="22" text-anchor="start" letter-spacing="0" opacity="1">errores.</text>
+</g>
+<rect x="1703" y="1925" width="1328" height="92" rx="18" fill="#fff0cf" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1726" y="1962" fill="#926d2c" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="18" text-anchor="start" letter-spacing="1" opacity="1">RITMO DE TRABAJO</text>
+<text x="1726" y="1995" fill="#69522d" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="25" text-anchor="start" letter-spacing="0" opacity="1">Planear   →   Diseñar   →   Desarrollar   →   Probar   →   Revisar</text>
+</g>
+<g id="proposito" inkscape:groupmode="layer" inkscape:label="07 Propósito central">
+<ellipse cx="1600" cy="1125" rx="584" ry="170" fill="#a7b9c9" opacity="0.18"/>
+<ellipse cx="1600" cy="1107" rx="587" ry="177" fill="#ffffff" stroke="#dfebf7" stroke-width="6"/>
+<ellipse cx="1600" cy="1107" rx="556" ry="153" fill="url(#center)" stroke="#a8d9f7" stroke-width="3"/>
+<circle cx="1600" cy="991" r="20" fill="none" stroke="#2d79b5" stroke-width="4"/>
+<circle cx="1600" cy="991" r="10" fill="none" stroke="#2d79b5" stroke-width="3"/>
+<circle cx="1600" cy="991" r="3" fill="#2d79b5" stroke="none" stroke-width="0"/>
+<text x="1600" y="1044" fill="#215f91" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="28" text-anchor="middle" letter-spacing="1" opacity="1">03  PROPÓSITO · PURPOSE</text>
+<text x="1600" y="1083" fill="#163653" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="28" text-anchor="middle" letter-spacing="0" opacity="1">¿Por qué desarrollamos MatchPoint?</text>
+<text x="1600" y="1130" fill="#1a4c75" font-family="Arial,Helvetica,sans-serif" font-weight="500" font-size="25" text-anchor="middle" letter-spacing="0" opacity="1">Crear una plataforma deportiva confiable que centralice torneos,</text>
+<text x="1600" y="1165" fill="#1a4c75" font-family="Arial,Helvetica,sans-serif" font-weight="500" font-size="25" text-anchor="middle" letter-spacing="0" opacity="1">pronósticos y créditos virtuales, proteja cada saldo, permita</text>
+<text x="1600" y="1200" fill="#1a4c75" font-family="Arial,Helvetica,sans-serif" font-weight="500" font-size="25" text-anchor="middle" letter-spacing="0" opacity="1">verificar las liquidaciones y conserve el historial de operaciones.</text>
+</g>
+<g id="pie" inkscape:groupmode="layer" inkscape:label="08 Pie de página y estado">
+<rect x="89" y="2102" width="3020" height="48" rx="13" fill="#e2edf7" stroke="none" stroke-width="0" opacity="1"/>
+<text x="112" y="2135" fill="#476681" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="18" text-anchor="start" letter-spacing="0.7" opacity="1">MATCHPOINT  •  TEAM CANVAS  •  FASE DE INICIO</text>
+<text x="3084" y="2135" fill="#647f9b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="end" letter-spacing="0" opacity="1">Propuesta de acuerdos para validación entre los cuatro integrantes</text>
+</g>
+</svg>

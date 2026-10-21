@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" version="1.1">
+<title>HU009 · mockup</title><desc>HU009 Asignar créditos iniciales: Detalle del participante con saldo inicial, movimiento de asignación y bloqueo de doble asignación.</desc>
+<rect x="0" y="0" width="1280" height="800" rx="14" fill="#F6F9FD" stroke="#C3D0DF" stroke-width="1"/>
+<rect x="0" y="0" width="1280" height="44" rx="14" fill="#E3EAF2" stroke="none" stroke-width="1"/>
+<rect x="0" y="30" width="1280" height="14" rx="0" fill="#E3EAF2" stroke="none" stroke-width="1"/>
+<circle cx="24" cy="22" r="6" fill="#F87171" stroke="none" stroke-width="1"/>
+<circle cx="44" cy="22" r="6" fill="#FBBF24" stroke="none" stroke-width="1"/>
+<circle cx="64" cy="22" r="6" fill="#34D399" stroke="none" stroke-width="1"/>
+<rect x="120" y="10" width="620" height="24" rx="12" fill="#fff" stroke="none" stroke-width="1"/>
+<text x="140" y="27" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" text-anchor="start">🔒</text>
+<text x="160" y="27" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" text-anchor="start">matchpoint.app/admin/participantes/mateo-hernandez</text>
+<rect x="0" y="44" width="1280" height="64" rx="0" fill="#10284A" stroke="none" stroke-width="1"/>
+<rect x="32" y="58" width="36" height="36" rx="9" fill="#F4B740" stroke="none" stroke-width="1"/>
+<path d="M 41 66 h 18 v 10 q -1 8 -9 8 q -8 0 -9 -8 z" fill="#10284A"/>
+<path d="M 46 85 v 4 m -4 0 h 8" stroke="#10284A" stroke-width="2.4" fill="none"/>
+<text x="80" y="84" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="21" fill="#fff" font-weight="bold" text-anchor="start">MATCH</text>
+<text x="155.29000000000002" y="84" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="21" fill="#63B3FA" font-weight="bold" text-anchor="start">POINT</text>
+<text x="260" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#B9CDE6" text-anchor="start">Torneos</text>
+<text x="350.81" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#fff" font-weight="bold" text-anchor="start">Participantes</text>
+<rect x="350.81" y="100" width="98.89000000000003" height="4" rx="2" fill="#F4B740" stroke="none" stroke-width="1"/>
+<text x="485.70000000000005" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#B9CDE6" text-anchor="start">Resultados</text>
+<text x="595.6500000000001" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#B9CDE6" text-anchor="start">Control</text>
+<circle cx="1070" cy="76" r="17" fill="#2D4A73" stroke="none" stroke-width="1"/>
+<text x="1070" y="81" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#fff" font-weight="bold" text-anchor="middle">AT</text>
+<text x="1096" y="72" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13.5" fill="#fff" font-weight="bold" text-anchor="start">Ana Torres</text>
+<rect x="1096" y="80" width="114.47000000000001" height="18" rx="9" fill="#2D4A73" stroke="none" stroke-width="1"/>
+<text x="1153.235" y="93" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#CFE2FF" font-weight="bold" text-anchor="middle">ADMINISTRADOR</text>
+<text x="40" y="140" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#6B7F97" text-anchor="start">Participantes  /  Mateo Hernández</text>
+<text x="40" y="174" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="27" fill="#10284A" font-weight="bold" text-anchor="start">Mateo Hernández</text>
+<text x="40" y="200" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#5F738C" text-anchor="start">mateo.hernandez · mateo.hernandez@umb.edu.co</text>
+<rect x="330" y="160" width="58.16000000000001" height="22" rx="11" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="359.08" y="176" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#166534" font-weight="bold" text-anchor="middle">Activo</text>
+<rect x="762" y="133" width="424.19999999999993" height="48" rx="10" fill="#0B2440" stroke="none" stroke-width="1" opacity="0.12"/>
+<rect x="760" y="128" width="424.19999999999993" height="48" rx="10" fill="#10284A" stroke="none" stroke-width="1"/>
+<circle cx="786" cy="152" r="11" fill="#15803D" stroke="none" stroke-width="1"/>
+<text x="786" y="157" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#fff" font-weight="bold" text-anchor="middle">✓</text>
+<text x="808" y="157" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#fff" font-weight="bold" text-anchor="start">Participante registrado con 1.000 créditos iniciales</text>
+<rect x="40" y="230" width="380" height="190" rx="12" fill="#fff" stroke="#D9E3EE" stroke-width="1"/>
+<text x="64" y="264" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" font-weight="bold" letter-spacing="0.7" text-anchor="start">SALDO DISPONIBLE</text>
+<text x="64" y="320" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="46" fill="#10284A" font-weight="bold" text-anchor="start">1.000</text>
+<text x="189.92000000000002" y="320" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="18" fill="#5F738C" text-anchor="start">créditos</text>
+<text x="64" y="356" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#5F738C" text-anchor="start">Créditos virtuales · sin valor monetario</text>
+<text x="64" y="390" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#5F738C" text-anchor="start">No se pueden retirar ni convertir en dinero.</text>
+<rect x="40" y="440" width="380" height="120" rx="12" fill="#F8FAFC" stroke="#D9E3EE" stroke-width="1"/>
+<text x="64" y="474" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" font-weight="bold" letter-spacing="0.7" text-anchor="start">CONFIGURACIÓN</text>
+<text x="64" y="508" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#163153" text-anchor="start">Saldo inicial por participante</text>
+<text x="396" y="508" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="18" fill="#10284A" font-weight="bold" text-anchor="end">1.000</text>
+<text x="64" y="536" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#5F738C" text-anchor="start">Definido por el administrador</text>
+<text x="450" y="250" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" font-weight="bold" letter-spacing="0.8" text-anchor="start">MOVIMIENTOS</text>
+<rect x="450" y="264" width="790" height="90" rx="10" fill="#fff" stroke="#D9E3EE" stroke-width="1"/>
+<rect x="450" y="264" width="790" height="38" rx="10" fill="#EEF3F9" stroke="none" stroke-width="1"/>
+<rect x="450" y="292" width="790" height="10" rx="0" fill="#EEF3F9" stroke="none" stroke-width="1"/>
+<text x="464" y="288" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">ID</text>
+<text x="564" y="288" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">FECHA</text>
+<text x="734" y="288" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">TIPO</text>
+<text x="904" y="288" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">DETALLE</text>
+<text x="1104" y="288" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">VALOR</text>
+<text x="1194" y="288" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">SALDO</text>
+<rect x="451" y="302" width="788" height="52" rx="0" fill="#EFF6FF" stroke="none" stroke-width="1"/>
+<rect x="451" y="302" width="4" height="52" rx="0" fill="#2563EB" stroke="none" stroke-width="1"/>
+<text x="464" y="333.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">MV-0158</text>
+<text x="564" y="333.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">20/10/2026 · 09:31</text>
+<text x="734" y="333.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" font-weight="bold" text-anchor="start">Asignación inicial</text>
+<text x="904" y="333.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">Registro de participante</text>
+<text x="1104" y="333.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#15803D" font-weight="bold" text-anchor="start">+1.000</text>
+<text x="1194" y="333.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">1.000</text>
+<rect x="450" y="399" width="104.60000000000001" height="18" rx="4" fill="#FFF7E6" stroke="#F4B740" stroke-width="1"/>
+<text x="502.3" y="412" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="10" fill="#8A5A00" font-weight="bold" letter-spacing="0.8" text-anchor="middle">ESTADO ALTERNO</text>
+<rect x="450" y="424" width="790" height="64" rx="9" fill="#FFFBEB" stroke="#FCD34D" stroke-width="1.3"/>
+<circle cx="474" cy="447" r="11" fill="#92400E" stroke="none" stroke-width="1"/>
+<text x="474" y="452" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#fff" font-weight="bold" text-anchor="middle">!</text>
+<text x="496" y="452" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#92400E" font-weight="bold" text-anchor="start">La asignación inicial ya fue aplicada a este participante.</text>
+<text x="496" y="473" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12.5" fill="#92400E" text-anchor="start">No se sumaron créditos adicionales.</text>
+<rect x="450" y="519" width="104.60000000000001" height="18" rx="4" fill="#FFF7E6" stroke="#F4B740" stroke-width="1"/>
+<text x="502.3" y="532" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="10" fill="#8A5A00" font-weight="bold" letter-spacing="0.8" text-anchor="middle">ESTADO ALTERNO</text>
+<rect x="450" y="544" width="790" height="64" rx="9" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1.3"/>
+<circle cx="474" cy="567" r="11" fill="#991B1B" stroke="none" stroke-width="1"/>
+<text x="474" y="572" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#fff" font-weight="bold" text-anchor="middle">!</text>
+<text x="496" y="572" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#991B1B" font-weight="bold" text-anchor="start">No se pudo completar el registro.</text>
+<text x="496" y="593" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12.5" fill="#991B1B" text-anchor="start">Se revirtió la operación: no quedó un participante sin saldo.</text>
+<g id="pasos">
+<circle cx="753" cy="124" r="15" fill="#000" opacity=".18"/>
+<circle cx="752" cy="122" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="752" y="127.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">1</text>
+<circle cx="403" cy="472" r="15" fill="#000" opacity=".18"/>
+<circle cx="402" cy="470" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="402" y="475.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">4</text>
+<circle cx="1253" cy="332" r="15" fill="#000" opacity=".18"/>
+<circle cx="1252" cy="330" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="1252" y="335.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">2</text>
+<circle cx="1253" cy="458" r="15" fill="#000" opacity=".18"/>
+<circle cx="1252" cy="456" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="1252" y="461.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">3</text>
+<circle cx="1253" cy="578" r="15" fill="#000" opacity=".18"/>
+<circle cx="1252" cy="576" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="1252" y="581.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">5</text>
+</g>
+</svg>

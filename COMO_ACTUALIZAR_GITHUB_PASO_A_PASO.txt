@@ -1,0 +1,22 @@
+MATCHPOINT — ACTUALIZACION DE LA PAGINA EXISTENTE
+
+1. EXTRAER TODO este ZIP.
+2. Abrir la carpeta local del proyecto que ya tiene Git conectado en VS Code.
+3. Copiar el CONTENIDO de esta carpeta extraida dentro de la carpeta ya conectada, combinando carpetas y REEMPLAZANDO los archivos duplicados.
+   ATENCION: index.html debe quedar en la raiz, junto a assets, descargas, documentos y pdf.
+4. Abrir la terminal de VS Code y ejecutar uno por uno:
+
+   git status
+   git add .
+   git commit -m "Reducir backlog a 20 HU en 2 sprints con paso a paso y mockups"
+   git push origin main
+
+5. Esperar que GitHub Pages publique automaticamente. Comprobar:
+   https://srdiego18.github.io/matchpoint-documentacion/#historias
+   Si no aparecen los cambios, refrescar Ctrl+F5 y esperar unos minutos.
+
+NOTA: en esta version cambian el backlog, el mapa, los PDF y se agregan las carpetas assets/img/mockups y descargas/mockups.
+
+NO USAR git init otra vez, NI crear nuevo repositorio, NI cambiar la rama.
+
+IMPORTANTE: las propuestas individuales son borradores pendientes de revision de cada integrante. No acreditan su autoria o aprobacion.

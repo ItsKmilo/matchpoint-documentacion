@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" version="1.1">
+<title>HU001 · mockup</title><desc>HU001 Iniciar sesión: Pantalla de inicio de sesión con validación de campos y mensaje de error genérico.</desc>
+<rect x="0" y="0" width="1280" height="800" rx="14" fill="#F6F9FD" stroke="#C3D0DF" stroke-width="1"/>
+<rect x="0" y="0" width="1280" height="44" rx="14" fill="#E3EAF2" stroke="none" stroke-width="1"/>
+<rect x="0" y="30" width="1280" height="14" rx="0" fill="#E3EAF2" stroke="none" stroke-width="1"/>
+<circle cx="24" cy="22" r="6" fill="#F87171" stroke="none" stroke-width="1"/>
+<circle cx="44" cy="22" r="6" fill="#FBBF24" stroke="none" stroke-width="1"/>
+<circle cx="64" cy="22" r="6" fill="#34D399" stroke="none" stroke-width="1"/>
+<rect x="120" y="10" width="620" height="24" rx="12" fill="#fff" stroke="none" stroke-width="1"/>
+<text x="140" y="27" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" text-anchor="start">🔒</text>
+<text x="160" y="27" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" text-anchor="start">matchpoint.app/ingresar</text>
+<rect x="0" y="44" width="1280" height="756" rx="0" fill="#10284A" stroke="none" stroke-width="1"/>
+<rect x="0" y="786" width="1280" height="14" rx="14" fill="#10284A" stroke="none" stroke-width="1"/>
+<rect x="70" y="150" width="72" height="72" rx="18" fill="#F4B740" stroke="none" stroke-width="1"/>
+<path d="M 88 166 h 36 v 20 q -2 16 -18 16 q -16 0 -18 -16 z" fill="#10284A"/>
+<path d="M 106 203 v 6 m -8 0 h 16" stroke="#10284A" stroke-width="3.5" fill="none"/>
+<text x="70" y="290" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="52" fill="#fff" font-weight="bold" text-anchor="start">MATCH</text>
+<text x="255.48000000000002" y="290" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="52" fill="#63B3FA" font-weight="bold" text-anchor="start">POINT</text>
+<text x="70" y="335" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="20" fill="#CFE2FF" text-anchor="start">Torneos, pronósticos y créditos virtuales</text>
+<text x="70" y="365" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="20" fill="#CFE2FF" text-anchor="start">en una sola plataforma.</text>
+<circle cx="82" cy="430" r="10" fill="#2D4A73" stroke="none" stroke-width="1"/>
+<text x="82" y="435" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#F4B740" font-weight="bold" text-anchor="middle">✓</text>
+<text x="104" y="436" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="16" fill="#E6EEF9" text-anchor="start">Acceso según tu rol</text>
+<circle cx="82" cy="472" r="10" fill="#2D4A73" stroke="none" stroke-width="1"/>
+<text x="82" y="477" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#F4B740" font-weight="bold" text-anchor="middle">✓</text>
+<text x="104" y="478" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="16" fill="#E6EEF9" text-anchor="start">Créditos sin valor monetario</text>
+<circle cx="82" cy="514" r="10" fill="#2D4A73" stroke="none" stroke-width="1"/>
+<text x="82" y="519" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#F4B740" font-weight="bold" text-anchor="middle">✓</text>
+<text x="104" y="520" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="16" fill="#E6EEF9" text-anchor="start">Movimientos verificables</text>
+<rect x="692" y="118" width="500" height="640" rx="20" fill="#0B2440" stroke="none" stroke-width="1" opacity="0.08"/>
+<rect x="690" y="112" width="500" height="640" rx="20" fill="#fff" stroke="none" stroke-width="1"/>
+<text x="734" y="184" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="30" fill="#10284A" font-weight="bold" text-anchor="start">Iniciar sesión</text>
+<text x="734" y="214" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#5F738C" text-anchor="start">Ingresa con el usuario asignado por el administrador.</text>
+<rect x="734" y="240" width="412" height="46" rx="9" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1.3"/>
+<circle cx="758" cy="263" r="11" fill="#991B1B" stroke="none" stroke-width="1"/>
+<text x="758" y="268" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#fff" font-weight="bold" text-anchor="middle">!</text>
+<text x="780" y="268" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#991B1B" font-weight="bold" text-anchor="start">Usuario o contraseña incorrectos</text>
+<text x="734" y="324" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" font-weight="bold" text-anchor="start">Usuario *</text>
+<rect x="734" y="332" width="412" height="40" rx="7" fill="#fff" stroke="#B8C7D9" stroke-width="1.2"/>
+<text x="746" y="357.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#163153" text-anchor="start">laura.gomez</text>
+<text x="734" y="398" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" font-weight="bold" text-anchor="start">Contraseña *</text>
+<rect x="734" y="406" width="412" height="40" rx="7" fill="#fff" stroke="#DC2626" stroke-width="1.6"/>
+<text x="746" y="431.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#9AA9BB" text-anchor="start">Ingresa tu contraseña</text>
+<text x="734" y="464" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#DC2626" font-weight="bold" text-anchor="start">El campo contraseña es obligatorio.</text>
+<rect x="734" y="490" width="412" height="46" rx="8" fill="#2563EB" stroke="none" stroke-width="1.5"/>
+<text x="940.0" y="518.76" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="16" fill="#fff" font-weight="bold" text-anchor="middle">Ingresar</text>
+<text x="940" y="574" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#3B6FB6" text-anchor="middle">¿Olvidaste tu contraseña? Contacta al administrador.</text>
+<line x1="734" y1="602" x2="1146" y2="602" stroke="#D9E3EE" stroke-width="1"/>
+<text x="734" y="632" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" font-weight="bold" letter-spacing="0.8" text-anchor="start">DESPUÉS DE INGRESAR</text>
+<rect x="734" y="644" width="196" height="52" rx="8" fill="#EFF6FF" stroke="none" stroke-width="1"/>
+<text x="748" y="666" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#2563EB" font-weight="bold" text-anchor="start">Participante</text>
+<text x="748" y="685" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#5F738C" text-anchor="start">→ Torneos disponibles</text>
+<rect x="950" y="644" width="196" height="52" rx="8" fill="#F5F3FF" stroke="none" stroke-width="1"/>
+<text x="964" y="666" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#6D28D9" font-weight="bold" text-anchor="start">Administrador</text>
+<text x="964" y="685" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#5F738C" text-anchor="start">→ Panel de torneos</text>
+<rect x="70" y="627" width="104.60000000000001" height="18" rx="4" fill="#FFF7E6" stroke="#F4B740" stroke-width="1"/>
+<text x="122.30000000000001" y="640" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="10" fill="#8A5A00" font-weight="bold" letter-spacing="0.8" text-anchor="middle">ESTADO ALTERNO</text>
+<rect x="70" y="654" width="420" height="70" rx="12" fill="#163A63" stroke="none" stroke-width="1"/>
+<text x="92" y="684" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="16" fill="#fff" font-weight="bold" text-anchor="start">Sesión cerrada correctamente</text>
+<text x="92" y="706" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#CFE2FF" text-anchor="start">Para continuar debes iniciar sesión de nuevo.</text>
+<g id="pasos">
+<circle cx="991" cy="176" r="15" fill="#000" opacity=".18"/>
+<circle cx="990" cy="174" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="990" y="179.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">1</text>
+<circle cx="1161" cy="265" r="15" fill="#000" opacity=".18"/>
+<circle cx="1160" cy="263" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="1160" y="268.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">4</text>
+<circle cx="1161" cy="444" r="15" fill="#000" opacity=".18"/>
+<circle cx="1160" cy="442" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="1160" y="447.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">2</text>
+<circle cx="1161" cy="672" r="15" fill="#000" opacity=".18"/>
+<circle cx="1160" cy="670" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="1160" y="675.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">3</text>
+<circle cx="506" cy="691" r="15" fill="#000" opacity=".18"/>
+<circle cx="505" cy="689" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="505" y="694.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">5</text>
+</g>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2260" height="1920" viewBox="0 0 2260 1920" version="1.1">
+<rect x="0" y="0" width="2260" height="1920" rx="0" fill="#F6F9FD" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="2260" height="250" rx="0" fill="#10284A" stroke="none" stroke-width="1"/>
+<rect x="80" y="65" width="64" height="62" rx="13" fill="#F4B740" stroke="none" stroke-width="1"/>
+<path d="M 97 81 h 30 v 18 q -2 13 -15 13 q -13 0 -15 -13 z" fill="#10284A"/>
+<path d="M 97 86 h -12 q -1 14 13 15 M 127 86 h 12 q 1 14 -13 15" stroke="#10284A" fill="none" stroke-width="5"/>
+<text x="162" y="108" font-family="Arial, Liberation Sans, sans-serif" font-size="62" fill="#FFFFFF" font-weight="bold" text-anchor="start">MATCHPOINT</text>
+<text x="165" y="167" font-family="Arial, Liberation Sans, sans-serif" font-size="27" fill="#D4E9FC" font-weight="normal" text-anchor="start">Mapa de historias de usuario · Tramo 3 de 4</text>
+<rect x="1949.16" y="58" width="217.84" height="87" rx="14" fill="#0891B2" stroke="none" stroke-width="1"/>
+<text x="2058.08" y="114" font-family="Arial, Liberation Sans, sans-serif" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">CRÉDITOS</text>
+<text x="101" y="312" font-family="Arial, Liberation Sans, sans-serif" font-size="37" fill="#10284A" font-weight="bold" text-anchor="start">Créditos virtuales</text>
+<text x="2158" y="311" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#536783" font-weight="bold" text-anchor="end">1 ÉPICA  ·  3 HISTORIAS</text>
+<rect x="85" y="360" width="2090" height="90" rx="14" fill="#0891B2" stroke="none" stroke-width="1"/>
+<text x="125" y="417" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="start">VERDE: ÉPICAS    •    MORADO: ACTIVIDADES    •    AMARILLO: HISTORIAS    •    CADA HISTORIA TIENE MOCKUP</text>
+<rect x="90.0" y="482" width="2080.0" height="160" rx="14" fill="#BDF0D5" stroke="#6FCB9B" stroke-width="2"/>
+<text x="108.0" y="521" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#146746" font-weight="bold" text-anchor="start">ÉPICA 04</text>
+<text x="108.0" y="568" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#163153" font-weight="bold" text-anchor="start">Créditos virtuales</text>
+<text x="108.0" y="610" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#146746" font-weight="normal" text-anchor="start">Para usar créditos virtuales sin saldos negativos ni movimientos duplicados.</text>
+<rect x="90.0" y="660" width="1028.0" height="160" rx="13" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="108.0" y="696" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6551A4" font-weight="bold" text-anchor="start">ACTIVIDAD</text>
+<rect x="104.0" y="712" width="1000.0" height="82" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="118.0" y="760" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#3F3470" font-weight="bold" text-anchor="start">Asignar créditos</text>
+<rect x="1142.0" y="660" width="1028.0" height="160" rx="13" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="1160.0" y="696" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6551A4" font-weight="bold" text-anchor="start">ACTIVIDAD</text>
+<rect x="1156.0" y="712" width="1000.0" height="82" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="1170.0" y="760" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#3F3470" font-weight="bold" text-anchor="start">Consultar y ajustar saldo</text>
+<rect x="90" y="852" width="2080" height="51" rx="10" fill="#E3F7E8" stroke="none" stroke-width="1"/>
+<text x="110" y="887" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">SPRINT 1  ·  ENTREGA 1  ·  2 HISTORIAS</text>
+<g id="HU009" data-story-id="HU009" data-sprint="1">
+<rect x="90.0" y="935" width="1028.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="104.0" y="948" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="113.0" y="973" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU009</text>
+<text x="1097.0" y="975" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Must</text>
+<text x="110.0" y="1017" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Asignar créditos iniciales</text>
+<text x="110.0" y="1056" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero que cada participante reciba automáticamente su saldo inicial de créditos virtuales para que pueda</text>
+<text x="110.0" y="1081" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">participar desde su registro.</text>
+<line x1="110.0" y1="1108" x2="1098.0" y2="1108" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="110.0" y="1132" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al registrar un nuevo participante (HU002), el sistema deberá asignarle automáticamente el saldo inicial</text>
+<text x="110.0" y="1155" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">configurado (por ejemplo, 1.000 créditos).</text>
+<text x="110.0" y="1215" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Camilo B.</text>
+<text x="1098.0" y="1215" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU009</text>
+</g>
+<g id="HU010" data-story-id="HU010" data-sprint="1">
+<rect x="1142.0" y="935" width="1028.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1156.0" y="948" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1165.0" y="973" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU010</text>
+<text x="2149.0" y="975" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Must</text>
+<text x="1162.0" y="1017" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Consultar saldo y movimientos</text>
+<text x="1162.0" y="1056" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero consultar mi saldo y mis movimientos de créditos para verificar cada descuento y cada premio.</text>
+<line x1="1162.0" y1="1083" x2="2150.0" y2="1083" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="1162.0" y="1107" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al seleccionar la opción «Mis créditos», el sistema deberá mostrar el saldo disponible actualizado.</text>
+<text x="1162.0" y="1215" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Diego R.</text>
+<text x="2150.0" y="1215" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU010</text>
+</g>
+<rect x="90" y="1277" width="2080" height="51" rx="10" fill="#FFF1D8" stroke="none" stroke-width="1"/>
+<text x="110" y="1312" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">SPRINT 2  ·  ENTREGA 2  ·  1 HISTORIA</text>
+<g id="HU017" data-story-id="HU017" data-sprint="2">
+<rect x="1142.0" y="1360" width="1028.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1156.0" y="1373" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1165.0" y="1398" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU017</text>
+<text x="2149.0" y="1400" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Should</text>
+<text x="1162.0" y="1442" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Ajustar créditos autorizados</text>
+<text x="1162.0" y="1481" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero registrar ajustes de créditos justificados para corregir saldos de forma trazable.</text>
+<line x1="1162.0" y1="1508" x2="2150.0" y2="1508" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="1162.0" y="1532" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al seleccionar la opción «Ajustar créditos» en el detalle de un participante, el sistema deberá mostrar el</text>
+<text x="1162.0" y="1555" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">formulario con tipo (abono o cargo), cantidad y motivo obligatorio.</text>
+<text x="1162.0" y="1640" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">5 SP · Camilo B.</text>
+<text x="2150.0" y="1640" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU017</text>
+</g>
+<rect x="90" y="1720" width="2080" height="150" rx="15" fill="#FFFFFF" stroke="#DBE4EF" stroke-width="2"/>
+<text x="121" y="1776" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#10284A" font-weight="bold" text-anchor="start">Paso a paso completo y mockup de cada historia: Product Backlog (web, PDF y Excel).</text>
+<text x="121" y="1831" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#536783" font-weight="normal" text-anchor="start">Archivo vectorial: tarjetas, colores y textos son editables en Illustrator.</text>
+</svg>

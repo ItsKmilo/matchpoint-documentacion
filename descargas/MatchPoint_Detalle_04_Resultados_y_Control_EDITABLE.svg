@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2260" height="2040" viewBox="0 0 2260 2040" version="1.1">
+<rect x="0" y="0" width="2260" height="2040" rx="0" fill="#F6F9FD" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="2260" height="250" rx="0" fill="#10284A" stroke="none" stroke-width="1"/>
+<rect x="80" y="65" width="64" height="62" rx="13" fill="#F4B740" stroke="none" stroke-width="1"/>
+<path d="M 97 81 h 30 v 18 q -2 13 -15 13 q -13 0 -15 -13 z" fill="#10284A"/>
+<path d="M 97 86 h -12 q -1 14 13 15 M 127 86 h 12 q 1 14 -13 15" stroke="#10284A" fill="none" stroke-width="5"/>
+<text x="162" y="108" font-family="Arial, Liberation Sans, sans-serif" font-size="62" fill="#FFFFFF" font-weight="bold" text-anchor="start">MATCHPOINT</text>
+<text x="165" y="167" font-family="Arial, Liberation Sans, sans-serif" font-size="27" fill="#D4E9FC" font-weight="normal" text-anchor="start">Mapa de historias de usuario · Tramo 4 de 4</text>
+<rect x="1748.6799999999998" y="58" width="418.32000000000005" height="87" rx="14" fill="#047857" stroke="none" stroke-width="1"/>
+<text x="1957.84" y="114" font-family="Arial, Liberation Sans, sans-serif" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">RESOLVER Y CONTROLAR</text>
+<text x="101" y="312" font-family="Arial, Liberation Sans, sans-serif" font-size="37" fill="#10284A" font-weight="bold" text-anchor="start">Resultados y control</text>
+<text x="2158" y="311" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#536783" font-weight="bold" text-anchor="end">2 ÉPICAS  ·  7 HISTORIAS</text>
+<rect x="85" y="360" width="2090" height="90" rx="14" fill="#047857" stroke="none" stroke-width="1"/>
+<text x="125" y="417" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="start">VERDE: ÉPICAS    •    MORADO: ACTIVIDADES    •    AMARILLO: HISTORIAS    •    CADA HISTORIA TIENE MOCKUP</text>
+<rect x="90.0" y="482" width="1028.0" height="160" rx="14" fill="#BDF0D5" stroke="#6FCB9B" stroke-width="2"/>
+<text x="108.0" y="521" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#146746" font-weight="bold" text-anchor="start">ÉPICA 05</text>
+<text x="108.0" y="568" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#163153" font-weight="bold" text-anchor="start">Resultados y liquidación</text>
+<text x="108.0" y="610" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#146746" font-weight="normal" text-anchor="start">Para publicar resultados oficiales y asignar premios una sola vez.</text>
+<rect x="1142.0" y="482" width="1028.0" height="160" rx="14" fill="#BDF0D5" stroke="#6FCB9B" stroke-width="2"/>
+<text x="1160.0" y="521" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#146746" font-weight="bold" text-anchor="start">ÉPICA 06</text>
+<text x="1160.0" y="568" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#163153" font-weight="bold" text-anchor="start">Auditoría y reportes</text>
+<text x="1160.0" y="610" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#146746" font-weight="normal" text-anchor="start">Para verificar operaciones y detectar inconsistencias.</text>
+<rect x="90.0" y="660" width="502.0" height="160" rx="13" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="108.0" y="696" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6551A4" font-weight="bold" text-anchor="start">ACTIVIDAD</text>
+<rect x="104.0" y="712" width="474.0" height="82" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="118.0" y="760" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#3F3470" font-weight="bold" text-anchor="start">Cerrar y publicar</text>
+<rect x="616.0" y="660" width="502.0" height="160" rx="13" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="634.0" y="696" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6551A4" font-weight="bold" text-anchor="start">ACTIVIDAD</text>
+<rect x="630.0" y="712" width="474.0" height="82" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="644.0" y="760" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#3F3470" font-weight="bold" text-anchor="start">Liquidar y corregir</text>
+<rect x="1142.0" y="660" width="502.0" height="160" rx="13" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="1160.0" y="696" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6551A4" font-weight="bold" text-anchor="start">ACTIVIDAD</text>
+<rect x="1156.0" y="712" width="474.0" height="82" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="1170.0" y="760" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#3F3470" font-weight="bold" text-anchor="start">Auditar movimientos</text>
+<rect x="1668.0" y="660" width="502.0" height="160" rx="13" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="1686.0" y="696" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6551A4" font-weight="bold" text-anchor="start">ACTIVIDAD</text>
+<rect x="1682.0" y="712" width="474.0" height="82" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="1696.0" y="760" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#3F3470" font-weight="bold" text-anchor="start">Consolidar información</text>
+<rect x="90" y="852" width="2080" height="51" rx="10" fill="#E3F7E8" stroke="none" stroke-width="1"/>
+<text x="110" y="887" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">SPRINT 1  ·  ENTREGA 1  ·  0 HISTORIAS</text>
+<rect x="90" y="935" width="2080" height="90" rx="12" fill="#FFFFFF" stroke="#DBE4EF" stroke-width="2"/>
+<text x="120" y="990" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#536783" font-weight="normal" text-anchor="start">Sin historias de este tramo en el sprint.</text>
+<rect x="90" y="1077" width="2080" height="51" rx="10" fill="#FFF1D8" stroke="none" stroke-width="1"/>
+<text x="110" y="1112" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">SPRINT 2  ·  ENTREGA 2  ·  7 HISTORIAS</text>
+<g id="HU013" data-story-id="HU013" data-sprint="2">
+<rect x="90.0" y="1160" width="502.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="104.0" y="1173" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="113.0" y="1198" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU013</text>
+<text x="571.0" y="1200" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Must</text>
+<text x="110.0" y="1242" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Cerrar recepción de pronósticos</text>
+<text x="110.0" y="1281" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero que la recepción de pronósticos se cierre en</text>
+<text x="110.0" y="1306" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">la fecha límite para que nadie pronostique cuando el</text>
+<text x="110.0" y="1331" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">evento ya comenzó.</text>
+<line x1="110.0" y1="1358" x2="572.0" y2="1358" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="110.0" y="1382" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al llegar la fecha límite de un evento, el</text>
+<text x="110.0" y="1405" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">sistema deberá cambiar automáticamente su estado a…</text>
+<text x="110.0" y="1440" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Maicol R.</text>
+<text x="572.0" y="1440" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU013</text>
+</g>
+<g id="HU014" data-story-id="HU014" data-sprint="2">
+<rect x="90.0" y="1480" width="502.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="104.0" y="1493" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="113.0" y="1518" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU014</text>
+<text x="571.0" y="1520" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Must</text>
+<text x="110.0" y="1562" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Publicar resultado oficial</text>
+<text x="110.0" y="1601" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero publicar el resultado oficial de un evento</text>
+<text x="110.0" y="1626" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">cerrado para que los pronósticos puedan liquidarse.</text>
+<line x1="110.0" y1="1653" x2="572.0" y2="1653" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="110.0" y="1677" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al seleccionar la opción «Registrar resultado»</text>
+<text x="110.0" y="1700" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">en un evento cerrado, el sistema deberá mostrar el…</text>
+<text x="110.0" y="1760" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Maicol R.</text>
+<text x="572.0" y="1760" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU014</text>
+</g>
+<g id="HU015" data-story-id="HU015" data-sprint="2">
+<rect x="616.0" y="1160" width="502.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="630.0" y="1173" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="639.0" y="1198" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU015</text>
+<text x="1097.0" y="1200" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Must</text>
+<text x="636.0" y="1242" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Liquidar evento y acreditar premios</text>
+<text x="636.0" y="1281" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero liquidar un evento finalizado para acreditar</text>
+<text x="636.0" y="1306" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">los premios de los pronósticos acertados una sola</text>
+<text x="636.0" y="1331" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">vez.</text>
+<line x1="636.0" y1="1358" x2="1098.0" y2="1358" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="636.0" y="1382" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al seleccionar la opción «Liquidar» en un evento</text>
+<text x="636.0" y="1405" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">finalizado, el sistema deberá identificar los…</text>
+<text x="636.0" y="1440" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">8 SP · Maicol R.</text>
+<text x="1098.0" y="1440" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU015</text>
+</g>
+<g id="HU016" data-story-id="HU016" data-sprint="2">
+<rect x="616.0" y="1480" width="502.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="630.0" y="1493" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="639.0" y="1518" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU016</text>
+<text x="1097.0" y="1520" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Should</text>
+<text x="636.0" y="1562" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Corregir resultado publicado</text>
+<text x="636.0" y="1601" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero corregir un resultado publicado por error</text>
+<text x="636.0" y="1626" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">para recalcular los premios sin borrar el historial</text>
+<text x="636.0" y="1651" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">de lo ocurrido.</text>
+<line x1="636.0" y1="1678" x2="1098.0" y2="1678" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="636.0" y="1702" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al seleccionar la opción «Corregir resultado»</text>
+<text x="636.0" y="1725" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">en un evento finalizado, el sistema deberá solicitar el…</text>
+<text x="636.0" y="1760" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">5 SP · Camilo B.</text>
+<text x="1098.0" y="1760" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU016</text>
+</g>
+<g id="HU018" data-story-id="HU018" data-sprint="2">
+<rect x="1142.0" y="1160" width="502.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1156.0" y="1173" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1165.0" y="1198" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU018</text>
+<text x="1623.0" y="1200" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Must</text>
+<text x="1162.0" y="1242" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Consultar transacciones</text>
+<text x="1162.0" y="1281" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero consultar todas las transacciones de</text>
+<text x="1162.0" y="1306" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">créditos para verificar su origen y detectar</text>
+<text x="1162.0" y="1331" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">errores.</text>
+<line x1="1162.0" y1="1358" x2="1624.0" y2="1358" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="1162.0" y="1382" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al seleccionar la opción «Transacciones» en el</text>
+<text x="1162.0" y="1405" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">panel de control, el sistema deberá listar los…</text>
+<text x="1162.0" y="1440" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">5 SP · Camilo B.</text>
+<text x="1624.0" y="1440" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU018</text>
+</g>
+<g id="HU019" data-story-id="HU019" data-sprint="2">
+<rect x="1142.0" y="1480" width="502.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1156.0" y="1493" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1165.0" y="1518" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU019</text>
+<text x="1623.0" y="1520" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Could</text>
+<text x="1162.0" y="1562" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Conciliar saldos</text>
+<text x="1162.0" y="1601" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero comparar cada saldo con la suma de sus</text>
+<text x="1162.0" y="1626" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">movimientos para detectar inconsistencias.</text>
+<line x1="1162.0" y1="1653" x2="1624.0" y2="1653" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="1162.0" y="1677" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al seleccionar la opción «Ejecutar</text>
+<text x="1162.0" y="1700" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">conciliación», el sistema deberá recalcular el saldo de…</text>
+<text x="1162.0" y="1760" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Camilo B.</text>
+<text x="1624.0" y="1760" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU019</text>
+</g>
+<g id="HU020" data-story-id="HU020" data-sprint="2">
+<rect x="1668.0" y="1160" width="502.0" height="300" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1682.0" y="1173" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1691.0" y="1198" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU020</text>
+<text x="2149.0" y="1200" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Could</text>
+<text x="1688.0" y="1242" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Generar reporte del torneo</text>
+<text x="1688.0" y="1281" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero generar un reporte del torneo para conocer</text>
+<text x="1688.0" y="1306" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">la participación, los aciertos y los créditos</text>
+<text x="1688.0" y="1331" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">utilizados y entregados.</text>
+<line x1="1688.0" y1="1358" x2="2150.0" y2="1358" stroke="#E6CA68" stroke-width="1.5"/>
+<text x="1688.0" y="1382" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">Paso 1: Al seleccionar la opción «Reporte» en un</text>
+<text x="1688.0" y="1405" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#5C6248" font-weight="normal" text-anchor="start">torneo, el sistema deberá mostrar el resumen de…</text>
+<text x="1688.0" y="1440" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Diego R.</text>
+<text x="2150.0" y="1440" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU020</text>
+</g>
+<rect x="90" y="1840" width="2080" height="150" rx="15" fill="#FFFFFF" stroke="#DBE4EF" stroke-width="2"/>
+<text x="121" y="1896" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#10284A" font-weight="bold" text-anchor="start">Paso a paso completo y mockup de cada historia: Product Backlog (web, PDF y Excel).</text>
+<text x="121" y="1951" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#536783" font-weight="normal" text-anchor="start">Archivo vectorial: tarjetas, colores y textos son editables en Illustrator.</text>
+</svg>

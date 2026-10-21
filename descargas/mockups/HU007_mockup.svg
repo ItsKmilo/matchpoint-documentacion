@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" version="1.1">
+<title>HU007 · mockup</title><desc>HU007 Consultar torneos y eventos: Panel del participante con torneos activos, eventos, estados y filtro.</desc>
+<rect x="0" y="0" width="1280" height="800" rx="14" fill="#F6F9FD" stroke="#C3D0DF" stroke-width="1"/>
+<rect x="0" y="0" width="1280" height="44" rx="14" fill="#E3EAF2" stroke="none" stroke-width="1"/>
+<rect x="0" y="30" width="1280" height="14" rx="0" fill="#E3EAF2" stroke="none" stroke-width="1"/>
+<circle cx="24" cy="22" r="6" fill="#F87171" stroke="none" stroke-width="1"/>
+<circle cx="44" cy="22" r="6" fill="#FBBF24" stroke="none" stroke-width="1"/>
+<circle cx="64" cy="22" r="6" fill="#34D399" stroke="none" stroke-width="1"/>
+<rect x="120" y="10" width="620" height="24" rx="12" fill="#fff" stroke="none" stroke-width="1"/>
+<text x="140" y="27" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" text-anchor="start">🔒</text>
+<text x="160" y="27" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" text-anchor="start">matchpoint.app/torneos</text>
+<rect x="0" y="44" width="1280" height="64" rx="0" fill="#10284A" stroke="none" stroke-width="1"/>
+<rect x="32" y="58" width="36" height="36" rx="9" fill="#F4B740" stroke="none" stroke-width="1"/>
+<path d="M 41 66 h 18 v 10 q -1 8 -9 8 q -8 0 -9 -8 z" fill="#10284A"/>
+<path d="M 46 85 v 4 m -4 0 h 8" stroke="#10284A" stroke-width="2.4" fill="none"/>
+<text x="80" y="84" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="21" fill="#fff" font-weight="bold" text-anchor="start">MATCH</text>
+<text x="155.29000000000002" y="84" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="21" fill="#63B3FA" font-weight="bold" text-anchor="start">POINT</text>
+<text x="260" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#fff" font-weight="bold" text-anchor="start">Torneos disponibles</text>
+<rect x="260" y="100" width="139.49000000000004" height="4" rx="2" fill="#F4B740" stroke="none" stroke-width="1"/>
+<text x="435.49" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#B9CDE6" text-anchor="start">Mis pronósticos</text>
+<text x="578.935" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#B9CDE6" text-anchor="start">Mis créditos</text>
+<circle cx="1070" cy="76" r="17" fill="#2D4A73" stroke="none" stroke-width="1"/>
+<text x="1070" y="81" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#fff" font-weight="bold" text-anchor="middle">LG</text>
+<text x="1096" y="72" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13.5" fill="#fff" font-weight="bold" text-anchor="start">Laura Gómez</text>
+<rect x="1096" y="80" width="105.12" height="18" rx="9" fill="#2D4A73" stroke="none" stroke-width="1"/>
+<text x="1148.56" y="93" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#CFE2FF" font-weight="bold" text-anchor="middle">PARTICIPANTE</text>
+<text x="40" y="174" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="27" fill="#10284A" font-weight="bold" text-anchor="start">Torneos disponibles</text>
+<text x="40" y="200" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#5F738C" text-anchor="start">Elige un torneo para ver sus eventos y pronosticar.</text>
+<text x="40" y="228" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" font-weight="bold" letter-spacing="0.8" text-anchor="start">TORNEOS ACTIVOS</text>
+<rect x="40" y="244" width="330" height="98" rx="12" fill="#fff" stroke="#2563EB" stroke-width="2"/>
+<rect x="40" y="244" width="6" height="98" rx="3" fill="#2563EB" stroke="none" stroke-width="1"/>
+<text x="62" y="278" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="16" fill="#10284A" font-weight="bold" text-anchor="start">Copa UMB 2026</text>
+<text x="62" y="302" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#5F738C" text-anchor="start">Fútbol</text>
+<text x="62" y="324" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">01/11 – 30/11/2026</text>
+<rect x="40" y="356" width="330" height="98" rx="12" fill="#fff" stroke="#D9E3EE" stroke-width="1"/>
+<text x="62" y="390" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="16" fill="#10284A" font-weight="bold" text-anchor="start">Liga Interna Sistemas</text>
+<text x="62" y="414" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#5F738C" text-anchor="start">Baloncesto</text>
+<text x="62" y="436" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">15/11 – 20/12/2026</text>
+<rect x="40" y="468" width="330" height="98" rx="12" fill="#fff" stroke="#D9E3EE" stroke-width="1"/>
+<text x="62" y="502" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="16" fill="#10284A" font-weight="bold" text-anchor="start">Torneo de Ajedrez</text>
+<text x="62" y="526" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#5F738C" text-anchor="start">Ajedrez</text>
+<text x="62" y="548" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">05/11 – 26/11/2026</text>
+<rect x="40" y="590" width="330" height="150" rx="12" fill="#F8FAFC" stroke="#D9E3EE" stroke-width="1"/>
+<rect x="58" y="605" width="104.60000000000001" height="18" rx="4" fill="#FFF7E6" stroke="#F4B740" stroke-width="1"/>
+<text x="110.30000000000001" y="618" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="10" fill="#8A5A00" font-weight="bold" letter-spacing="0.8" text-anchor="middle">ESTADO ALTERNO</text>
+<text x="205" y="670" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#5F738C" font-weight="bold" text-anchor="middle">No hay torneos disponibles</text>
+<text x="205" y="692" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#5F738C" text-anchor="middle">por el momento.</text>
+<text x="400" y="228" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" font-weight="bold" letter-spacing="0.8" text-anchor="start">COPA UMB 2026 · EVENTOS</text>
+<rect x="840" y="196" width="65.7" height="32" rx="16" fill="#10284A" stroke="none" stroke-width="1"/>
+<text x="872.85" y="217" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#fff" font-weight="bold" text-anchor="middle">Todos</text>
+<rect x="913.7" y="196" width="83.9" height="32" rx="16" fill="#fff" stroke="#C9D6E5" stroke-width="1"/>
+<text x="955.6500000000001" y="217" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" font-weight="bold" text-anchor="middle">Abiertos</text>
+<rect x="1005.6" y="196" width="87.53999999999999" height="32" rx="16" fill="#fff" stroke="#C9D6E5" stroke-width="1"/>
+<text x="1049.3700000000001" y="217" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" font-weight="bold" text-anchor="middle">Cerrados</text>
+<rect x="1101.14" y="196" width="98.46000000000002" height="32" rx="16" fill="#fff" stroke="#C9D6E5" stroke-width="1"/>
+<text x="1150.3700000000001" y="217" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" font-weight="bold" text-anchor="middle">Finalizados</text>
+<rect x="400" y="244" width="840" height="334" rx="10" fill="#fff" stroke="#D9E3EE" stroke-width="1"/>
+<rect x="400" y="244" width="840" height="38" rx="10" fill="#EEF3F9" stroke="none" stroke-width="1"/>
+<rect x="400" y="272" width="840" height="10" rx="0" fill="#EEF3F9" stroke="none" stroke-width="1"/>
+<text x="414" y="268" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">ENCUENTRO</text>
+<text x="684" y="268" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">CIERRE</text>
+<text x="814" y="268" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">COSTO</text>
+<text x="894" y="268" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">PREMIO</text>
+<text x="984" y="268" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">ESTADO</text>
+<text x="1104" y="268" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start"></text>
+<text x="414" y="317.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" font-weight="bold" text-anchor="start">Ingeniería FC vs Derecho United</text>
+<text x="414" y="334.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" text-anchor="start">22/11 · 18:00</text>
+<text x="684" y="324.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">22/11 · 17:30</text>
+<text x="814" y="324.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">100</text>
+<text x="894" y="324.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">250</text>
+<rect x="984" y="305.0" width="64.88000000000001" height="22" rx="11" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="1016.44" y="321.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#166534" font-weight="bold" text-anchor="middle">Abierto</text>
+<rect x="1104" y="304.0" width="105.76000000000002" height="28" rx="8" fill="#2563EB" stroke="none" stroke-width="1.5"/>
+<text x="1156.88" y="322.32" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">Pronosticar</text>
+<rect x="401" y="356" width="838" height="74" rx="0" fill="#FAFCFE" stroke="none" stroke-width="1"/>
+<line x1="400" y1="356" x2="1240" y2="356" stroke="#D9E3EE" stroke-width="1"/>
+<text x="414" y="391.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" font-weight="bold" text-anchor="start">Derecho vs Medicina</text>
+<text x="414" y="408.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" text-anchor="start">21/11 · 16:00</text>
+<text x="684" y="398.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">21/11 · 15:30</text>
+<text x="814" y="398.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">100</text>
+<text x="894" y="398.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">250</text>
+<rect x="984" y="379.0" width="64.88000000000001" height="22" rx="11" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="1016.44" y="395.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#166534" font-weight="bold" text-anchor="middle">Abierto</text>
+<rect x="1104" y="378.0" width="105.76000000000002" height="28" rx="8" fill="#2563EB" stroke="none" stroke-width="1.5"/>
+<text x="1156.88" y="396.32" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">Pronosticar</text>
+<line x1="400" y1="430" x2="1240" y2="430" stroke="#D9E3EE" stroke-width="1"/>
+<text x="414" y="465.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" font-weight="bold" text-anchor="start">Sistemas vs Psicología</text>
+<text x="414" y="482.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" text-anchor="start">14/11 · 18:00</text>
+<text x="684" y="472.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">14/11 · 17:30</text>
+<text x="814" y="472.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">80</text>
+<text x="894" y="472.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">200</text>
+<rect x="984" y="453.0" width="68.24000000000001" height="22" rx="11" fill="#FEF3C7" stroke="none" stroke-width="1"/>
+<text x="1018.12" y="469.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#92400E" font-weight="bold" text-anchor="middle">Cerrado</text>
+<rect x="1104" y="452.0" width="105.76000000000002" height="28" rx="8" fill="#2563EB" stroke="none" stroke-width="1.5" opacity="0.45"/>
+<text x="1156.88" y="470.32" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#fff" font-weight="bold" opacity="0.45" text-anchor="middle">Pronosticar</text>
+<rect x="401" y="504" width="838" height="74" rx="0" fill="#FAFCFE" stroke="none" stroke-width="1"/>
+<line x1="400" y1="504" x2="1240" y2="504" stroke="#D9E3EE" stroke-width="1"/>
+<text x="414" y="539.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" font-weight="bold" text-anchor="start">Medicina vs Arquitectura</text>
+<text x="414" y="556.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" text-anchor="start">07/11 · 18:00</text>
+<text x="684" y="546.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">07/11 · 17:30</text>
+<text x="814" y="546.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">80</text>
+<text x="894" y="546.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">200</text>
+<rect x="984" y="527.0" width="78.32000000000002" height="22" rx="11" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<text x="1023.16" y="543.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#1E40AF" font-weight="bold" text-anchor="middle">Finalizado</text>
+<rect x="1104" y="526.0" width="115.84000000000003" height="28" rx="8" fill="#EEF3F9" stroke="none" stroke-width="1.5"/>
+<text x="1161.92" y="544.32" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#10284A" font-weight="bold" text-anchor="middle">Ver resultado</text>
+<text x="400" y="600" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12.5" fill="#5F738C" font-style="italic" text-anchor="start">Los créditos son virtuales: no tienen valor monetario ni pueden retirarse.</text>
+<g id="pasos">
+<circle cx="197" cy="224" r="15" fill="#000" opacity=".18"/>
+<circle cx="196" cy="222" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="196" y="227.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">1</text>
+<circle cx="353" cy="612" r="15" fill="#000" opacity=".18"/>
+<circle cx="352" cy="610" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="352" y="615.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">5</text>
+<circle cx="1253" cy="214" r="15" fill="#000" opacity=".18"/>
+<circle cx="1252" cy="212" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="1252" y="217.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">4</text>
+<circle cx="401" cy="246" r="15" fill="#000" opacity=".18"/>
+<circle cx="400" cy="244" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="400" y="249.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">2</text>
+<circle cx="1253" cy="469" r="15" fill="#000" opacity=".18"/>
+<circle cx="1252" cy="467" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="1252" y="472.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">3</text>
+</g>
+</svg>

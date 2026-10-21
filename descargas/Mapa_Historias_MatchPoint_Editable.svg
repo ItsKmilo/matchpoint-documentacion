@@ -1,0 +1,421 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="5690" height="2960" viewBox="0 0 5690 2960" version="1.1">
+<rect x="0" y="0" width="5690" height="2960" rx="0" fill="#F6F9FD" stroke="none" stroke-width="1"/>
+<g id="01_Cabecera">
+<rect x="0" y="0" width="5690" height="253" rx="0" fill="#10284A" stroke="none" stroke-width="1"/>
+<rect x="0" y="249" width="5690" height="4" rx="0" fill="#5AAAF5" stroke="none" stroke-width="1"/>
+<rect x="110" y="63" width="64" height="62" rx="13" fill="#F4B740" stroke="none" stroke-width="1"/>
+<path d="M 127 79 h 30 v 18 q -2 13 -15 13 q -13 0 -15 -13 z" fill="#10284A"/>
+<path d="M 127 84 h -12 q -1 14 13 15 M 157 84 h 12 q 1 14 -13 15" stroke="#10284A" fill="none" stroke-width="5"/>
+<text x="194" y="112" font-family="Arial, Liberation Sans, sans-serif" font-size="71" fill="#FFFFFF" font-weight="bold" text-anchor="start">MATCH</text>
+<text x="440" y="112" font-family="Arial, Liberation Sans, sans-serif" font-size="71" fill="#63B3FA" font-weight="bold" text-anchor="start">POINT</text>
+<text x="194" y="164" font-family="Arial, Liberation Sans, sans-serif" font-size="34" fill="#DCE9FF" font-weight="normal" text-anchor="start">Mapa de historias de usuario · User Story Map</text>
+<text x="5544" y="93" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#BFD7F5" font-weight="bold" text-anchor="end" letter-spacing="2">NEXO DIGITAL LABS</text>
+<text x="5544" y="146" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#C4D9F3" font-weight="normal" text-anchor="end">20 HISTORIAS  |  6 ÉPICAS  |  2 SPRINTS  |  EQUIPO DE 4 INTEGRANTES</text>
+</g>
+<g id="02_Personas_y_Contexto">
+<text x="144" y="299" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#536783" font-weight="bold" text-anchor="start" letter-spacing="2">¿QUIÉNES USAN MATCHPOINT?</text>
+<rect x="144.0" y="330" width="1783.3333333333333" height="151" rx="14" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<circle cx="194.0" cy="381" r="23" fill="#1D4ED8"/>
+<rect x="179.0" y="405" width="31" height="18" rx="9" fill="#1D4ED8" stroke="none" stroke-width="1"/>
+<text x="244.0" y="387" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#10284A" font-weight="bold" text-anchor="start">PARTICIPANTE</text>
+<text x="244.0" y="435" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#163153" font-weight="normal" text-anchor="start">Consulta eventos, pronostica y verifica sus créditos.</text>
+<rect x="1953.3333333333333" y="330" width="1783.3333333333333" height="151" rx="14" fill="#F0E5FF" stroke="none" stroke-width="1"/>
+<circle cx="2003.3333333333333" cy="381" r="23" fill="#7C3AED"/>
+<rect x="1988.3333333333333" y="405" width="31" height="18" rx="9" fill="#7C3AED" stroke="none" stroke-width="1"/>
+<text x="2053.333333333333" y="387" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#10284A" font-weight="bold" text-anchor="start">ADMINISTRADOR</text>
+<text x="2053.333333333333" y="435" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#163153" font-weight="normal" text-anchor="start">Gestiona participantes, torneos, eventos y resultados.</text>
+<rect x="3762.6666666666665" y="330" width="1783.3333333333333" height="151" rx="14" fill="#D5F5E6" stroke="none" stroke-width="1"/>
+<circle cx="3812.6666666666665" cy="381" r="23" fill="#047857"/>
+<rect x="3797.6666666666665" y="405" width="31" height="18" rx="9" fill="#047857" stroke="none" stroke-width="1"/>
+<text x="3862.6666666666665" y="387" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#10284A" font-weight="bold" text-anchor="start">RESPONSABLE DE CONTROL</text>
+<text x="3862.6666666666665" y="435" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#163153" font-weight="normal" text-anchor="start">Ajusta créditos, audita transacciones y concilia saldos.</text>
+</g>
+<g id="03_Etapas_Epicas_y_Actividades">
+<rect x="144" y="532" width="1786" height="103" rx="15" fill="#2563EB" stroke="none" stroke-width="1"/>
+<rect x="156" y="543" width="72" height="77" rx="10" fill="#FFFFFF" stroke="none" stroke-width="1" opacity=".18"/>
+<text x="191" y="592" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#FFFFFF" font-weight="bold" text-anchor="middle">01</text>
+<text x="252" y="579" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="1">PREPARAR</text>
+<text x="252" y="613" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#EEF6FF" font-weight="normal" text-anchor="start">Administración de competencias</text>
+<rect x="1952" y="532" width="882" height="103" rx="15" fill="#7C3AED" stroke="none" stroke-width="1"/>
+<rect x="1964" y="543" width="72" height="77" rx="10" fill="#FFFFFF" stroke="none" stroke-width="1" opacity=".18"/>
+<text x="1999" y="592" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#FFFFFF" font-weight="bold" text-anchor="middle">02</text>
+<text x="2060" y="579" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="1">PARTICIPAR</text>
+<text x="2060" y="613" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#EEF6FF" font-weight="normal" text-anchor="start">Pronósticos</text>
+<rect x="2856" y="532" width="882" height="103" rx="15" fill="#0891B2" stroke="none" stroke-width="1"/>
+<rect x="2868" y="543" width="72" height="77" rx="10" fill="#FFFFFF" stroke="none" stroke-width="1" opacity=".18"/>
+<text x="2903" y="592" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#FFFFFF" font-weight="bold" text-anchor="middle">03</text>
+<text x="2964" y="579" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="1">CRÉDITOS</text>
+<text x="2964" y="613" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#EEF6FF" font-weight="normal" text-anchor="start">Créditos virtuales</text>
+<rect x="3760" y="532" width="1786" height="103" rx="15" fill="#047857" stroke="none" stroke-width="1"/>
+<rect x="3772" y="543" width="72" height="77" rx="10" fill="#FFFFFF" stroke="none" stroke-width="1" opacity=".18"/>
+<text x="3807" y="592" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#FFFFFF" font-weight="bold" text-anchor="middle">04</text>
+<text x="3868" y="579" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#FFFFFF" font-weight="bold" text-anchor="start" letter-spacing="1">RESOLVER Y CONTROLAR</text>
+<text x="3868" y="613" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#EEF6FF" font-weight="normal" text-anchor="start">Resultados y control</text>
+<g id="Epica_01">
+<rect x="144" y="661" width="882" height="140" rx="15" fill="#BDF0D5" stroke="#6FCB9B" stroke-width="2"/>
+<text x="164" y="703" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#197651" font-weight="bold" text-anchor="start" letter-spacing="2">ÉPICA 01</text>
+<text x="164" y="752" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#10284A" font-weight="bold" text-anchor="start">Acceso y usuarios</text>
+<text x="1006" y="703" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#197651" font-weight="bold" text-anchor="end" letter-spacing="1">2 HU</text>
+</g>
+<g id="Epica_02">
+<rect x="1048" y="661" width="882" height="140" rx="15" fill="#BDF0D5" stroke="#6FCB9B" stroke-width="2"/>
+<text x="1068" y="703" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#197651" font-weight="bold" text-anchor="start" letter-spacing="2">ÉPICA 02</text>
+<text x="1068" y="752" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#10284A" font-weight="bold" text-anchor="start">Torneos y eventos</text>
+<text x="1910" y="703" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#197651" font-weight="bold" text-anchor="end" letter-spacing="1">4 HU</text>
+</g>
+<g id="Epica_03">
+<rect x="1952" y="661" width="882" height="140" rx="15" fill="#BDF0D5" stroke="#6FCB9B" stroke-width="2"/>
+<text x="1972" y="703" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#197651" font-weight="bold" text-anchor="start" letter-spacing="2">ÉPICA 03</text>
+<text x="1972" y="752" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#10284A" font-weight="bold" text-anchor="start">Pronósticos</text>
+<text x="2814" y="703" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#197651" font-weight="bold" text-anchor="end" letter-spacing="1">4 HU</text>
+</g>
+<g id="Epica_04">
+<rect x="2856" y="661" width="882" height="140" rx="15" fill="#BDF0D5" stroke="#6FCB9B" stroke-width="2"/>
+<text x="2876" y="703" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#197651" font-weight="bold" text-anchor="start" letter-spacing="2">ÉPICA 04</text>
+<text x="2876" y="752" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#10284A" font-weight="bold" text-anchor="start">Créditos virtuales</text>
+<text x="3718" y="703" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#197651" font-weight="bold" text-anchor="end" letter-spacing="1">3 HU</text>
+</g>
+<g id="Epica_05">
+<rect x="3760" y="661" width="882" height="140" rx="15" fill="#BDF0D5" stroke="#6FCB9B" stroke-width="2"/>
+<text x="3780" y="703" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#197651" font-weight="bold" text-anchor="start" letter-spacing="2">ÉPICA 05</text>
+<text x="3780" y="752" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#10284A" font-weight="bold" text-anchor="start">Resultados y liquidación</text>
+<text x="4622" y="703" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#197651" font-weight="bold" text-anchor="end" letter-spacing="1">4 HU</text>
+</g>
+<g id="Epica_06">
+<rect x="4664" y="661" width="882" height="140" rx="15" fill="#BDF0D5" stroke="#6FCB9B" stroke-width="2"/>
+<text x="4684" y="703" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#197651" font-weight="bold" text-anchor="start" letter-spacing="2">ÉPICA 06</text>
+<text x="4684" y="752" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#10284A" font-weight="bold" text-anchor="start">Auditoría y reportes</text>
+<text x="5526" y="703" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#197651" font-weight="bold" text-anchor="end" letter-spacing="1">3 HU</text>
+</g>
+<rect x="144" y="816" width="430" height="150" rx="14" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="162" y="852" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6750B2" font-weight="bold" text-anchor="start" letter-spacing="1">ACTIVIDAD</text>
+<rect x="160" y="872" width="398" height="70" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="174" y="915" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#3F3470" font-weight="bold" text-anchor="start">Ingresar a la plataforma</text>
+<rect x="596" y="816" width="430" height="150" rx="14" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="614" y="852" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6750B2" font-weight="bold" text-anchor="start" letter-spacing="1">ACTIVIDAD</text>
+<rect x="612" y="872" width="398" height="70" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="626" y="915" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#3F3470" font-weight="bold" text-anchor="start">Gestionar participantes</text>
+<rect x="1048" y="816" width="430" height="150" rx="14" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="1066" y="852" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6750B2" font-weight="bold" text-anchor="start" letter-spacing="1">ACTIVIDAD</text>
+<rect x="1064" y="872" width="398" height="70" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="1078" y="915" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#3F3470" font-weight="bold" text-anchor="start">Gestionar torneos</text>
+<rect x="1500" y="816" width="430" height="150" rx="14" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="1518" y="852" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6750B2" font-weight="bold" text-anchor="start" letter-spacing="1">ACTIVIDAD</text>
+<rect x="1516" y="872" width="398" height="70" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="1530" y="915" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#3F3470" font-weight="bold" text-anchor="start">Programar eventos</text>
+<rect x="1952" y="816" width="430" height="150" rx="14" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="1970" y="852" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6750B2" font-weight="bold" text-anchor="start" letter-spacing="1">ACTIVIDAD</text>
+<rect x="1968" y="872" width="398" height="70" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="1982" y="915" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#3F3470" font-weight="bold" text-anchor="start">Explorar eventos</text>
+<rect x="2404" y="816" width="430" height="150" rx="14" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="2422" y="852" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6750B2" font-weight="bold" text-anchor="start" letter-spacing="1">ACTIVIDAD</text>
+<rect x="2420" y="872" width="398" height="70" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="2434" y="915" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#3F3470" font-weight="bold" text-anchor="start">Pronosticar y seguir</text>
+<rect x="2856" y="816" width="430" height="150" rx="14" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="2874" y="852" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6750B2" font-weight="bold" text-anchor="start" letter-spacing="1">ACTIVIDAD</text>
+<rect x="2872" y="872" width="398" height="70" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="2886" y="915" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#3F3470" font-weight="bold" text-anchor="start">Asignar créditos</text>
+<rect x="3308" y="816" width="430" height="150" rx="14" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="3326" y="852" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6750B2" font-weight="bold" text-anchor="start" letter-spacing="1">ACTIVIDAD</text>
+<rect x="3324" y="872" width="398" height="70" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="3338" y="915" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#3F3470" font-weight="bold" text-anchor="start">Consultar y ajustar saldo</text>
+<rect x="3760" y="816" width="430" height="150" rx="14" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="3778" y="852" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6750B2" font-weight="bold" text-anchor="start" letter-spacing="1">ACTIVIDAD</text>
+<rect x="3776" y="872" width="398" height="70" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="3790" y="915" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#3F3470" font-weight="bold" text-anchor="start">Cerrar y publicar</text>
+<rect x="4212" y="816" width="430" height="150" rx="14" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="4230" y="852" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6750B2" font-weight="bold" text-anchor="start" letter-spacing="1">ACTIVIDAD</text>
+<rect x="4228" y="872" width="398" height="70" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="4242" y="915" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#3F3470" font-weight="bold" text-anchor="start">Liquidar y corregir</text>
+<rect x="4664" y="816" width="430" height="150" rx="14" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="4682" y="852" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6750B2" font-weight="bold" text-anchor="start" letter-spacing="1">ACTIVIDAD</text>
+<rect x="4680" y="872" width="398" height="70" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="4694" y="915" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#3F3470" font-weight="bold" text-anchor="start">Auditar movimientos</text>
+<rect x="5116" y="816" width="430" height="150" rx="14" fill="#F1ECFF" stroke="#CFC1FC" stroke-width="2"/>
+<text x="5134" y="852" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#6750B2" font-weight="bold" text-anchor="start" letter-spacing="1">ACTIVIDAD</text>
+<rect x="5132" y="872" width="398" height="70" rx="8" fill="#DACDFF" stroke="#C6B8F2" stroke-width="1"/>
+<text x="5146" y="915" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#3F3470" font-weight="bold" text-anchor="start">Consolidar información</text>
+</g>
+<g id="04_Sprints_y_Prioridad">
+<rect x="144" y="1010" width="5402" height="75" rx="12" fill="#E3F7E8" stroke="none" stroke-width="1"/>
+<rect x="157" y="1020" width="75" height="55" rx="9" fill="#10284A" stroke="none" stroke-width="1"/>
+<text x="195" y="1058" font-family="Arial, Liberation Sans, sans-serif" font-size="27" fill="#FFFFFF" font-weight="bold" text-anchor="middle">S1</text>
+<text x="254" y="1057" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#10284A" font-weight="bold" text-anchor="start">SPRINT 1 · ENTREGA 1 · CONFIGURAR Y PARTICIPAR</text>
+<text x="5523" y="1056" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#536783" font-weight="normal" text-anchor="end">10 historias · 39 SP · Recorrido funcional: ingreso, torneos, eventos, pronóstico y créditos</text>
+<rect x="144" y="1902" width="5402" height="75" rx="12" fill="#FFF1D8" stroke="none" stroke-width="1"/>
+<rect x="157" y="1912" width="75" height="55" rx="9" fill="#10284A" stroke="none" stroke-width="1"/>
+<text x="195" y="1950" font-family="Arial, Liberation Sans, sans-serif" font-size="27" fill="#FFFFFF" font-weight="bold" text-anchor="middle">S2</text>
+<text x="254" y="1949" font-family="Arial, Liberation Sans, sans-serif" font-size="32" fill="#10284A" font-weight="bold" text-anchor="start">SPRINT 2 · ENTREGA 2 · RESOLVER Y CONTROLAR</text>
+<text x="5523" y="1948" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#536783" font-weight="normal" text-anchor="end">10 historias · 43 SP · Cierre, resultados, liquidación sin duplicados y auditoría</text>
+</g>
+<g id="05_Historias">
+<g id="HU001" data-story-id="HU001" data-sprint="1">
+<rect x="144" y="1110" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="158" y="1123" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="167" y="1148" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU001</text>
+<text x="553" y="1150" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Must</text>
+<text x="164" y="1192" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Iniciar sesión</text>
+<text x="164" y="1231" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero iniciar sesión con mi usuario y</text>
+<text x="164" y="1256" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">contraseña para acceder únicamente a las</text>
+<text x="164" y="1281" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">funciones autorizadas para mi rol.</text>
+<text x="164" y="1326" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">5 SP · Maicol R.</text>
+<text x="554" y="1326" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU001</text>
+</g>
+<g id="HU002" data-story-id="HU002" data-sprint="1">
+<rect x="596" y="1110" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="610" y="1123" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="619" y="1148" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU002</text>
+<text x="1005" y="1150" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Must</text>
+<text x="616" y="1192" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Registrar participante</text>
+<text x="616" y="1231" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero registrar participantes para que</text>
+<text x="616" y="1256" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">puedan ingresar a MatchPoint y participar</text>
+<text x="616" y="1281" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">en los torneos.</text>
+<text x="616" y="1326" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Diego R.</text>
+<text x="1006" y="1326" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU002</text>
+</g>
+<g id="HU003" data-story-id="HU003" data-sprint="1">
+<rect x="1048" y="1110" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1062" y="1123" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1071" y="1148" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU003</text>
+<text x="1457" y="1150" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Must</text>
+<text x="1068" y="1192" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Crear torneo</text>
+<text x="1068" y="1231" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero crear un torneo deportivo para</text>
+<text x="1068" y="1256" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">organizar sus eventos y habilitar la</text>
+<text x="1068" y="1281" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">participación.</text>
+<text x="1068" y="1326" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Diego R.</text>
+<text x="1458" y="1326" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU003</text>
+</g>
+<g id="HU004" data-story-id="HU004" data-sprint="1">
+<rect x="1048" y="1364" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1062" y="1377" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1071" y="1402" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU004</text>
+<text x="1457" y="1404" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Should</text>
+<text x="1068" y="1446" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Editar torneo</text>
+<text x="1068" y="1485" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero editar los datos de un torneo para</text>
+<text x="1068" y="1510" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">corregir o actualizar su información sin</text>
+<text x="1068" y="1535" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">afectar los pronósticos registrados.</text>
+<text x="1068" y="1580" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Diego R.</text>
+<text x="1458" y="1580" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU004</text>
+</g>
+<g id="HU005" data-story-id="HU005" data-sprint="1">
+<rect x="1048" y="1618" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1062" y="1631" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1071" y="1656" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU005</text>
+<text x="1457" y="1658" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Should</text>
+<text x="1068" y="1700" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Eliminar torneo</text>
+<text x="1068" y="1739" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero eliminar un torneo para retirarlo de</text>
+<text x="1068" y="1764" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">la plataforma en caso de que ya no se</text>
+<text x="1068" y="1789" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">necesite, siempre y cuando no tenga…</text>
+<text x="1068" y="1834" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Camilo B.</text>
+<text x="1458" y="1834" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU005</text>
+</g>
+<g id="HU006" data-story-id="HU006" data-sprint="1">
+<rect x="1500" y="1110" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1514" y="1123" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1523" y="1148" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU006</text>
+<text x="1909" y="1150" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Must</text>
+<text x="1520" y="1192" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Programar evento</text>
+<text x="1520" y="1231" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero programar un evento dentro de un</text>
+<text x="1520" y="1256" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">torneo para definir los contendientes, la</text>
+<text x="1520" y="1281" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">fecha límite para pronosticar, el costo y el…</text>
+<text x="1520" y="1326" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">5 SP · Maicol R.</text>
+<text x="1910" y="1326" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU006</text>
+</g>
+<g id="HU007" data-story-id="HU007" data-sprint="1">
+<rect x="1952" y="1110" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="1966" y="1123" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="1975" y="1148" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU007</text>
+<text x="2361" y="1150" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Must</text>
+<text x="1972" y="1192" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Consultar torneos y eventos</text>
+<text x="1972" y="1231" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero consultar los torneos activos y sus</text>
+<text x="1972" y="1256" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">eventos para conocer en qué puedo</text>
+<text x="1972" y="1281" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">pronosticar, hasta cuándo y con qué costo.</text>
+<text x="1972" y="1326" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Diego R.</text>
+<text x="2362" y="1326" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU007</text>
+</g>
+<g id="HU008" data-story-id="HU008" data-sprint="1">
+<rect x="2404" y="1110" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="2418" y="1123" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="2427" y="1148" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU008</text>
+<text x="2813" y="1150" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Must</text>
+<text x="2424" y="1192" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Registrar pronóstico</text>
+<text x="2424" y="1231" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero registrar un pronóstico en un evento</text>
+<text x="2424" y="1256" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">abierto para participar usando mis créditos</text>
+<text x="2424" y="1281" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">virtuales.</text>
+<text x="2424" y="1326" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">8 SP · Maicol R.</text>
+<text x="2814" y="1326" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU008</text>
+</g>
+<g id="HU009" data-story-id="HU009" data-sprint="1">
+<rect x="2856" y="1110" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="2870" y="1123" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="2879" y="1148" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU009</text>
+<text x="3265" y="1150" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Must</text>
+<text x="2876" y="1192" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Asignar créditos iniciales</text>
+<text x="2876" y="1231" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero que cada participante reciba</text>
+<text x="2876" y="1256" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">automáticamente su saldo inicial de</text>
+<text x="2876" y="1281" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">créditos virtuales para que pueda participar…</text>
+<text x="2876" y="1326" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Camilo B.</text>
+<text x="3266" y="1326" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU009</text>
+</g>
+<g id="HU010" data-story-id="HU010" data-sprint="1">
+<rect x="3308" y="1110" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="3322" y="1123" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="3331" y="1148" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU010</text>
+<text x="3717" y="1150" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S1 · Must</text>
+<text x="3328" y="1192" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Consultar saldo y movimientos</text>
+<text x="3328" y="1231" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero consultar mi saldo y mis</text>
+<text x="3328" y="1256" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">movimientos de créditos para verificar</text>
+<text x="3328" y="1281" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">cada descuento y cada premio.</text>
+<text x="3328" y="1326" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Diego R.</text>
+<text x="3718" y="1326" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU010</text>
+</g>
+<g id="HU011" data-story-id="HU011" data-sprint="2">
+<rect x="2404" y="2002" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="2418" y="2015" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="2427" y="2040" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU011</text>
+<text x="2813" y="2042" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Must</text>
+<text x="2424" y="2084" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Consultar mis pronósticos</text>
+<text x="2424" y="2123" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero consultar mis pronósticos y su</text>
+<text x="2424" y="2148" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">estado para saber cuáles están pendientes,</text>
+<text x="2424" y="2173" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">cuáles acerté y qué premio recibí.</text>
+<text x="2424" y="2218" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Diego R.</text>
+<text x="2814" y="2218" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU011</text>
+</g>
+<g id="HU012" data-story-id="HU012" data-sprint="2">
+<rect x="2404" y="2256" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="2418" y="2269" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="2427" y="2294" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU012</text>
+<text x="2813" y="2296" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Should</text>
+<text x="2424" y="2338" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Anular pronóstico</text>
+<text x="2424" y="2377" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero anular un pronóstico antes de la</text>
+<text x="2424" y="2402" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">fecha límite para recuperar mis créditos si</text>
+<text x="2424" y="2427" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">cambio de decisión, siempre y cuando el…</text>
+<text x="2424" y="2472" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">5 SP · Maicol R.</text>
+<text x="2814" y="2472" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU012</text>
+</g>
+<g id="HU017" data-story-id="HU017" data-sprint="2">
+<rect x="3308" y="2002" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="3322" y="2015" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="3331" y="2040" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU017</text>
+<text x="3717" y="2042" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Should</text>
+<text x="3328" y="2084" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Ajustar créditos autorizados</text>
+<text x="3328" y="2123" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero registrar ajustes de créditos</text>
+<text x="3328" y="2148" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">justificados para corregir saldos de forma</text>
+<text x="3328" y="2173" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">trazable.</text>
+<text x="3328" y="2218" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">5 SP · Camilo B.</text>
+<text x="3718" y="2218" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU017</text>
+</g>
+<g id="HU013" data-story-id="HU013" data-sprint="2">
+<rect x="3760" y="2002" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="3774" y="2015" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="3783" y="2040" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU013</text>
+<text x="4169" y="2042" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Must</text>
+<text x="3780" y="2084" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Cerrar recepción de</text>
+<text x="3780" y="2115" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">pronósticos</text>
+<text x="3780" y="2154" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero que la recepción de pronósticos se</text>
+<text x="3780" y="2179" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">cierre en la fecha límite para que nadie…</text>
+<text x="3780" y="2218" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Maicol R.</text>
+<text x="4170" y="2218" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU013</text>
+</g>
+<g id="HU014" data-story-id="HU014" data-sprint="2">
+<rect x="3760" y="2256" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="3774" y="2269" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="3783" y="2294" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU014</text>
+<text x="4169" y="2296" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Must</text>
+<text x="3780" y="2338" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Publicar resultado oficial</text>
+<text x="3780" y="2377" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero publicar el resultado oficial de un</text>
+<text x="3780" y="2402" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">evento cerrado para que los pronósticos</text>
+<text x="3780" y="2427" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">puedan liquidarse.</text>
+<text x="3780" y="2472" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Maicol R.</text>
+<text x="4170" y="2472" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU014</text>
+</g>
+<g id="HU015" data-story-id="HU015" data-sprint="2">
+<rect x="4212" y="2002" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="4226" y="2015" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="4235" y="2040" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU015</text>
+<text x="4621" y="2042" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Must</text>
+<text x="4232" y="2084" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Liquidar evento y acreditar</text>
+<text x="4232" y="2115" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">premios</text>
+<text x="4232" y="2154" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero liquidar un evento finalizado para</text>
+<text x="4232" y="2179" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">acreditar los premios de los pronósticos…</text>
+<text x="4232" y="2218" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">8 SP · Maicol R.</text>
+<text x="4622" y="2218" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU015</text>
+</g>
+<g id="HU016" data-story-id="HU016" data-sprint="2">
+<rect x="4212" y="2256" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="4226" y="2269" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="4235" y="2294" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU016</text>
+<text x="4621" y="2296" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Should</text>
+<text x="4232" y="2338" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Corregir resultado publicado</text>
+<text x="4232" y="2377" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero corregir un resultado publicado por</text>
+<text x="4232" y="2402" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">error para recalcular los premios sin</text>
+<text x="4232" y="2427" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">borrar el historial de lo ocurrido.</text>
+<text x="4232" y="2472" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">5 SP · Camilo B.</text>
+<text x="4622" y="2472" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU016</text>
+</g>
+<g id="HU018" data-story-id="HU018" data-sprint="2">
+<rect x="4664" y="2002" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="4678" y="2015" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="4687" y="2040" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU018</text>
+<text x="5073" y="2042" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Must</text>
+<text x="4684" y="2084" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Consultar transacciones</text>
+<text x="4684" y="2123" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero consultar todas las transacciones de</text>
+<text x="4684" y="2148" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">créditos para verificar su origen y detectar</text>
+<text x="4684" y="2173" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">errores.</text>
+<text x="4684" y="2218" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">5 SP · Camilo B.</text>
+<text x="5074" y="2218" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU018</text>
+</g>
+<g id="HU019" data-story-id="HU019" data-sprint="2">
+<rect x="4664" y="2256" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="4678" y="2269" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="4687" y="2294" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU019</text>
+<text x="5073" y="2296" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Could</text>
+<text x="4684" y="2338" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Conciliar saldos</text>
+<text x="4684" y="2377" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero comparar cada saldo con la suma de</text>
+<text x="4684" y="2402" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">sus movimientos para detectar</text>
+<text x="4684" y="2427" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">inconsistencias.</text>
+<text x="4684" y="2472" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Camilo B.</text>
+<text x="5074" y="2472" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU019</text>
+</g>
+<g id="HU020" data-story-id="HU020" data-sprint="2">
+<rect x="5116" y="2002" width="430" height="236" rx="13" fill="#FFF1AD" stroke="#E6CA68" stroke-width="2"/>
+<rect x="5130" y="2015" width="104" height="35" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="5139" y="2040" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#7C6B39" font-weight="bold" text-anchor="start">HU020</text>
+<text x="5525" y="2042" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#8D7332" font-weight="bold" text-anchor="end">S2 · Could</text>
+<text x="5136" y="2084" font-family="Arial, Liberation Sans, sans-serif" font-size="25" fill="#10284A" font-weight="bold" text-anchor="start">Generar reporte del torneo</text>
+<text x="5136" y="2123" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">Quiero generar un reporte del torneo para</text>
+<text x="5136" y="2148" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">conocer la participación, los aciertos y los</text>
+<text x="5136" y="2173" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#4E4D43" font-weight="normal" text-anchor="start">créditos utilizados y entregados.</text>
+<text x="5136" y="2218" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#8D7332" font-weight="bold" text-anchor="start">3 SP · Diego R.</text>
+<text x="5526" y="2218" font-family="Arial, Liberation Sans, sans-serif" font-size="16" fill="#A08A4A" font-weight="normal" text-anchor="end">Mockup HU020</text>
+</g>
+</g>
+<g id="06_Leyenda_Resumen_y_Equipo">
+<rect x="144" y="2560" width="5402" height="330" rx="16" fill="#FFFFFF" stroke="#DDE6F0" stroke-width="2"/>
+<text x="174" y="2615" font-family="Arial, Liberation Sans, sans-serif" font-size="27" fill="#10284A" font-weight="bold" text-anchor="start">LEYENDA DEL MAPA</text>
+<rect x="174" y="2647" width="65" height="42" rx="7" fill="#BDF0D5" stroke="none" stroke-width="1"/>
+<text x="260" y="2676" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#163153" font-weight="normal" text-anchor="start">Épica / capacidad</text>
+<rect x="694" y="2647" width="65" height="42" rx="7" fill="#DACDFF" stroke="none" stroke-width="1"/>
+<text x="780" y="2676" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#163153" font-weight="normal" text-anchor="start">Actividad</text>
+<rect x="1214" y="2647" width="65" height="42" rx="7" fill="#FFF1AD" stroke="none" stroke-width="1"/>
+<text x="1300" y="2676" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#163153" font-weight="normal" text-anchor="start">Historia de usuario (con mockup y paso a paso)</text>
+<text x="174" y="2748" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#10284A" font-weight="bold" text-anchor="start">20 HISTORIAS · 6 ÉPICAS · 2 SPRINTS · 82 SP</text>
+<text x="174" y="2794" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#536783" font-weight="normal" text-anchor="start">Sprint 1: 10 historias (39 SP)  •  Sprint 2: 10 historias (43 SP)  •  Must 13 · Should 5 · Could 2</text>
+<text x="174" y="2844" font-family="Arial, Liberation Sans, sans-serif" font-size="23" fill="#8A651C" font-weight="normal" text-anchor="start">Desde el Sprint 1: permisos por rol, plazo de cierre, saldo no negativo, descuentos sin duplicados y trazabilidad.</text>
+<line x1="2920.0" y1="2601" x2="2920.0" y2="2860" stroke="#DCE6F1" stroke-width="2"/>
+<text x="2965.0" y="2615" font-family="Arial, Liberation Sans, sans-serif" font-size="27" fill="#10284A" font-weight="bold" text-anchor="start">EQUIPO DEL PROYECTO</text>
+<circle cx="2980.0" cy="2670" r="12" fill="#4F9DFE"/>
+<text x="3008.0" y="2676" font-family="Arial, Liberation Sans, sans-serif" font-size="23" fill="#163153" font-weight="bold" text-anchor="start">Santiago Solano</text>
+<text x="3008.0" y="2710" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#536783" font-weight="normal" text-anchor="start">Scrum Master</text>
+<circle cx="3880.0" cy="2670" r="12" fill="#10B981"/>
+<text x="3908.0" y="2676" font-family="Arial, Liberation Sans, sans-serif" font-size="23" fill="#163153" font-weight="bold" text-anchor="start">Maicol Rubiano</text>
+<text x="3908.0" y="2710" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#536783" font-weight="normal" text-anchor="start">Backend Developer</text>
+<circle cx="2980.0" cy="2774" r="12" fill="#D7A113"/>
+<text x="3008.0" y="2780" font-family="Arial, Liberation Sans, sans-serif" font-size="23" fill="#163153" font-weight="bold" text-anchor="start">Diego Romero</text>
+<text x="3008.0" y="2814" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#536783" font-weight="normal" text-anchor="start">Frontend Developer</text>
+<circle cx="3880.0" cy="2774" r="12" fill="#A86CDA"/>
+<text x="3908.0" y="2780" font-family="Arial, Liberation Sans, sans-serif" font-size="23" fill="#163153" font-weight="bold" text-anchor="start">Camilo Bastias</text>
+<text x="3908.0" y="2814" font-family="Arial, Liberation Sans, sans-serif" font-size="19" fill="#536783" font-weight="normal" text-anchor="start">Database Administrator (DBA)</text>
+</g>
+<text x="5546" y="2930" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#536783" font-weight="normal" text-anchor="end">Diseño vectorial editable: objetos, tarjetas y texto en SVG · Abrir SVG (no PNG) en Adobe Illustrator</text>
+</svg>

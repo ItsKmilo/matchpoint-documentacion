@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" version="1.1">
+<title>HU004 · mockup</title><desc>HU004 Editar torneo: Formulario de edición con datos cargados, aviso de eventos asociados e historial de cambios.</desc>
+<rect x="0" y="0" width="1280" height="800" rx="14" fill="#F6F9FD" stroke="#C3D0DF" stroke-width="1"/>
+<rect x="0" y="0" width="1280" height="44" rx="14" fill="#E3EAF2" stroke="none" stroke-width="1"/>
+<rect x="0" y="30" width="1280" height="14" rx="0" fill="#E3EAF2" stroke="none" stroke-width="1"/>
+<circle cx="24" cy="22" r="6" fill="#F87171" stroke="none" stroke-width="1"/>
+<circle cx="44" cy="22" r="6" fill="#FBBF24" stroke="none" stroke-width="1"/>
+<circle cx="64" cy="22" r="6" fill="#34D399" stroke="none" stroke-width="1"/>
+<rect x="120" y="10" width="620" height="24" rx="12" fill="#fff" stroke="none" stroke-width="1"/>
+<text x="140" y="27" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" text-anchor="start">🔒</text>
+<text x="160" y="27" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" text-anchor="start">matchpoint.app/admin/torneos/copa-umb-2026/editar</text>
+<rect x="0" y="44" width="1280" height="64" rx="0" fill="#10284A" stroke="none" stroke-width="1"/>
+<rect x="32" y="58" width="36" height="36" rx="9" fill="#F4B740" stroke="none" stroke-width="1"/>
+<path d="M 41 66 h 18 v 10 q -1 8 -9 8 q -8 0 -9 -8 z" fill="#10284A"/>
+<path d="M 46 85 v 4 m -4 0 h 8" stroke="#10284A" stroke-width="2.4" fill="none"/>
+<text x="80" y="84" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="21" fill="#fff" font-weight="bold" text-anchor="start">MATCH</text>
+<text x="155.29000000000002" y="84" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="21" fill="#63B3FA" font-weight="bold" text-anchor="start">POINT</text>
+<text x="260" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#fff" font-weight="bold" text-anchor="start">Torneos</text>
+<rect x="260" y="100" width="58.290000000000006" height="4" rx="2" fill="#F4B740" stroke="none" stroke-width="1"/>
+<text x="354.29" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#B9CDE6" text-anchor="start">Participantes</text>
+<text x="483.38" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#B9CDE6" text-anchor="start">Resultados</text>
+<text x="593.3299999999999" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#B9CDE6" text-anchor="start">Control</text>
+<circle cx="1070" cy="76" r="17" fill="#2D4A73" stroke="none" stroke-width="1"/>
+<text x="1070" y="81" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#fff" font-weight="bold" text-anchor="middle">AT</text>
+<text x="1096" y="72" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13.5" fill="#fff" font-weight="bold" text-anchor="start">Ana Torres</text>
+<rect x="1096" y="80" width="114.47000000000001" height="18" rx="9" fill="#2D4A73" stroke="none" stroke-width="1"/>
+<text x="1153.235" y="93" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#CFE2FF" font-weight="bold" text-anchor="middle">ADMINISTRADOR</text>
+<text x="40" y="140" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#6B7F97" text-anchor="start">Torneos  /  Copa UMB 2026  /  Editar</text>
+<text x="40" y="174" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="27" fill="#10284A" font-weight="bold" text-anchor="start">Editar torneo</text>
+<rect x="40" y="210" width="760" height="550" rx="12" fill="#fff" stroke="#D9E3EE" stroke-width="1"/>
+<rect x="70" y="236" width="700" height="64" rx="9" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.3"/>
+<circle cx="94" cy="259" r="11" fill="#1E40AF" stroke="none" stroke-width="1"/>
+<text x="94" y="264" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#fff" font-weight="bold" text-anchor="middle">i</text>
+<text x="116" y="264" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#1E40AF" font-weight="bold" text-anchor="start">Este torneo tiene 6 eventos programados.</text>
+<text x="116" y="285" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12.5" fill="#1E40AF" text-anchor="start">Las nuevas fechas deben cubrir todos los eventos (07/11 – 28/11/2026).</text>
+<text x="70" y="330" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" font-weight="bold" text-anchor="start">Nombre del torneo *</text>
+<rect x="70" y="338" width="700" height="40" rx="7" fill="#fff" stroke="#2563EB" stroke-width="1.6"/>
+<text x="82" y="363.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#163153" text-anchor="start">Copa UMB 2026</text>
+<text x="70" y="398" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" font-weight="bold" text-anchor="start">Deporte</text>
+<rect x="70" y="406" width="340" height="40" rx="7" fill="#F1F4F8" stroke="#D5DEE8" stroke-width="1.2"/>
+<text x="82" y="431.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#7A8CA2" text-anchor="start">Fútbol</text>
+<path d="M 386 423.0 l 6 6 l 6 -6" stroke="#5F738C" stroke-width="2" fill="none"/>
+<text x="430" y="398" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" font-weight="bold" text-anchor="start">Estado</text>
+<rect x="430" y="406" width="340" height="40" rx="7" fill="#F1F4F8" stroke="#D5DEE8" stroke-width="1.2"/>
+<text x="442" y="431.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#7A8CA2" text-anchor="start">En curso</text>
+<text x="70" y="474" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" font-weight="bold" text-anchor="start">Fecha de inicio *</text>
+<rect x="70" y="482" width="340" height="40" rx="7" fill="#fff" stroke="#B8C7D9" stroke-width="1.2"/>
+<text x="82" y="507.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#163153" text-anchor="start">01/11/2026</text>
+<rect x="380" y="493.0" width="18" height="17" rx="3" fill="none" stroke="#5F738C" stroke-width="1.5"/>
+<line x1="380" y1="499.0" x2="398" y2="499.0" stroke="#5F738C" stroke-width="1.5"/>
+<text x="430" y="474" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" font-weight="bold" text-anchor="start">Fecha de fin *</text>
+<rect x="430" y="482" width="340" height="40" rx="7" fill="#fff" stroke="#B8C7D9" stroke-width="1.2"/>
+<text x="442" y="507.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#163153" text-anchor="start">30/11/2026</text>
+<rect x="740" y="493.0" width="18" height="17" rx="3" fill="none" stroke="#5F738C" stroke-width="1.5"/>
+<line x1="740" y1="499.0" x2="758" y2="499.0" stroke="#5F738C" stroke-width="1.5"/>
+<text x="70" y="550" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" font-weight="bold" text-anchor="start">Descripción</text>
+<rect x="70" y="558" width="700" height="70" rx="7" fill="#fff" stroke="#B8C7D9" stroke-width="1.2"/>
+<text x="82" y="584" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#163153" text-anchor="start">Copa institucional de fútbol, fase de grupos y finales.</text>
+<rect x="470" y="700" width="110" height="38" rx="8" fill="#fff" stroke="#B8C7D9" stroke-width="1.5"/>
+<text x="525.0" y="724.04" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#10284A" font-weight="bold" text-anchor="middle">Cancelar</text>
+<rect x="590" y="700" width="180" height="38" rx="8" fill="#2563EB" stroke="none" stroke-width="1.5"/>
+<text x="680.0" y="724.04" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#fff" font-weight="bold" text-anchor="middle">Guardar cambios</text>
+<rect x="830" y="210" width="410" height="360" rx="12" fill="#fff" stroke="#D9E3EE" stroke-width="1"/>
+<text x="856" y="246" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" font-weight="bold" letter-spacing="0.8" text-anchor="start">HISTORIAL DE CAMBIOS</text>
+<circle cx="866" cy="290" r="6" fill="#2563EB" stroke="none" stroke-width="1"/>
+<line x1="866" y1="298" x2="866" y2="372" stroke="#D5DEE8" stroke-width="2"/>
+<text x="884" y="295" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#10284A" font-weight="bold" text-anchor="start">Cambió la descripción</text>
+<text x="884" y="317" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12.5" fill="#5F738C" text-anchor="start">Ana Torres · 20/10/2026 · 10:42</text>
+<circle cx="866" cy="382" r="6" fill="#B8C7D9" stroke="none" stroke-width="1"/>
+<line x1="866" y1="390" x2="866" y2="464" stroke="#D5DEE8" stroke-width="2"/>
+<text x="884" y="387" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#10284A" font-weight="bold" text-anchor="start">Fecha de fin: 28/11 → 30/11</text>
+<text x="884" y="409" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12.5" fill="#5F738C" text-anchor="start">Ana Torres · 18/10/2026 · 16:05</text>
+<circle cx="866" cy="474" r="6" fill="#B8C7D9" stroke="none" stroke-width="1"/>
+<text x="884" y="479" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#10284A" font-weight="bold" text-anchor="start">Creó el torneo</text>
+<text x="884" y="501" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12.5" fill="#5F738C" text-anchor="start">Ana Torres · 12/10/2026 · 09:10</text>
+<rect x="830" y="590" width="410" height="92" rx="12" fill="#F8FAFC" stroke="#D9E3EE" stroke-width="1"/>
+<text x="856" y="626" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#5F738C" text-anchor="start">Un torneo «Finalizado» no se puede editar.</text>
+<text x="856" y="650" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#5F738C" text-anchor="start">Los campos aparecerán bloqueados.</text>
+<g id="pasos">
+<circle cx="235" cy="168" r="15" fill="#000" opacity=".18"/>
+<circle cx="234" cy="166" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="234" y="171.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">1</text>
+<circle cx="785" cy="270" r="15" fill="#000" opacity=".18"/>
+<circle cx="784" cy="268" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="784" y="273.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">3</text>
+<circle cx="785" cy="506" r="15" fill="#000" opacity=".18"/>
+<circle cx="784" cy="504" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="784" y="509.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">2</text>
+<circle cx="461" cy="721" r="15" fill="#000" opacity=".18"/>
+<circle cx="460" cy="719" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="460" y="724.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">5</text>
+<circle cx="785" cy="721" r="15" fill="#000" opacity=".18"/>
+<circle cx="784" cy="719" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="784" y="724.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">4</text>
+<circle cx="1223" cy="242" r="15" fill="#000" opacity=".18"/>
+<circle cx="1222" cy="240" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="1222" y="245.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">6</text>
+</g>
+</svg>

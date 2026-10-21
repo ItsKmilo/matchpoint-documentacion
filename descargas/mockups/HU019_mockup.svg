@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" version="1.1">
+<title>HU019 · mockup</title><desc>HU019 Conciliar saldos: Tabla de conciliación con diferencias resaltadas y descarga CSV.</desc>
+<rect x="0" y="0" width="1280" height="800" rx="14" fill="#F6F9FD" stroke="#C3D0DF" stroke-width="1"/>
+<rect x="0" y="0" width="1280" height="44" rx="14" fill="#E3EAF2" stroke="none" stroke-width="1"/>
+<rect x="0" y="30" width="1280" height="14" rx="0" fill="#E3EAF2" stroke="none" stroke-width="1"/>
+<circle cx="24" cy="22" r="6" fill="#F87171" stroke="none" stroke-width="1"/>
+<circle cx="44" cy="22" r="6" fill="#FBBF24" stroke="none" stroke-width="1"/>
+<circle cx="64" cy="22" r="6" fill="#34D399" stroke="none" stroke-width="1"/>
+<rect x="120" y="10" width="620" height="24" rx="12" fill="#fff" stroke="none" stroke-width="1"/>
+<text x="140" y="27" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" text-anchor="start">🔒</text>
+<text x="160" y="27" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#40556F" text-anchor="start">matchpoint.app/control/conciliacion</text>
+<rect x="0" y="44" width="1280" height="64" rx="0" fill="#10284A" stroke="none" stroke-width="1"/>
+<rect x="32" y="58" width="36" height="36" rx="9" fill="#F4B740" stroke="none" stroke-width="1"/>
+<path d="M 41 66 h 18 v 10 q -1 8 -9 8 q -8 0 -9 -8 z" fill="#10284A"/>
+<path d="M 46 85 v 4 m -4 0 h 8" stroke="#10284A" stroke-width="2.4" fill="none"/>
+<text x="80" y="84" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="21" fill="#fff" font-weight="bold" text-anchor="start">MATCH</text>
+<text x="155.29000000000002" y="84" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="21" fill="#63B3FA" font-weight="bold" text-anchor="start">POINT</text>
+<text x="260" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#B9CDE6" text-anchor="start">Torneos</text>
+<text x="350.81" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#B9CDE6" text-anchor="start">Participantes</text>
+<text x="479.9" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#B9CDE6" text-anchor="start">Resultados</text>
+<text x="589.8499999999999" y="82" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14.5" fill="#fff" font-weight="bold" text-anchor="start">Control</text>
+<rect x="589.8499999999999" y="100" width="54.230000000000004" height="4" rx="2" fill="#F4B740" stroke="none" stroke-width="1"/>
+<circle cx="1070" cy="76" r="17" fill="#2D4A73" stroke="none" stroke-width="1"/>
+<text x="1070" y="81" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#fff" font-weight="bold" text-anchor="middle">AT</text>
+<text x="1096" y="72" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13.5" fill="#fff" font-weight="bold" text-anchor="start">Ana Torres</text>
+<rect x="1096" y="80" width="116.45000000000002" height="18" rx="9" fill="#2D4A73" stroke="none" stroke-width="1"/>
+<text x="1154.225" y="93" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#CFE2FF" font-weight="bold" text-anchor="middle">ADMIN · CONTROL</text>
+<text x="40" y="140" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#6B7F97" text-anchor="start">Control</text>
+<text x="40" y="174" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="27" fill="#10284A" font-weight="bold" text-anchor="start">Conciliación de saldos</text>
+<text x="40" y="200" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#5F738C" text-anchor="start">Última ejecución: 20/10/2026 · 19:30</text>
+<rect x="940" y="160" width="200" height="38" rx="8" fill="#10284A" stroke="none" stroke-width="1.5"/>
+<text x="1040.0" y="184.04" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#fff" font-weight="bold" text-anchor="middle">Ejecutar conciliación</text>
+<rect x="1150" y="160" width="90" height="38" rx="8" fill="#fff" stroke="#B8C7D9" stroke-width="1.5"/>
+<text x="1195.0" y="184.04" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#10284A" font-weight="bold" text-anchor="middle">CSV ↓</text>
+<rect x="40" y="222" width="290" height="96" rx="12" fill="#fff" stroke="#D9E3EE" stroke-width="1"/>
+<text x="58" y="252" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" font-weight="bold" letter-spacing="0.7" text-anchor="start">CUENTAS REVISADAS</text>
+<text x="58" y="292" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="30" fill="#10284A" font-weight="bold" text-anchor="start">48</text>
+<rect x="342" y="222" width="290" height="96" rx="12" fill="#fff" stroke="#D9E3EE" stroke-width="1"/>
+<text x="360" y="252" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" font-weight="bold" letter-spacing="0.7" text-anchor="start">CORRECTAS</text>
+<text x="360" y="292" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="30" fill="#15803D" font-weight="bold" text-anchor="start">47</text>
+<rect x="644" y="222" width="290" height="96" rx="12" fill="#fff" stroke="#D9E3EE" stroke-width="1"/>
+<text x="662" y="252" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#5F738C" font-weight="bold" letter-spacing="0.7" text-anchor="start">INCONSISTENTES</text>
+<text x="662" y="292" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="30" fill="#DC2626" font-weight="bold" text-anchor="start">1</text>
+<rect x="946" y="222" width="294" height="96" rx="12" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1"/>
+<text x="964" y="256" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="14" fill="#1E40AF" font-weight="bold" text-anchor="start">Solo informa:</text>
+<text x="964" y="280" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#1E40AF" text-anchor="start">no modifica saldos. Corrige con</text>
+<text x="964" y="300" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#1E40AF" text-anchor="start">Ajustar créditos (HU017).</text>
+<rect x="40" y="346" width="1200" height="318" rx="10" fill="#fff" stroke="#D9E3EE" stroke-width="1"/>
+<rect x="40" y="346" width="1200" height="38" rx="10" fill="#EEF3F9" stroke="none" stroke-width="1"/>
+<rect x="40" y="374" width="1200" height="10" rx="0" fill="#EEF3F9" stroke="none" stroke-width="1"/>
+<text x="54" y="370" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">PARTICIPANTE</text>
+<text x="414" y="370" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">SALDO REGISTRADO</text>
+<text x="634" y="370" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">SALDO CALCULADO</text>
+<text x="854" y="370" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">DIFERENCIA</text>
+<text x="1034" y="370" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="11" fill="#526781" font-weight="bold" letter-spacing="0.6" text-anchor="start">ESTADO</text>
+<text x="54" y="417.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">Laura Gómez</text>
+<text x="414" y="417.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">1.150</text>
+<text x="634" y="417.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">1.150</text>
+<text x="854" y="417.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">0</text>
+<rect x="1034" y="398.0" width="74.96000000000001" height="22" rx="11" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="1071.48" y="414.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#166534" font-weight="bold" text-anchor="middle">Correcto</text>
+<rect x="41" y="440" width="1198" height="56" rx="0" fill="#FAFCFE" stroke="none" stroke-width="1"/>
+<line x1="40" y1="440" x2="1240" y2="440" stroke="#D9E3EE" stroke-width="1"/>
+<text x="54" y="473.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">Carlos Ruiz</text>
+<text x="414" y="473.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">1.150</text>
+<text x="634" y="473.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">1.150</text>
+<text x="854" y="473.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">0</text>
+<rect x="1034" y="454.0" width="74.96000000000001" height="22" rx="11" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="1071.48" y="470.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#166534" font-weight="bold" text-anchor="middle">Correcto</text>
+<rect x="41" y="496" width="1198" height="56" rx="0" fill="#EFF6FF" stroke="none" stroke-width="1"/>
+<rect x="41" y="496" width="4" height="56" rx="0" fill="#2563EB" stroke="none" stroke-width="1"/>
+<line x1="40" y1="496" x2="1240" y2="496" stroke="#D9E3EE" stroke-width="1"/>
+<text x="54" y="529.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">Julián Mora</text>
+<text x="414" y="529.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">800</text>
+<text x="634" y="529.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">750</text>
+<text x="854" y="529.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#DC2626" font-weight="bold" text-anchor="start">+50</text>
+<rect x="1034" y="510.0" width="105.20000000000005" height="22" rx="11" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="1086.6" y="526.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#991B1B" font-weight="bold" text-anchor="middle">Inconsistente</text>
+<rect x="41" y="552" width="1198" height="56" rx="0" fill="#FAFCFE" stroke="none" stroke-width="1"/>
+<line x1="40" y1="552" x2="1240" y2="552" stroke="#D9E3EE" stroke-width="1"/>
+<text x="54" y="585.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">Sofía Díaz</text>
+<text x="414" y="585.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">1.000</text>
+<text x="634" y="585.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">1.000</text>
+<text x="854" y="585.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">0</text>
+<rect x="1034" y="566.0" width="74.96000000000001" height="22" rx="11" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="1071.48" y="582.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#166534" font-weight="bold" text-anchor="middle">Correcto</text>
+<line x1="40" y1="608" x2="1240" y2="608" stroke="#D9E3EE" stroke-width="1"/>
+<text x="54" y="641.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">Valentina Ríos</text>
+<text x="414" y="641.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">1.000</text>
+<text x="634" y="641.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">1.000</text>
+<text x="854" y="641.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="13" fill="#163153" text-anchor="start">0</text>
+<rect x="1034" y="622.0" width="74.96000000000001" height="22" rx="11" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="1071.48" y="638.0" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="12" fill="#166534" font-weight="bold" text-anchor="middle">Correcto</text>
+<g id="pasos">
+<circle cx="1253" cy="181" r="15" fill="#000" opacity=".18"/>
+<circle cx="1252" cy="179" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="1252" y="184.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">1</text>
+<circle cx="1146" cy="212" r="15" fill="#000" opacity=".18"/>
+<circle cx="1145" cy="210" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="1145" y="215.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">5</text>
+<circle cx="1253" cy="242" r="15" fill="#000" opacity=".18"/>
+<circle cx="1252" cy="240" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="1252" y="245.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">4</text>
+<circle cx="1253" cy="382" r="15" fill="#000" opacity=".18"/>
+<circle cx="1252" cy="380" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="1252" y="385.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">2</text>
+<circle cx="1171" cy="534" r="15" fill="#000" opacity=".18"/>
+<circle cx="1170" cy="532" r="15" fill="#DC2626" stroke="#fff" stroke-width="3"/>
+<text x="1170" y="537.5" font-family="Arial, Liberation Sans, Helvetica, sans-serif" font-size="15" fill="#fff" font-weight="bold" text-anchor="middle">3</text>
+</g>
+</svg>
