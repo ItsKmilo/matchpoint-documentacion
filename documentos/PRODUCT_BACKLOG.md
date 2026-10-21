@@ -2,7 +2,7 @@
 
 > **Empresa solicitante:** Nexo Digital Labs
 > **Equipo:** Santiago Solano, Maicol Rubiano, Diego Romero y Camilo Bastidas
-> **Fase:** Inicio · Backlog reducido a 20 historias y planificado en **2 sprints / 2 entregas**, pendiente de revisión con la docente
+> **Fase:** Inicio · Backlog de 20 historias planificado en **2 sprints / 2 entregas**, pendiente de revisión con la docente
 
 ## Visión
 
@@ -455,12 +455,6 @@ SVG editable: `descargas/mockups/HU020_mockup.svg`
 4. Todo movimiento tiene identificador, fecha, usuario, tipo, valor y origen (HU009, HU018).
 5. Las correcciones generan movimientos compensatorios; el historial no se elimina (HU016, HU017).
 6. Un torneo con eventos asociados no se elimina (HU005).
-
-## Cambios frente a la versión anterior
-
-- Se pasó de 72 historias y 12 épicas a **20 historias y 6 épicas**, agrupando historias que describían partes de una misma funcionalidad (por ejemplo, validar opción, proteger cierre y evitar duplicados quedan dentro de HU008 Registrar pronóstico).
-- Se pasó de 3 entregas (E1 MVP, E2, E3) a **2 sprints con 2 entregas**.
-- Cada historia incorpora un paso a paso como criterio de aceptación y su mockup.
 
 ## Pendientes de validación con la docente
 

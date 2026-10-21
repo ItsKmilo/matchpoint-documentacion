@@ -7,11 +7,11 @@
 - [x] Identificación explícita como trabajo académico, no sitio oficial ni producto MatchPoint desarrollado.
 - [x] Team Canvas con metas, roles, propósito, valores, reglas y propuestas individuales.
 - [x] Visión del producto sustentada en el caso de Nexo Digital Labs, con alcance en 2 sprints.
-- [x] Backlog reducido de 72 a **20 historias** y de 12 a **6 épicas**; de 3 entregas a **2 sprints / 2 entregas**.
+- [x] Product Backlog de **20 historias** (HU001–HU020) en **6 épicas**, planificado en **2 sprints / 2 entregas**.
 - [x] Cada historia con formato Identificador · Nombre · Descripción · Criterios de aceptación **paso a paso**.
 - [x] Cada historia con **mockup** (PNG en la web y SVG editable) con los pasos numerados.
 - [x] Story Map colectivo, cuatro tramos y cuatro propuestas individuales actualizados a HU001–HU020.
-- [x] Product Backlog en web, Markdown, CSV, Excel y PDF; expediente completo de 45 páginas.
+- [x] Product Backlog en web, Markdown, CSV, Excel y PDF; expediente completo de 44 páginas.
 - [x] Enlaces locales comprobados; buscador, filtros por sprint, detalle de historias y pestañas del mapa probados.
 - [x] Vistas de escritorio y móvil revisadas.
 

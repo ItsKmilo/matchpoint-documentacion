@@ -35,16 +35,14 @@ Desarrollar una plataforma que permita gestionar torneos deportivos, registrar p
 - **Administrador:** crea torneos, programa eventos, administra participantes y publica resultados.
 - **Responsable de control (función autorizada):** audita operaciones, revisa liquidaciones, ajustes e inconsistencias. No se exige una cuenta separada: puede tratarse de un conjunto de permisos administrativos.
 
-## 6. Módulos principales
+## 6. Módulos principales (épicas)
 
-1. Identidad y permisos.
+1. Acceso y usuarios.
 2. Torneos y eventos.
-3. Catálogo y consulta de encuentros.
-4. Registro de pronósticos.
-5. Créditos y movimientos.
-6. Transacciones confiables e idempotencia.
-7. Resultados y liquidaciones.
-8. Historial, auditoría y reportes.
+3. Pronósticos.
+4. Créditos virtuales.
+5. Resultados y liquidación.
+6. Auditoría y reportes.
 
 ## 7. Propuesta de valor
 

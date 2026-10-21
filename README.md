@@ -44,7 +44,7 @@ documentos/                Visión, acuerdos, índice y backlog en Markdown
 
 ## Estado académico
 
-Los **cuatro roles** son la distribución propuesta para el equipo, pero las metas personales y las reglas del Team Canvas deben ratificarse por los integrantes. Las 20 historias (HU001 a HU020), su prioridad, responsables técnicos, los 2 sprints y las estimaciones son **propuestas**. El backlog se redujo desde una primera versión de 72 historias y 3 entregas. La guía solicita socializar y ajustar el Product Backlog con la docente.
+Los **cuatro roles** son la distribución propuesta para el equipo, pero las metas personales y las reglas del Team Canvas deben ratificarse por los integrantes. Las 20 historias (HU001 a HU020), su prioridad, responsables técnicos, los 2 sprints y las estimaciones son **propuestas**. La guía solicita socializar y ajustar el Product Backlog con la docente.
 
 Los créditos MatchPoint son **virtuales** y no tienen valor monetario ni retiro o conversión a dinero. El diseño documenta una solución propuesta; **el sitio no es la plataforma MatchPoint operativa**.
 
@@ -79,7 +79,7 @@ Universidad Manuela Beltrán · Fase de inicio · MatchPoint
 
 ## Actualización: expedientes PDF y propuestas de mapa
 
-El apartado **PDF y evidencias** (`#evidencias`) incorpora cuatro borradores de propuestas individuales y archivos PDF de respaldo, incluido el expediente completo de 45 páginas. Todas las rutas son relativas y funcionan en GitHub Pages.
+El apartado **PDF y evidencias** (`#evidencias`) incorpora cuatro borradores de propuestas individuales y archivos PDF de respaldo, incluido el expediente completo de 44 páginas. Todas las rutas son relativas y funcionan en GitHub Pages.
 
 **Nota:** los borradores individuales fueron preparados para revisión y no acreditan elaboración, socialización ni aprobación personal por cada estudiante. La docente debe revisar el mapa consolidado y el Product Backlog.
 

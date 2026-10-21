@@ -91,7 +91,7 @@
 <rect x="137" y="635" width="324" height="112" rx="13" fill="#8da6bf" stroke="none" stroke-width="0" opacity="0.15"/>
 <rect x="132" y="628" width="324" height="112" rx="13" fill="#d8eaff" stroke="#6787ab" stroke-width="1" opacity="1"/>
 <rect x="145" y="640" width="52" height="9" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.36"/>
-<text x="152" y="667" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Construir un MVP por entregas:</text>
+<text x="152" y="667" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">Construir el producto en 2 sprints:</text>
 <text x="152" y="691" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">torneos, pronósticos, créditos y</text>
 <text x="152" y="715" fill="#14304b" font-family="Arial,Helvetica,sans-serif" font-weight="400" font-size="18" text-anchor="start" letter-spacing="0" opacity="1">liquidación.</text>
 </g>

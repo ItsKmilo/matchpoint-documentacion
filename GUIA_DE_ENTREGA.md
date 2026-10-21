@@ -70,4 +70,4 @@ La guía solicita trabajo individual previo al consenso. El mapa de esta página
 
 ## Punto de revisión importante del backlog
 
-El backlog se redujo a 20 historias en 2 sprints. Los controles críticos no se aplazan: permisos por rol (HU001), privacidad de la información propia (HU010) y descuento de créditos sin saldo negativo ni duplicados (HU008) están en el Sprint 1. Confirmar con la profesora la duración de los sprints y si las historias Could (HU019, HU020) se mantienen.
+El backlog tiene 20 historias en 2 sprints. Los controles críticos no se aplazan: permisos por rol (HU001), privacidad de la información propia (HU010) y descuento de créditos sin saldo negativo ni duplicados (HU008) están en el Sprint 1. Confirmar con la profesora la duración de los sprints y si las historias Could (HU019, HU020) se mantienen.

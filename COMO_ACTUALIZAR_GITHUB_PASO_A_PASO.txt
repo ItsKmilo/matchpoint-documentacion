@@ -8,7 +8,7 @@ MATCHPOINT — ACTUALIZACION DE LA PAGINA EXISTENTE
 
    git status
    git add .
-   git commit -m "Reducir backlog a 20 HU en 2 sprints con paso a paso y mockups"
+   git commit -m "Backlog de 20 HU en 2 sprints con paso a paso y mockups"
    git push origin main
 
 5. Esperar que GitHub Pages publique automaticamente. Comprobar:
