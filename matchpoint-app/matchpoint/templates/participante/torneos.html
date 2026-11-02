@@ -1,0 +1,24 @@
+{% extends 'base.html' %}{% block title %}Torneos disponibles{% endblock %}
+{% block content %}{% from 'macros.html' import badge %}
+<div class="head"><div><h1>Torneos disponibles</h1><p class="muted">Elige un torneo para ver sus eventos y pronosticar.</p></div></div>
+{% if not torneos %}
+<div class="card empty"><h2>No hay torneos disponibles por el momento.</h2></div>
+{% else %}
+<div class="grid-2 wide-right">
+  <div><small class="label">TORNEOS ACTIVOS</small>
+  {% for t in torneos %}<a class="card tcard{{ ' on' if actual and t.id == actual.id }}" href="{{ url_for('participante.torneos', torneo=t.id) }}"><b>{{ t.nombre }}</b><small>{{ t.deporte }} · {{ t.n_eventos }} eventos</small><span>{{ t.fecha_inicio|fecha }} – {{ t.fecha_fin|fecha }}</span></a>{% endfor %}
+  </div>
+  <div>
+    <div class="head small"><small class="label">{{ actual.nombre|upper }} · EVENTOS</small>
+    <div class="chips">{% for k, l in [('todos','Todos'),('abiertos','Abiertos'),('cerrados','Cerrados'),('finalizados','Finalizados')] %}<a class="{{ 'on' if filtro == k }}" href="{{ url_for('participante.torneos', torneo=actual.id, estado=k) }}">{{ l }}</a>{% endfor %}</div></div>
+    <div class="card table-wrap"><table>
+    <thead><tr><th>Encuentro</th><th>Cierre</th><th class="num">Costo</th><th class="num">Premio</th><th>Estado</th><th></th></tr></thead><tbody>
+    {% for e in eventos %}<tr><td><b>{{ e.local }} vs {{ e.visitante }}</b><br><small class="muted">{{ e.inicio|fecha }}</small></td><td>{{ e.cierre|fecha }}</td><td class="num">{{ e.costo }}</td><td class="num">{{ e.premio }}</td><td>{{ badge(e.estado_actual) }}</td>
+      <td>{% if e.estado_actual == 'Abierto' %}<a class="btn primary sm" href="{{ url_for('participante.evento', eid=e.id) }}">Pronosticar</a>{% else %}<span class="btn primary sm disabled" aria-disabled="true">Pronosticar</span>{% endif %}</td></tr>
+    {% else %}<tr><td colspan="6" class="empty-row">No hay eventos con ese estado.</td></tr>{% endfor %}
+    </tbody></table></div>
+    <p class="muted small">Los créditos son virtuales: no tienen valor monetario ni pueden retirarse.</p>
+  </div>
+</div>
+{% endif %}
+{% endblock %}

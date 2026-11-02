@@ -1,0 +1,16 @@
+{% extends 'base.html' %}{% block title %}{{ p.nombre }}{% endblock %}
+{% block content %}{% from 'macros.html' import badge %}
+<div class="head"><div><small class="crumbs">Participantes / {{ p.nombre }}</small><h1>{{ p.nombre }} {{ badge('Activo' if p.activo else 'Inactivo') }}</h1><p class="muted">{{ p.usuario }} · {{ p.correo }}</p></div></div>
+<div class="grid-2">
+  <div>
+    <div class="card kpi"><small>SALDO DISPONIBLE</small><strong>{{ p.saldo|creditos }} <em>créditos</em></strong><p class="muted">Créditos virtuales · sin valor monetario. No se pueden retirar ni convertir en dinero.</p></div>
+    <div class="card"><small class="label">CONFIGURACIÓN</small><p>Saldo inicial por participante: <b>{{ saldo_inicial|creditos }}</b></p>
+      <form method="post" action="{{ url_for('admin.asignacion_inicial', uid=p.id) }}"><button class="btn ghost sm">Aplicar asignación inicial</button></form>
+      <p class="muted small">Si ya fue aplicada, el sistema lo indica y no suma créditos.</p></div>
+  </div>
+  <div class="card table-wrap"><small class="label">MOVIMIENTOS</small><table>
+    <thead><tr><th>ID</th><th>Fecha</th><th>Tipo</th><th>Detalle</th><th class="num">Valor</th><th class="num">Saldo</th></tr></thead><tbody>
+    {% for m in movimientos %}<tr><td>MV-{{ '%04d' % m.id }}</td><td>{{ m.creado_en|fecha }}</td><td><b>{{ m.tipo|tipo_mov }}</b></td><td>{{ m.detalle }}</td><td class="num {{ 'pos' if m.valor > 0 else 'neg' }}">{{ '+' if m.valor > 0 }}{{ m.valor|creditos }}</td><td class="num">{{ m.saldo_resultante|creditos }}</td></tr>{% endfor %}
+  </tbody></table></div>
+</div>
+{% endblock %}

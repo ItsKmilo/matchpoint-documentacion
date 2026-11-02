@@ -1,0 +1,10 @@
+{% extends 'base.html' %}{% block title %}{{ t.nombre }}{% endblock %}
+{% block content %}{% from 'macros.html' import badge %}
+<div class="head"><div><small class="crumbs">Torneos / {{ t.nombre }}</small><h1>{{ t.nombre }} {{ badge(t.estado) }}</h1><p class="muted">{{ t.deporte }} · {{ t.fecha_inicio|fecha }} – {{ t.fecha_fin|fecha }}</p></div>
+<a class="btn primary" href="{{ url_for('admin.nuevo_evento', tid=t.id) }}">+ Agregar evento</a></div>
+<div class="card table-wrap"><table>
+<thead><tr><th>Encuentro</th><th>Inicio</th><th>Cierre de pronósticos</th><th class="num">Costo</th><th class="num">Premio</th><th>Estado</th></tr></thead><tbody>
+{% for e in eventos %}<tr><td><b>{{ e.local }} vs {{ e.visitante }}</b></td><td>{{ e.inicio|fecha }}</td><td>{{ e.cierre|fecha }}</td><td class="num">{{ e.costo }}</td><td class="num">{{ e.premio }}</td><td>{{ badge(e.estado_actual) }}</td></tr>
+{% else %}<tr><td colspan="6" class="empty-row">Este torneo aún no tiene eventos.</td></tr>{% endfor %}
+</tbody></table></div>
+{% endblock %}

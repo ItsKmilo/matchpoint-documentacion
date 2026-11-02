@@ -1,0 +1,26 @@
+{% extends 'base.html' %}{% block title %}{{ ev.local }} vs {{ ev.visitante }}{% endblock %}
+{% block content %}{% from 'macros.html' import badge %}
+<div class="head"><div><small class="crumbs">Torneos disponibles / {{ ev.torneo }}</small><h1>{{ ev.local }} vs {{ ev.visitante }} {{ badge(estado) }}</h1><p class="muted">{{ ev.inicio|fecha }} · Cierra {{ ev.cierre|fecha }}</p></div></div>
+<div class="kpis"><div class="card kpi"><small>COSTO</small><strong>{{ ev.costo }} <em>créditos</em></strong></div><div class="card kpi"><small>PREMIO</small><strong>{{ ev.premio }} <em>créditos</em></strong></div><div class="card kpi"><small>TU SALDO</small><strong>{{ g.user.saldo|creditos }} <em>créditos</em></strong></div></div>
+{% if error %}<div class="alert error">{{ error }}</div>{% endif %}
+{% if ya %}
+  <div class="alert ok">Tu pronóstico para este evento: <b>{{ opciones[ya.opcion] }}</b> (P-{{ '%04d' % ya.id }}, {{ ya.costo }} créditos, estado {{ ya.estado }}).</div>
+{% elif estado == 'Abierto' %}
+<form method="post" class="card form">
+  <small class="label">ELIGE TU PRONÓSTICO</small>
+  <div class="options pick">{% for k, l in opciones.items() %}<label><input type="radio" name="opcion" value="{{ k }}" {{ 'checked' if opcion == k }}><b>{{ l }}</b><small>{{ 'Gana ' ~ ev.local if k == 'LOCAL' else ('Igualdad' if k == 'EMPATE' else 'Gana ' ~ ev.visitante) }}</small></label>{% endfor %}</div>
+  <div class="actions left"><button class="btn primary">Pronosticar</button></div>
+</form>
+{% else %}<div class="alert warn">El plazo para pronosticar venció.</div>{% endif %}
+
+{% if confirmar %}
+<div class="overlay"><form class="modal" method="post" action="{{ url_for('participante.confirmar', eid=ev.id) }}" onsubmit="this.querySelector('button[type=submit]').disabled=true">
+  <h2><span class="ico info">i</span>Confirmar pronóstico</h2>
+  <dl class="summary"><dt>Evento</dt><dd>{{ ev.local }} vs {{ ev.visitante }}</dd><dt>Tu opción</dt><dd>{{ opciones[opcion] }}</dd>
+  <dt>Costo</dt><dd class="neg">– {{ ev.costo }} créditos</dd><dt>Saldo actual</dt><dd>{{ g.user.saldo|creditos }} créditos</dd><dt>Saldo después</dt><dd>{{ (g.user.saldo - ev.costo)|creditos }} créditos</dd></dl>
+  <p class="alert info">El pronóstico y el descuento se registran juntos. Si una parte falla, no se aplica ninguna.</p>
+  <input type="hidden" name="opcion" value="{{ opcion }}"><input type="hidden" name="solicitud_id" value="{{ solicitud_id }}">
+  <div class="actions"><a class="btn secondary" href="{{ url_for('participante.evento', eid=ev.id) }}">Cancelar</a><button type="submit" class="btn primary">Confirmar</button></div>
+</form></div>
+{% endif %}
+{% endblock %}

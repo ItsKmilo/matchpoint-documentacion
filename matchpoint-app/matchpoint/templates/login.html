@@ -1,0 +1,19 @@
+{% extends 'base.html' %}{% block title %}Iniciar sesión{% endblock %}{% block mainclass %}login{% endblock %}
+{% block content %}
+<section class="login-brand">
+  <span class="logo big">🏆</span>
+  <h1>MATCH<span>POINT</span></h1>
+  <p>Torneos, pronósticos y créditos virtuales en una sola plataforma.</p>
+  <ul><li>Acceso según tu rol</li><li>Créditos sin valor monetario</li><li>Movimientos verificables</li></ul>
+</section>
+<form class="card login-card" method="post" novalidate>
+  <h2>Iniciar sesión</h2>
+  <p class="muted">Ingresa con el usuario asignado por el administrador.</p>
+  {% if errors.get('_') %}<div class="alert error">{{ errors['_'] }}</div>{% endif %}
+  {% from 'macros.html' import field %}
+  {{ field('usuario', 'Usuario', {'usuario': usuario}, errors, extra='autocomplete="username" autofocus') }}
+  {{ field('clave', 'Contraseña', {}, errors, type='password', placeholder='Ingresa tu contraseña', extra='autocomplete="current-password"') }}
+  <button class="btn primary block">Ingresar</button>
+  <p class="muted center">¿Olvidaste tu contraseña? Contacta al administrador.</p>
+</form>
+{% endblock %}

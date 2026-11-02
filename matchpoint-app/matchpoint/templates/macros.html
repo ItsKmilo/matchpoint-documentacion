@@ -1,0 +1,8 @@
+{% macro field(name, label, form, errors, type='text', required=true, placeholder='', extra='') -%}
+<label class="field{{ ' err' if errors.get(name) }}">
+  <span>{{ label }}{% if required %} *{% endif %}</span>
+  <input type="{{ type }}" name="{{ name }}" value="{{ form.get(name, '') }}" placeholder="{{ placeholder }}" {{ extra|safe }}>
+  {% if errors.get(name) %}<small class="msg">{{ errors[name] }}</small>{% endif %}
+</label>
+{%- endmacro %}
+{% macro badge(estado) -%}<span class="badge b-{{ estado|lower|replace(' ', '-') }}">{{ estado }}</span>{%- endmacro %}

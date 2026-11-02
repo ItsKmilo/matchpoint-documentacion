@@ -1,0 +1,9 @@
+{% extends 'base.html' %}{% block title %}Eliminar torneo{% endblock %}
+{% block content %}
+<div class="overlay"><form class="modal" method="post">
+  <h2><span class="ico danger">!</span>¿Eliminar torneo?</h2>
+  <p><b>Vas a eliminar «{{ t.nombre }}».</b></p>
+  <p class="muted">El torneo no tiene eventos asociados. Esta acción no se puede deshacer.</p>
+  <div class="actions"><a class="btn secondary" href="{{ url_for('admin.torneos') }}">Cancelar</a><button class="btn danger">Eliminar</button></div>
+</form></div>
+{% endblock %}

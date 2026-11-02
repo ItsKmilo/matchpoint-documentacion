@@ -1,0 +1,13 @@
+{% extends 'base.html' %}{% block title %}Nuevo participante{% endblock %}
+{% block content %}{% from 'macros.html' import field %}
+<div class="head"><div><small class="crumbs">Participantes / Nuevo</small><h1>Nuevo participante</h1></div></div>
+<form class="card form narrow" method="post" novalidate>
+  {% if errors.get('_') %}<div class="alert error">{{ errors['_'] }}</div>{% endif %}
+  {{ field('nombre', 'Nombre completo', form, errors) }}
+  {{ field('correo', 'Correo', form, errors, type='email') }}
+  {{ field('usuario', 'Usuario', form, errors, placeholder='ej. laura.gomez') }}
+  {{ field('clave', 'Contraseña inicial', form, errors, type='password') }}
+  <div class="alert info">Al guardar se asignarán {{ saldo_inicial|creditos }} créditos virtuales iniciales (HU009).</div>
+  <div class="actions"><a class="btn secondary" href="{{ url_for('admin.participantes') }}">Cancelar</a><button class="btn primary">Guardar</button></div>
+</form>
+{% endblock %}

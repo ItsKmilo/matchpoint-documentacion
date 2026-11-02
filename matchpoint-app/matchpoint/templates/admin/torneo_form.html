@@ -1,0 +1,30 @@
+{% extends 'base.html' %}{% block title %}{{ 'Crear torneo' if modo == 'crear' else 'Editar torneo' }}{% endblock %}
+{% block content %}{% from 'macros.html' import field %}
+<div class="head"><div><small class="crumbs">Torneos / {{ 'Crear torneo' if modo == 'crear' else t.nombre ~ ' / Editar' }}</small>
+<h1>{{ 'Crear torneo' if modo == 'crear' else 'Editar torneo' }}</h1><p class="muted">Los campos marcados con * son obligatorios.</p></div></div>
+<div class="grid-2 wide-left">
+<form class="card form" method="post" novalidate>
+  {% if errors.get('_') %}<div class="alert {{ 'error' if modo == 'editar' and t.estado == 'Finalizado' else 'warn' }}">{{ errors['_'] }}</div>{% endif %}
+  {% if modo == 'editar' and n_eventos %}<div class="alert info">Este torneo tiene {{ n_eventos }} evento{{ 's' if n_eventos != 1 }} programado{{ 's' if n_eventos != 1 }}: las nuevas fechas deben cubrirlos todos.</div>{% endif %}
+  {{ field('nombre', 'Nombre del torneo', form, errors) }}
+  <div class="row">
+  {% if modo == 'crear' %}
+    <label class="field{{ ' err' if errors.get('deporte') }}"><span>Deporte *</span><select name="deporte"><option value="">Selecciona…</option>{% for d in deportes %}<option {{ 'selected' if form.get('deporte') == d }}>{{ d }}</option>{% endfor %}</select>{% if errors.get('deporte') %}<small class="msg">{{ errors['deporte'] }}</small>{% endif %}</label>
+    <label class="field"><span>Estado inicial</span><input value="Programado" disabled></label>
+  {% else %}
+    <label class="field"><span>Deporte</span><input value="{{ t.deporte }}" disabled></label>
+    <label class="field"><span>Estado</span><input value="{{ t.estado }}" disabled></label>
+  {% endif %}
+  </div>
+  <div class="row">{{ field('fecha_inicio', 'Fecha de inicio', form, errors, type='date') }}{{ field('fecha_fin', 'Fecha de fin', form, errors, type='date') }}</div>
+  <label class="field"><span>Descripción</span><textarea name="descripcion" rows="3">{{ form.get('descripcion', '') }}</textarea></label>
+  <div class="actions"><a class="btn secondary" href="{{ url_for('admin.torneos') }}">Cancelar</a>
+  {% if not (modo == 'editar' and t.estado == 'Finalizado') %}<button class="btn primary">{{ 'Crear torneo' if modo == 'crear' else 'Guardar cambios' }}</button>{% endif %}</div>
+</form>
+{% if modo == 'editar' %}
+<aside class="card"><small class="label">HISTORIAL DE CAMBIOS</small>
+  <ul class="timeline">{% for c in historial %}<li><b>{{ c.descripcion }}</b><small>{{ c.autor }} · {{ c.creado_en|fecha }}</small></li>{% else %}<li class="muted">Sin cambios registrados.</li>{% endfor %}</ul>
+</aside>
+{% endif %}
+</div>
+{% endblock %}

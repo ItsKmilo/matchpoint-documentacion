@@ -1,0 +1,15 @@
+{% extends 'base.html' %}{% block title %}Torneos{% endblock %}
+{% block content %}{% from 'macros.html' import badge %}
+<div class="head"><div><small class="crumbs">Inicio / Torneos</small><h1>Torneos</h1></div>
+<a class="btn primary" href="{{ url_for('admin.nuevo_torneo') }}">+ Crear torneo</a></div>
+<div class="card table-wrap"><table>
+<thead><tr><th>Torneo</th><th>Fechas</th><th>Estado</th><th>Acciones</th></tr></thead><tbody>
+{% for t in torneos %}<tr>
+  <td><a href="{{ url_for('admin.torneo', tid=t.id) }}"><b>{{ t.nombre }}</b></a><br><small class="muted">{{ t.deporte }} · {{ t.n_eventos }} evento{{ 's' if t.n_eventos != 1 }}</small></td>
+  <td>{{ t.fecha_inicio|fecha }} – {{ t.fecha_fin|fecha }}</td><td>{{ badge(t.estado) }}</td>
+  <td class="row-actions"><a class="btn ghost sm" href="{{ url_for('admin.torneo', tid=t.id) }}">Eventos</a>
+  {% if t.estado != 'Finalizado' %}<a class="btn ghost sm" href="{{ url_for('admin.editar_torneo', tid=t.id) }}">Editar</a>{% endif %}
+  <a class="btn ghost sm" href="{{ url_for('admin.eliminar_torneo', tid=t.id) }}">Eliminar</a></td>
+</tr>{% else %}<tr><td colspan="4" class="empty-row">No hay torneos. Crea el primero con «Crear torneo».</td></tr>{% endfor %}
+</tbody></table></div>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends 'base.html' %}{% block title %}Participantes{% endblock %}
+{% block content %}{% from 'macros.html' import badge %}
+<div class="head"><div><small class="crumbs">Inicio / Participantes</small><h1>Participantes</h1></div>
+<a class="btn primary" href="{{ url_for('admin.nuevo_participante') }}">+ Nuevo participante</a></div>
+<div class="card table-wrap"><table>
+<thead><tr><th>Nombre</th><th>Usuario</th><th>Correo</th><th class="num">Saldo</th><th>Estado</th><th></th></tr></thead>
+<tbody>
+{% for p in participantes %}<tr><td><b>{{ p.nombre }}</b></td><td>{{ p.usuario }}</td><td>{{ p.correo }}</td><td class="num">{{ p.saldo|creditos }}</td><td>{{ badge('Activo' if p.activo else 'Inactivo') }}</td><td><a class="btn ghost sm" href="{{ url_for('admin.participante', uid=p.id) }}">Ver</a></td></tr>
+{% else %}<tr><td colspan="6" class="empty-row">Aún no hay participantes. Registra el primero con «Nuevo participante».</td></tr>{% endfor %}
+</tbody></table></div>
+{% endblock %}

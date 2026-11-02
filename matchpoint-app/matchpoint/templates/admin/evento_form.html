@@ -1,0 +1,18 @@
+{% extends 'base.html' %}{% block title %}Agregar evento{% endblock %}
+{% block content %}{% from 'macros.html' import field, badge %}
+<div class="head"><div><small class="crumbs">Torneos / {{ t.nombre }} / Agregar evento</small><h1>Agregar evento</h1><p class="muted">Rango del torneo: {{ t.fecha_inicio|fecha }} – {{ t.fecha_fin|fecha }}</p></div></div>
+<div class="grid-2 wide-left">
+<form class="card form" method="post" novalidate>
+  {% if errors %}<div class="alert error">Corrige los campos marcados para guardar.</div>{% endif %}
+  <div class="row">{{ field('local', 'Contendiente local', form, errors) }}{{ field('visitante', 'Contendiente visitante', form, errors) }}</div>
+  <div class="row">{{ field('inicio', 'Fecha y hora del encuentro', form, errors, type='datetime-local') }}{{ field('cierre', 'Fecha límite para pronosticar', form, errors, type='datetime-local') }}</div>
+  <div class="row">{{ field('costo', 'Costo de participación (créditos)', form, errors, type='number', extra='min="1"') }}{{ field('premio', 'Premio por acierto (créditos)', form, errors, type='number', extra='min="1"') }}</div>
+  <p class="label">OPCIONES DE PRONÓSTICO</p>
+  <div class="options"><span>Local</span><span>Empate</span><span>Visitante</span></div>
+  <div class="actions"><a class="btn secondary" href="{{ url_for('admin.torneo', tid=t.id) }}">Cancelar</a><button class="btn primary">Guardar evento</button></div>
+</form>
+<aside class="card"><small class="label">CALENDARIO DEL TORNEO</small>
+  <ul class="cal">{% for e in eventos %}<li><b>{{ e.local }} vs {{ e.visitante }}</b><small>{{ e.inicio|fecha }}</small>{{ badge(e.estado_actual) }}</li>{% else %}<li class="muted">Sin eventos todavía.</li>{% endfor %}</ul>
+</aside>
+</div>
+{% endblock %}

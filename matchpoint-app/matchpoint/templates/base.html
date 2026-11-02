@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}MatchPoint{% endblock %} · MatchPoint</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+{% if g.user %}
+<header class="appbar">
+  <a class="brand" href="{{ url_for('index') }}"><span class="logo">🏆</span>MATCH<span>POINT</span></a>
+  <nav>
+  {% if g.user.rol == 'admin' %}
+    <a href="{{ url_for('admin.torneos') }}" class="{{ 'on' if request.endpoint and ('torneo' in request.endpoint or 'evento' in request.endpoint) }}">Torneos</a>
+    <a href="{{ url_for('admin.participantes') }}" class="{{ 'on' if request.endpoint and 'participante' in request.endpoint }}">Participantes</a>
+  {% else %}
+    <a href="{{ url_for('participante.torneos') }}" class="{{ 'on' if request.endpoint in ('participante.torneos','participante.evento') }}">Torneos disponibles</a>
+    <a href="{{ url_for('participante.creditos') }}" class="{{ 'on' if request.endpoint == 'participante.creditos' }}">Mis créditos</a>
+  {% endif %}
+  </nav>
+  <div class="user">
+    <span class="avatar">{{ g.user.nombre.split()[:2]|map('first')|join }}</span>
+    <span><b>{{ g.user.nombre }}</b><small>{{ 'ADMINISTRADOR' if g.user.rol == 'admin' else 'PARTICIPANTE · ' ~ (g.user.saldo|creditos) ~ ' créditos' }}</small></span>
+    <form method="post" action="{{ url_for('auth.logout') }}"><button class="btn ghost sm">Cerrar sesión</button></form>
+  </div>
+</header>
+{% endif %}
+<main class="{% block mainclass %}page{% endblock %}">
+  {% for cat, msg in get_flashed_messages(with_categories=true) %}<div class="alert {{ cat }}" role="status">{{ msg }}</div>{% endfor %}
+  {% block content %}{% endblock %}
+</main>
+</body>
+</html>

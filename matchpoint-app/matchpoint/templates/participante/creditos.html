@@ -1,0 +1,16 @@
+{% extends 'base.html' %}{% block title %}Mis créditos{% endblock %}
+{% block content %}
+<div class="head"><div><h1>Mis créditos</h1></div></div>
+<div class="grid-2 wide-right">
+  <div>
+    <div class="card kpi dark"><small>SALDO DISPONIBLE</small><strong>{{ saldo|creditos }} <em>créditos</em></strong><p>Créditos virtuales sin valor monetario.</p></div>
+    {% if ok %}<div class="alert ok">✓ Saldo verificado: coincide con la suma de tus {{ movimientos|length }} movimientos.</div>
+    {% else %}<div class="alert error">El saldo ({{ saldo }}) no coincide con la suma de movimientos ({{ suma }}). Avisa al administrador.</div>{% endif %}
+  </div>
+  <div class="card table-wrap"><small class="label">MIS MOVIMIENTOS · DEL MÁS RECIENTE AL MÁS ANTIGUO</small><table>
+    <thead><tr><th>Fecha</th><th>Tipo</th><th>Detalle</th><th class="num">Valor</th><th class="num">Saldo</th></tr></thead><tbody>
+    {% for m in movimientos %}<tr><td>{{ m.creado_en|fecha }}</td><td>{{ m.tipo|tipo_mov }}</td><td>{{ m.detalle }}</td><td class="num {{ 'pos' if m.valor > 0 else 'neg' }}">{{ '+' if m.valor > 0 }}{{ m.valor|creditos }}</td><td class="num">{{ m.saldo_resultante|creditos }}</td></tr>
+    {% else %}<tr><td colspan="5" class="empty-row">Sin movimientos.</td></tr>{% endfor %}
+  </tbody></table></div>
+</div>
+{% endblock %}
