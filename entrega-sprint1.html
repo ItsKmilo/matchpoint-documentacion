@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#071d36">
+  <meta name="description" content="Trabajo académico de la Universidad Manuela Beltrán. MatchPoint: documentación académica de la fase inicial. Team Canvas, visión del producto, mapa de 20 historias de usuario con paso a paso y mockups, y Product Backlog en 2 sprints. Nexo Digital Labs.">
+  <title>Entrega Sprint 1 · MatchPoint</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/entrega-data.js" defer></script>
+  <script src="assets/js/entrega.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+<header class="site-header" id="cabecera">
+  <div class="header-inner container-wide">
+    <a class="brand" href="index.html#inicio" aria-label="MatchPoint, ir al inicio">
+      <span class="brand-mark"><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M9 6h14v8a7 7 0 0 1-14 0V6Z" stroke="currentColor" stroke-width="2.3"/><path d="M9 9H5v3a5 5 0 0 0 5 5M23 9h4v3a5 5 0 0 1-5 5M16 21v5m-6 0h12" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><path d="m16 9 1.1 2.3 2.5.3-1.8 1.7.4 2.4-2.2-1.2-2.2 1.2.4-2.4-1.8-1.7 2.5-.3L16 9Z" fill="currentColor"/></svg></span>
+      <span class="brand-name">Match<span>Point</span><small>DOCUMENTACIÓN ACADÉMICA · UMB</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Navegación principal">
+      <a href="index.html#equipo">Equipo</a><a href="index.html#vision">Visión</a><a href="index.html#mapa">Mapa de historias</a><a href="index.html#backlog">Backlog</a><a href="index.html#historias">HU y mockups</a><a href="index.html#entregas">Sprints</a><a href="tablero.html">Tablero Sprint 1</a><a href="entrega-sprint1.html">Entrega Sprint 1</a><a href="index.html#evidencias">PDF y evidencias</a>
+      <a class="nav-download" href="index.html#archivos">Ver archivos <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+</header>
+<main id="contenido">
+  <section class="section tb-hero"><div class="container-wide">
+    <div class="section-heading heading-split"><div><span class="section-label">ENTREGA · SPRINT 1</span><h2>Código, review<br><em>y retrospectiva.</em></h2></div>
+    <p>Esta página reúne lo que pide la entrega del Sprint 1: el código fuente del aplicativo, el video de la review con las HU presentadas por cada integrante y la herramienta usada en la retrospectiva.</p></div>
+    <div class="ent-grid">
+      <a class="ent-card" href="#codigo"><span>01</span><strong>Código fuente</strong><small>Python · Flask · SQLite · 59 pruebas</small></a>
+      <a class="ent-card" href="#review"><span>02</span><strong>Review en video</strong><small>Máximo 8 minutos · los 4 integrantes</small></a>
+      <a class="ent-card" href="retro.html"><span>03</span><strong>Retrospectiva</strong><small>Técnica Starfish · tablero en línea</small></a>
+    </div>
+  </div></section>
+
+  <section class="section section-tinted" id="codigo"><div class="container-wide">
+    <div class="section-subheading"><div><span class="section-label">01 / CÓDIGO FUENTE DEL APLICATIVO</span><h3>MatchPoint en Python</h3></div></div>
+    <div class="ent-two">
+      <div class="ent-box">
+        <p>Aplicación web con <b>Python 3, Flask 3 (Jinja2 y Werkzeug) y SQLite</b>. Implementa las 10 historias del Sprint 1 (HU001 a HU010) y tiene <b>59 pruebas automáticas</b>, una por cada paso de los criterios de aceptación.</p>
+        <div class="ent-links">
+          <a class="btn btn-dark" href="https://github.com/ItsKmilo/matchpoint-documentacion/tree/main/matchpoint-app" target="_blank" rel="noopener">Ver código en GitHub ↗</a>
+          <a class="link-button light" href="https://github.com/ItsKmilo/matchpoint-documentacion/archive/refs/heads/main.zip">Descargar ZIP ↧</a>
+        </div>
+        <ul class="ent-list">
+          <li><a href="https://github.com/ItsKmilo/matchpoint-documentacion/blob/main/matchpoint-app/README.md" target="_blank" rel="noopener">README</a>: cómo ejecutarlo y usuarios de prueba.</li>
+          <li><a href="https://github.com/ItsKmilo/matchpoint-documentacion/blob/main/matchpoint-app/matchpoint/services.py" target="_blank" rel="noopener">services.py</a>: reglas de negocio de cada HU.</li>
+          <li><a href="https://github.com/ItsKmilo/matchpoint-documentacion/tree/main/matchpoint-app/tests" target="_blank" rel="noopener">tests/</a>: un archivo de pruebas por HU.</li>
+          <li><a href="https://github.com/ItsKmilo/matchpoint-documentacion/blob/main/matchpoint-app/matchpoint/schema.sql" target="_blank" rel="noopener">schema.sql</a>: modelo de datos y sus restricciones.</li>
+        </ul>
+      </div>
+      <div class="ent-box">
+        <small class="mini-label">CÓMO EJECUTARLO</small>
+        <pre class="ent-code">cd matchpoint-app
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python run.py --demo
+# abrir http://127.0.0.1:5000
+# admin / admin123 · laura.gomez / demo123
+
+python -m unittest discover -s tests -t . -v</pre>
+      </div>
+    </div>
+    <div class="table-scroll"><table class="backlog-table ent-table"><thead><tr><th>Integrante</th><th>Rol</th><th>HU a su cargo</th><th>Archivos principales</th></tr></thead><tbody>
+      <tr><td><b>Santiago Solano</b></td><td>Scrum Master</td><td>Seguimiento y calidad del sprint</td><td><code>tests/</code>, tablero del sprint</td></tr>
+      <tr><td><b>Maicol Rubiano</b></td><td>Backend Developer</td><td>HU001, HU006, HU008</td><td><code>auth.py</code>, <code>services.py</code></td></tr>
+      <tr><td><b>Diego Romero</b></td><td>Frontend Developer</td><td>HU002, HU003, HU004, HU007, HU010</td><td><code>templates/</code>, <code>static/</code>, <code>admin.py</code>, <code>participante.py</code></td></tr>
+      <tr><td><b>Camilo Bastidas</b></td><td>Database Administrator</td><td>HU005, HU009</td><td><code>schema.sql</code>, <code>db.py</code>, <code>services.py</code></td></tr>
+    </tbody></table></div>
+  </div></section>
+
+  <section class="section" id="review"><div class="container-wide">
+    <div class="section-subheading"><div><span class="section-label">02 / SPRINT REVIEW</span><h3>Video de la review</h3></div></div>
+    <div id="ent-video" class="ent-video"></div>
+    <div class="section-subheading"><div><span class="section-label">GUION · MÁXIMO 8 MINUTOS · CÁMARAS ENCENDIDAS</span><h3>Quién presenta qué</h3></div></div>
+    <div class="table-scroll"><table class="backlog-table ent-table"><thead><tr><th>Tiempo</th><th>Presenta</th><th>Qué muestra en la app</th><th>HU</th></tr></thead><tbody><tr><td><b>0:00 – 0:45</b></td><td>Santiago Solano · Scrum Master</td><td>Presenta al equipo y el objetivo del Sprint 1. Muestra el tablero: 10 HU, 39 SP y su estado.</td><td>—</td></tr><tr><td><b>0:45 – 2:45</b></td><td>Maicol Rubiano · Backend</td><td>Inicio de sesión (contraseña errada, admin, participante sin permiso → 403). Programa un evento con una fecha límite inválida y luego válida. Registra un pronóstico y muestra que el doble clic no cobra dos veces.</td><td>HU001, HU006, HU008</td></tr><tr><td><b>2:45 – 5:15</b></td><td>Diego Romero · Frontend / PO</td><td>Registra un participante (correo duplicado → error). Crea un torneo (fecha de fin anterior → error) y lo edita mostrando el historial. Como participante, filtra eventos por estado y abre «Mis créditos» con el saldo verificado.</td><td>HU002, HU003, HU004, HU007, HU010</td></tr><tr><td><b>5:15 – 6:45</b></td><td>Camilo Bastidas · DBA</td><td>Intenta eliminar un torneo con eventos (no se deja) y elimina uno vacío con su confirmación. Muestra los 1.000 créditos iniciales del nuevo participante y explica las reglas de la base (saldo ≥ 0, un pronóstico por evento).</td><td>HU005, HU009</td></tr><tr><td><b>6:45 – 7:45</b></td><td>Santiago Solano · Scrum Master</td><td>Corre las pruebas (59 OK) y cierra: qué HU aceptó el Product Owner y qué sigue en el Sprint 2.</td><td>—</td></tr></tbody></table></div>
+    <p class="timeline-note">Cada integrante comparte pantalla mientras presenta, con la cámara encendida. Antes de grabar: <code>python run.py --reset --demo</code> para empezar con datos limpios.</p>
+  </div></section>
+
+  <section class="section section-tinted" id="retro"><div class="container-wide">
+    <div class="section-subheading"><div><span class="section-label">03 / RETROSPECTIVA</span><h3>Herramienta: tablero Starfish</h3></div></div>
+    <div class="ent-box ent-retro"><p>La retrospectiva del Sprint 1 se hace con la técnica <b>Starfish (estrella de mar)</b> en un tablero en línea del propio sitio: cada integrante agrega sus notas en las cinco puntas y al final el equipo acuerda acciones con responsable.</p>
+    <a class="btn btn-primary" href="retro.html">Abrir tablero de retrospectiva ↗</a></div>
+  </div></section>
+</main>
+<footer class="site-footer"><div class="container-wide footer-content"><div class="footer-project-brand"><div class="footer-umb"><img src="assets/img/umb-logo-original.png" alt="Logo UMB" width="45" height="63" loading="lazy"></div><div><a class="footer-brand" href="#contenido">Match<span>Point</span></a><p>Documentación académica · Fase de inicio<br>Caso del enunciado: Nexo Digital Labs</p></div></div><div><span>INTEGRANTES</span><p>Santiago Solano · Maicol Rubiano<br>Diego Romero · Camilo Bastidas</p></div><a href="#contenido" class="back-top">Volver arriba ↑</a></div></footer>
+<script>(()=>{const m=document.querySelector('.menu-toggle'),n=document.querySelector('#site-nav');m?.addEventListener('click',()=>{const o=n.classList.toggle('open');m.setAttribute('aria-expanded',String(o));});})();</script>
+</body>
+</html>

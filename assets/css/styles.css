@@ -144,3 +144,25 @@ main,.site-footer{overflow-x:clip}
 .tb-form{display:grid;grid-template-columns:1fr 1fr;gap:12px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:22px}
 .tb-form .wide{grid-column:1/-1}.tb-form .btn{justify-self:start}
 @media(max-width:650px){.tb-form,.tb-login{grid-template-columns:1fr}}
+/* ===== Entrega Sprint 1 y retrospectiva ===== */
+.ent-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.ent-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:6px;transition:transform .18s ease,box-shadow .18s ease}
+.ent-card:hover{transform:translateY(-3px);box-shadow:0 16px 34px rgba(11,39,66,.1)}
+.ent-card span{font-size:11px;font-weight:850;color:#3b8ec7;letter-spacing:1px}.ent-card strong{font-size:18px}.ent-card small{color:#71869a;font-size:12px}
+.ent-two{display:grid;grid-template-columns:1.2fr 1fr;gap:16px;margin-bottom:18px}
+.ent-box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 22px;font-size:13.5px;line-height:1.75;color:#40556f}
+.ent-links{display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 12px}.ent-list{margin:0;padding-left:18px}.ent-list a{color:#2d7fbe;font-weight:800}
+.ent-code{background:#0f1d33;color:#dbe8f8;border-radius:10px;padding:14px 16px;font-size:12px;line-height:1.7;overflow-x:auto;margin:10px 0 0;white-space:pre}
+.ent-table td{font-size:12.5px;line-height:1.6;vertical-align:top}.ent-table code{font-size:11.5px}
+.ent-frame{position:relative;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#0f1d33;margin-bottom:8px}.ent-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.ent-video{margin-bottom:22px}.ent-retro{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}.ent-retro p{margin:0;max-width:760px}
+.ent-steps{margin:0;padding-left:20px;font-size:13px;line-height:1.9;color:#486b84}
+.starfish{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;align-items:start}
+.sf-col{background:#eef3f8;border-radius:14px;padding:12px;border-top:4px solid var(--c);min-height:200px}
+.sf-head{display:flex;gap:10px;align-items:flex-start;margin-bottom:10px}.sf-head b{font-size:13.5px;display:block}.sf-head small{font-size:11px;color:#5b7186;line-height:1.4;display:block}.sf-head em{margin-left:auto;font-style:normal;font-weight:850;font-size:12px;color:#5b7186}
+.sf-n{flex:none;width:24px;height:24px;border-radius:50%;background:var(--c);color:#fff;display:grid;place-items:center;font-size:11px;font-weight:850}
+.sf-note{background:#fff9db;border:1px solid #f3e3a1;border-radius:9px;padding:10px 11px;margin-bottom:8px;box-shadow:0 2px 0 rgba(0,0,0,.03)}.sf-note p{margin:0 0 6px;font-size:12.5px;line-height:1.55;color:#33404f}.sf-note small{font-size:10.5px;color:#8a7a3a}
+.sf-add{display:flex;flex-direction:column;gap:6px;margin-top:6px}.sf-add textarea{font:inherit;font-size:12.5px;border:1px solid #c9d6e5;border-radius:8px;padding:8px;background:#fff;resize:vertical}.sf-add .btn{padding:8px 12px;font-size:11.5px;align-self:flex-start}
+@media(max-width:1100px){.starfish{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:900px){.ent-grid,.ent-two{grid-template-columns:1fr}}
+@media(max-width:650px){.starfish{grid-template-columns:1fr}}
