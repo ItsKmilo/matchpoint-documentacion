@@ -1,6 +1,6 @@
 {% extends 'base.html' %}{% block title %}{{ p.nombre }}{% endblock %}
 {% block content %}{% from 'macros.html' import badge %}
-<div class="head"><div><small class="crumbs">Participantes / {{ p.nombre }}</small><h1>{{ p.nombre }} {{ badge('Activo' if p.activo else 'Inactivo') }}</h1><p class="muted">{{ p.usuario }} · {{ p.correo }}</p></div></div>
+<div class="head"><div><small class="crumbs">Participantes / {{ p.nombre }}</small><h1>{{ p.nombre }} {{ badge('Activo' if p.activo else 'Inactivo') }}</h1><p class="muted">{{ p.usuario }} · {{ p.correo }}</p></div><a class="btn primary" href="{{ url_for('admin.ajustar', uid=p.id) }}">Ajustar créditos</a></div>
 <div class="grid-2">
   <div>
     <div class="card kpi"><small>SALDO DISPONIBLE</small><strong>{{ p.saldo|creditos }} <em>créditos</em></strong><p class="muted">Créditos virtuales · sin valor monetario. No se pueden retirar ni convertir en dinero.</p></div>

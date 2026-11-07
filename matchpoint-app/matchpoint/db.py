@@ -46,9 +46,24 @@ class transaction:
         return False
 
 
+MIGRACIONES = {  # columnas agregadas en el Sprint 2 para bases creadas en el Sprint 1
+    "eventos": ["goles_local INTEGER", "goles_visitante INTEGER", "resultado TEXT", "publicado_en TEXT", "liquidado_en TEXT"],
+    "movimientos": ["evento_id INTEGER", "autor_id INTEGER"],
+}
+
+
+def migrar(con):
+    for tabla, cols in MIGRACIONES.items():
+        existentes = {r["name"] for r in con.execute(f"PRAGMA table_info({tabla})")}
+        for col in cols:
+            if col.split()[0] not in existentes:
+                con.execute(f"ALTER TABLE {tabla} ADD COLUMN {col}")
+
+
 def init_db(path, admin_user="admin", admin_password="admin123", initial_credits=1000):
     con = connect(path)
     con.executescript(SCHEMA.read_text(encoding="utf-8"))
+    migrar(con)
     con.execute("INSERT OR IGNORE INTO configuracion (clave, valor) VALUES ('saldo_inicial', ?)", (str(initial_credits),))
     if not con.execute("SELECT 1 FROM usuarios WHERE rol = 'admin'").fetchone():
         con.execute(

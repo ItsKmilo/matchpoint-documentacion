@@ -1,0 +1,29 @@
+{% extends 'base.html' %}{% block title %}Corregir resultado{% endblock %}
+{% block content %}{% from 'macros.html' import field %}
+<div class="head"><div><small class="crumbs">Torneos / {{ ev.torneo }} / {{ ev.local }} vs {{ ev.visitante }}</small><h1>Corregir resultado publicado</h1>
+<p class="muted">Resultado actual: <b>{{ ev.goles_local }} – {{ ev.goles_visitante }}</b></p></div></div>
+{% if errors.get('_') and not errors.get('goles') and not errors.get('motivo') %}<div class="alert {{ 'error' if 'negativo' in errors['_'] else 'warn' }}">{{ errors['_'] }}</div>{% endif %}
+{% if ev.estado == 'Finalizado' %}
+<form class="card form narrow" method="post" novalidate>
+  <div class="row">
+    <label class="field{{ ' err' if errors.get('goles') }}"><span>{{ ev.local }} (nuevo)</span><input type="number" min="0" name="goles_local" value="{{ form.goles_local }}"></label>
+    <label class="field{{ ' err' if errors.get('goles') }}"><span>{{ ev.visitante }} (nuevo)</span><input type="number" min="0" name="goles_visitante" value="{{ form.goles_visitante }}"></label>
+  </div>{% if errors.get('goles') %}<div class="alert error">{{ errors['goles'] }}</div>{% endif %}
+  <label class="field{{ ' err' if errors.get('motivo') }}"><span>Motivo de la corrección *</span><textarea name="motivo" rows="3">{{ form.motivo }}</textarea>{% if errors.get('motivo') %}<small class="msg">{{ errors['motivo'] }}</small>{% endif %}</label>
+  <div class="actions"><a class="btn secondary" href="{{ url_for('admin.torneo', tid=ev.tid) }}">Cancelar</a><button class="btn primary">Revisar impacto</button></div>
+</form>
+{% endif %}
+{% if imp is not none %}
+<div class="overlay"><form class="modal" method="post">
+  <h2><span class="ico danger">!</span>Impacto de la corrección</h2>
+  <dl class="summary"><dt>Premios que se revertirán</dt><dd class="neg">{{ imp.revertir|length }} · −{{ (imp.revertir|length * imp.premio)|creditos }}</dd>
+  <dt>Premios que se acreditarán</dt><dd class="pos">{{ imp.acreditar|length }} · +{{ (imp.acreditar|length * imp.premio)|creditos }}</dd></dl>
+  <p class="muted">Se crean movimientos de reversión y de nuevo premio; ningún movimiento anterior se elimina.</p>
+  {% for k in ('goles_local','goles_visitante','motivo') %}<input type="hidden" name="{{ k }}" value="{{ form[k] }}">{% endfor %}<input type="hidden" name="confirmado" value="1">
+  <div class="actions"><a class="btn secondary" href="{{ url_for('admin.corregir', eid=ev.id) }}">Cancelar</a><button class="btn primary">Aplicar corrección</button></div>
+</form></div>
+{% endif %}
+<div class="card table-wrap"><small class="label">HISTORIAL DE CORRECCIONES</small><table><thead><tr><th>Fecha</th><th>Anterior</th><th>Nuevo</th><th>Motivo</th><th>Usuario</th></tr></thead><tbody>
+{% for c in historial %}<tr><td>{{ c.creado_en|fecha }}</td><td>{{ c.anterior }}</td><td>{{ c.nuevo }}</td><td>{{ c.motivo }}</td><td>{{ c.autor }}</td></tr>
+{% else %}<tr><td colspan="5" class="empty-row">Sin correcciones.</td></tr>{% endfor %}</tbody></table></div>
+{% endblock %}

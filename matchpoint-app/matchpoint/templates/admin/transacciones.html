@@ -1,0 +1,20 @@
+{% extends 'base.html' %}{% block title %}Transacciones{% endblock %}
+{% block content %}
+<div class="head"><div><small class="crumbs">Control</small><h1>Transacciones <span class="badge">🔒 Solo lectura</span></h1></div><a class="btn secondary" href="{{ url_for('admin.conciliacion') }}">Conciliación de saldos</a></div>
+<form class="card form filters" method="get">
+  <label class="field"><span>Participante</span><select name="usuario"><option value="">Todos</option>{% for u in usuarios %}<option value="{{ u.id }}" {{ 'selected' if f.usuario == u.id|string }}>{{ u.usuario }}</option>{% endfor %}</select></label>
+  <label class="field"><span>Tipo</span><select name="tipo"><option value="">Todos</option>{% for t in tipos %}<option value="{{ t }}" {{ 'selected' if f.tipo == t }}>{{ t|tipo_mov }}</option>{% endfor %}</select></label>
+  <label class="field"><span>Evento</span><select name="evento"><option value="">Todos</option>{% for e in eventos %}<option value="{{ e.id }}" {{ 'selected' if f.evento == e.id|string }}>{{ e.local }} vs {{ e.visitante }}</option>{% endfor %}</select></label>
+  <label class="field"><span>Desde</span><input type="date" name="desde" value="{{ f.desde }}"></label>
+  <label class="field"><span>Hasta</span><input type="date" name="hasta" value="{{ f.hasta }}"></label>
+  <button class="btn primary">Filtrar</button>
+</form>
+<div class="grid-2 wide-left">
+<div class="card table-wrap"><table><thead><tr><th>ID</th><th>Fecha</th><th>Usuario</th><th>Tipo</th><th class="num">Valor</th><th>Origen</th></tr></thead><tbody>
+{% for m in rows %}<tr><td><a href="{{ url_for('admin.transacciones', id=m.id, **f) }}">MV-{{ '%04d' % m.id }}</a></td><td>{{ m.creado_en|fecha }}</td><td>{{ m.usuario }}</td><td>{{ m.tipo|tipo_mov }}</td><td class="num {{ 'pos' if m.valor > 0 else 'neg' }}">{{ '+' if m.valor > 0 }}{{ m.valor|creditos }}</td><td>{{ m.origen or '—' }}</td></tr>
+{% else %}<tr><td colspan="6" class="empty-row">Sin movimientos para los filtros seleccionados.</td></tr>{% endfor %}</tbody></table></div>
+<aside class="card"><small class="label">DETALLE</small>
+{% if det %}<dl class="summary"><dt>Movimiento</dt><dd>MV-{{ '%04d' % det.id }}</dd><dt>Tipo</dt><dd>{{ det.tipo|tipo_mov }}</dd><dt>Valor</dt><dd>{{ det.valor|creditos }}</dd><dt>Usuario</dt><dd>{{ det.usuario }}</dd><dt>Fecha</dt><dd>{{ det.creado_en|fecha }}</dd><dt>Saldo resultante</dt><dd>{{ det.saldo_resultante|creditos }}</dd><dt>Origen</dt><dd>{{ det.origen or '—' }}</dd>{% if det.autor %}<dt>Autor</dt><dd>{{ det.autor }}</dd>{% endif %}</dl><p class="muted small">{{ det.detalle }}</p>
+{% else %}<p class="muted">Selecciona un movimiento para ver su detalle y el registro que lo originó.</p>{% endif %}
+</aside></div>
+{% endblock %}

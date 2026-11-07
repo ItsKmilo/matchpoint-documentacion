@@ -1,0 +1,19 @@
+{% extends 'base.html' %}{% block title %}Ajustar créditos{% endblock %}
+{% block content %}
+<div class="head"><div><small class="crumbs">Control / Participantes / {{ p.nombre }}</small><h1>Ajustar créditos</h1><p class="muted">Saldo actual: <b>{{ p.saldo|creditos }}</b> créditos</p></div></div>
+<form class="card form narrow" method="post" novalidate>
+  <p class="label">TIPO DE AJUSTE *</p>
+  <div class="options pick two"><label><input type="radio" name="tipo" value="ABONO" {{ 'checked' if form.tipo == 'ABONO' }}><b>Abono</b><small>Suma créditos</small></label><label><input type="radio" name="tipo" value="CARGO" {{ 'checked' if form.tipo == 'CARGO' }}><b>Cargo</b><small>Resta créditos</small></label></div>
+  <label class="field{{ ' err' if errors.get('cantidad') }}"><span>Cantidad *</span><input type="number" min="1" name="cantidad" value="{{ form.cantidad }}">{% if errors.get('cantidad') %}<small class="msg">{{ errors['cantidad'] }}</small>{% endif %}</label>
+  <label class="field{{ ' err' if errors.get('motivo') }}"><span>Motivo *</span><input name="motivo" value="{{ form.motivo }}">{% if errors.get('motivo') %}<small class="msg">{{ errors['motivo'] }}</small>{% endif %}</label>
+  <div class="actions"><a class="btn secondary" href="{{ url_for('admin.participante', uid=p.id) }}">Cancelar</a><button class="btn primary">Revisar ajuste</button></div>
+</form>
+{% if preview %}
+<div class="overlay"><form class="modal" method="post">
+  <h2><span class="ico info">i</span>Confirmar ajuste</h2>
+  <dl class="summary"><dt>Tipo</dt><dd>{{ 'Abono' if form.tipo == 'ABONO' else 'Cargo' }}</dd><dt>Motivo</dt><dd>{{ form.motivo }}</dd><dt>Saldo actual</dt><dd>{{ preview[0]|creditos }}</dd><dt>Saldo resultante</dt><dd>{{ preview[1]|creditos }}</dd></dl>
+  {% for k in ('tipo','cantidad','motivo') %}<input type="hidden" name="{{ k }}" value="{{ form[k] }}">{% endfor %}<input type="hidden" name="confirmado" value="1">
+  <div class="actions"><a class="btn secondary" href="{{ url_for('admin.ajustar', uid=p.id) }}">Cancelar</a><button class="btn primary">Aplicar ajuste</button></div>
+</form></div>
+{% endif %}
+{% endblock %}

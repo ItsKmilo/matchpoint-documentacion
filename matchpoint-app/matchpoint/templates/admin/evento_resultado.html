@@ -1,0 +1,26 @@
+{% extends 'base.html' %}{% block title %}Registrar resultado{% endblock %}
+{% block content %}{% from 'macros.html' import badge %}
+<div class="head"><div><small class="crumbs">Torneos / {{ ev.torneo }} / {{ ev.local }} vs {{ ev.visitante }}</small><h1>Registrar resultado oficial</h1></div></div>
+{% if errors.get('_') %}<div class="alert warn">{{ errors['_'] }}</div><a class="btn secondary" href="{{ url_for('admin.torneo', tid=ev.tid) }}">Volver</a>
+{% else %}
+<form class="card form narrow" method="post" novalidate>
+  <p class="label">MARCADOR FINAL</p>
+  <div class="row">
+    <label class="field{{ ' err' if errors.get('goles') }}"><span>{{ ev.local }}</span><input type="number" min="0" name="goles_local" value="{{ form.goles_local }}"></label>
+    <label class="field{{ ' err' if errors.get('goles') }}"><span>{{ ev.visitante }}</span><input type="number" min="0" name="goles_visitante" value="{{ form.goles_visitante }}"></label>
+  </div>
+  {% if errors.get('goles') %}<div class="alert error">{{ errors['goles'] }}</div>{% endif %}
+  <p class="muted small">Solo administradores · solo eventos cerrados. La opción ganadora se calcula del marcador.</p>
+  <div class="actions"><a class="btn secondary" href="{{ url_for('admin.torneo', tid=ev.tid) }}">Cancelar</a><button class="btn primary">Publicar resultado</button></div>
+</form>
+{% if confirmar %}
+<div class="overlay"><form class="modal" method="post">
+  <h2><span class="ico info">i</span>Publicar resultado oficial</h2>
+  <p><b>{{ ev.local }} {{ form.goles_local }} – {{ form.goles_visitante }} {{ ev.visitante }}</b></p>
+  <p class="muted">Opción ganadora: {{ form.ganador }}. {{ n }} pronósticos quedarán listos para liquidar. Después de publicar, el resultado no se puede sobrescribir.</p>
+  <input type="hidden" name="goles_local" value="{{ form.goles_local }}"><input type="hidden" name="goles_visitante" value="{{ form.goles_visitante }}"><input type="hidden" name="confirmado" value="1">
+  <div class="actions"><a class="btn secondary" href="{{ url_for('admin.resultado', eid=ev.id) }}">Cancelar</a><button class="btn primary">Publicar</button></div>
+</form></div>
+{% endif %}
+{% endif %}
+{% endblock %}

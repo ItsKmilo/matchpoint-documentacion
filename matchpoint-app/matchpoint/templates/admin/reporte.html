@@ -1,0 +1,12 @@
+{% extends 'base.html' %}{% block title %}Reporte del torneo{% endblock %}
+{% block content %}
+<div class="head"><div><small class="crumbs">Torneos / {{ r.torneo.nombre }}</small><h1>Reporte del torneo</h1></div>
+<form class="row-actions noprint" method="get"><input type="date" name="desde" value="{{ desde }}"><input type="date" name="hasta" value="{{ hasta }}"><button class="btn secondary">Filtrar</button>
+<a class="btn secondary" href="{{ url_for('admin.reporte', tid=r.torneo.id, desde=desde, hasta=hasta, formato='csv') }}">CSV ↓</a><button type="button" class="btn secondary" onclick="window.print()">PDF ↓</button></form></div>
+{% if not r.liquidados %}<div class="alert warn">El reporte aún no tiene resultados: no hay eventos liquidados en este torneo.</div>{% endif %}
+<div class="kpis five"><div class="card kpi"><small>EVENTOS</small><strong>{{ r.eventos|length }}</strong></div><div class="card kpi"><small>PRONÓSTICOS</small><strong>{{ r.totales.pronosticos }}</strong></div><div class="card kpi"><small>ACIERTOS</small><strong class="pos">{{ r.totales.aciertos }}</strong></div><div class="card kpi"><small>CRÉDITOS USADOS</small><strong>{{ r.totales.usados|creditos }}</strong></div><div class="card kpi"><small>PREMIOS</small><strong>{{ r.totales.premios|creditos }}</strong></div></div>
+{% if r.verificado %}<div class="alert ok">✓ Totales verificados: coinciden con los movimientos registrados.</div>{% else %}<div class="alert error">Los totales no coinciden con los movimientos. Revisa la conciliación.</div>{% endif %}
+<div class="card table-wrap"><table><thead><tr><th>Evento</th><th>Inicio</th><th class="num">Pronósticos</th><th class="num">Aciertos</th><th class="num">Créditos usados</th><th class="num">Premios</th></tr></thead><tbody>
+{% for e in r.eventos %}<tr><td>{{ e.local }} vs {{ e.visitante }}</td><td>{{ e.inicio|fecha }}</td><td class="num">{{ e.pronosticos }}</td><td class="num">{{ e.aciertos }}</td><td class="num">{{ e.usados|creditos }}</td><td class="num">{{ e.premios|creditos }}</td></tr>
+{% else %}<tr><td colspan="6" class="empty-row">No hay eventos en este rango.</td></tr>{% endfor %}</tbody></table></div>
+{% endblock %}

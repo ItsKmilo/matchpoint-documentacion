@@ -1,0 +1,10 @@
+{% extends 'base.html' %}{% block title %}Cerrar pronósticos{% endblock %}
+{% block content %}
+<div class="overlay"><form class="modal" method="post">
+  <h2><span class="ico danger">!</span>¿Cerrar pronósticos?</h2>
+  <p><b>{{ ev.local }} vs {{ ev.visitante }}</b> · cierre automático {{ ev.cierre|fecha }}</p>
+  <p class="muted">Después de cerrar no se aceptarán pronósticos nuevos ni anulaciones.</p>
+  <dl class="summary"><dt>Local</dt><dd>{{ dist.LOCAL }}</dd><dt>Empate</dt><dd>{{ dist.EMPATE }}</dd><dt>Visitante</dt><dd>{{ dist.VISITANTE }}</dd></dl>
+  <div class="actions"><a class="btn secondary" href="{{ url_for('admin.torneo', tid=ev.tid) }}">Mantener abierto</a><button class="btn primary">Cerrar</button></div>
+</form></div>
+{% endblock %}

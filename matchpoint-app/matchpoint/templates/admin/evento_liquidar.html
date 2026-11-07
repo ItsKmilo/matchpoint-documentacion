@@ -1,0 +1,15 @@
+{% extends 'base.html' %}{% block title %}Liquidación{% endblock %}
+{% block content %}{% from 'macros.html' import badge %}
+<div class="head"><div><small class="crumbs">Torneos / {{ ev.torneo }} / Liquidación</small><h1>{{ ev.local }} vs {{ ev.visitante }} {{ badge(ev.estado) }}{% if ev.liquidado_en %} {{ badge('Liquidado') }}{% endif %}</h1>
+<p class="muted">Resultado oficial: {{ ev.goles_local }} – {{ ev.goles_visitante }} · Opción ganadora: {{ {'LOCAL':'Local','EMPATE':'Empate','VISITANTE':'Visitante'}[ev.resultado] if ev.resultado else '—' }}</p></div></div>
+<div class="kpis four"><div class="card kpi"><small>PRONÓSTICOS</small><strong>{{ r.total }}</strong></div><div class="card kpi"><small>ACERTADOS</small><strong class="pos">{{ r.acertados }}</strong></div><div class="card kpi"><small>NO ACERTADOS</small><strong class="neg">{{ r.no_acertados }}</strong></div><div class="card kpi"><small>A ACREDITAR</small><strong>{{ r.a_acreditar|creditos }}</strong></div></div>
+{% if ev.liquidado_en %}
+<div class="alert warn">Este evento ya fue liquidado el {{ ev.liquidado_en|fecha }}. No se acreditarán premios duplicados.</div>
+{% else %}
+<form method="post" class="card"><p>Se acreditarán <b>{{ r.a_acreditar|creditos }} créditos</b> a {{ r.acertados }} participante{{ 's' if r.acertados != 1 }} en una sola transacción. Si algo falla, no se aplica ningún abono.</p>
+<div class="actions left"><a class="btn secondary" href="{{ url_for('admin.torneo', tid=ev.tid) }}">Cancelar</a><button class="btn primary">Confirmar liquidación</button></div></form>
+{% endif %}
+<div class="card table-wrap"><small class="label">PRONÓSTICOS ACERTADOS</small><table><thead><tr><th>Pronóstico</th><th>Participante</th><th>Opción</th><th class="num">Premio</th></tr></thead><tbody>
+{% for p in r.ganadores %}<tr><td>P-{{ '%04d' % p.id }}</td><td>{{ p.nombre }}</td><td>{{ {'LOCAL':'Local','EMPATE':'Empate','VISITANTE':'Visitante'}[p.opcion] }}</td><td class="num pos">+{{ ev.premio }}</td></tr>
+{% else %}<tr><td colspan="4" class="empty-row">No hay pronósticos acertados.</td></tr>{% endfor %}</tbody></table></div>
+{% endblock %}

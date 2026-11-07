@@ -18,8 +18,7 @@ def create_app(test_config=None):
     Path(app.instance_path).mkdir(parents=True, exist_ok=True)
 
     db.init_app(app)
-    if not Path(app.config["DATABASE"]).exists() or app.config.get("TESTING"):
-        db.init_db(app.config["DATABASE"])
+    db.init_db(app.config["DATABASE"])  # crea la base o aplica las migraciones del Sprint 2
 
     from .auth import bp as auth_bp
     from .admin import bp as admin_bp

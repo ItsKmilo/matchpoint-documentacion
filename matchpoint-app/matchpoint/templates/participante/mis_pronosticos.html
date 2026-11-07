@@ -1,0 +1,19 @@
+{% extends 'base.html' %}{% block title %}Mis pronósticos{% endblock %}
+{% block content %}{% from 'macros.html' import badge %}
+<div class="head"><div><h1>Mis pronósticos</h1><p class="muted">Solo ves los pronósticos de tu cuenta.</p></div></div>
+{% if not lista %}
+<div class="card empty"><h2>Aún no tienes pronósticos.</h2><p class="muted">Explora los eventos abiertos para participar.</p><a class="btn primary" href="{{ url_for('participante.torneos') }}">Torneos disponibles</a></div>
+{% else %}
+<div class="grid-2 wide-left">
+<div class="card table-wrap"><table><thead><tr><th>Evento</th><th>Opción</th><th class="num">Créditos</th><th>Fecha</th><th>Estado</th><th></th></tr></thead><tbody>
+{% for p in lista %}<tr><td><a href="{{ url_for('participante.mis_pronosticos', id=p.id) }}"><b>{{ p.local }} vs {{ p.visitante }}</b></a><br><small class="muted">{{ p.torneo }}</small></td><td>{{ opciones[p.opcion] }}</td><td class="num">{{ p.costo }}</td><td>{{ p.creado_en|fecha }}</td><td>{{ badge(p.estado) }}</td>
+<td>{% if p.estado == 'Pendiente' %}{% if abiertos[p.id] %}<a class="btn ghost sm" href="{{ url_for('participante.anular', pid=p.id) }}">Anular</a>{% else %}<span class="btn ghost sm disabled" title="El evento está cerrado">Anular</span>{% endif %}{% endif %}</td></tr>{% endfor %}
+</tbody></table></div>
+<aside class="card"><small class="label">DETALLE DEL PRONÓSTICO</small>
+{% if det %}<h2>{{ det.local }} vs {{ det.visitante }}</h2>{{ badge(det.estado) }}
+<dl class="summary"><dt>Registrado</dt><dd>{{ det.creado_en|fecha }}</dd><dt>Tu opción</dt><dd>{{ opciones[det.opcion] }}</dd><dt>Créditos</dt><dd>{{ det.costo }}</dd>
+<dt>Resultado oficial</dt><dd>{% if det.resultado %}{{ det.goles_local }} – {{ det.goles_visitante }} ({{ opciones[det.resultado] }}){% else %}Pendiente{% endif %}</dd>
+<dt>Premio recibido</dt><dd class="{{ 'pos' if det.premio_recibido > 0 }}">{{ '+' ~ det.premio_recibido if det.premio_recibido > 0 else '—' }}</dd></dl>
+{% else %}<p class="muted">Selecciona un pronóstico para ver su detalle.</p>{% endif %}</aside></div>
+{% endif %}
+{% endblock %}

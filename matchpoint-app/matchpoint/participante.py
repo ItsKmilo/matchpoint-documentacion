@@ -81,3 +81,35 @@ def creditos(uid=None):
     con = get_db()
     saldo, suma, ok = S.verificar_saldo(con, g.user["id"])
     return render_template("participante/creditos.html", movimientos=S.movimientos_de(con, g.user["id"]), saldo=saldo, suma=suma, ok=ok)
+
+
+# ==================================================================== SPRINT 2
+@bp.route("/mis-pronosticos")
+@role_required("participante")
+def mis_pronosticos():  # HU011
+    lista = S.mis_pronosticos(get_db(), g.user["id"])
+    sel = request.args.get("id", type=int)
+    det = next((p for p in lista if p["id"] == sel), None)
+    return render_template("participante/mis_pronosticos.html", lista=lista, det=det, opciones=S.OPCIONES,
+                           abiertos={p["id"]: S.estado_evento({"estado": p["ev_estado"], "cierre": p["cierre"]}) == "Abierto" for p in lista})
+
+
+@bp.route("/pronosticos/<int:pid>/anular", methods=["GET", "POST"])
+@role_required("participante")
+def anular(pid):  # HU012
+    con = get_db()
+    p = con.execute("SELECT p.*, e.local, e.visitante, e.cierre, e.estado AS ev_estado FROM pronosticos p JOIN eventos e ON e.id = p.evento_id "
+                    "WHERE p.id = ? AND p.usuario_id = ?", (pid, g.user["id"])).fetchone()
+    if p is None:
+        abort(404)
+    if request.method == "POST":
+        try:
+            n = S.anular_pronostico(con, g.user["id"], pid)
+            flash(f"Pronóstico anulado. Se reintegraron {n} créditos a tu saldo.", "ok")
+        except S.ValidationError as e:
+            flash(str(e), "warn")
+        return redirect(url_for("participante.mis_pronosticos"))
+    if S.estado_evento({"estado": p["ev_estado"], "cierre": p["cierre"]}) != "Abierto":
+        flash("No es posible anular el pronóstico porque el evento está cerrado.", "warn")
+        return redirect(url_for("participante.mis_pronosticos"))
+    return render_template("participante/anular.html", p=p, opciones=S.OPCIONES)

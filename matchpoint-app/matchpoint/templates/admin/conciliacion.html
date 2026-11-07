@@ -1,0 +1,10 @@
+{% extends 'base.html' %}{% block title %}Conciliación{% endblock %}
+{% block content %}{% from 'macros.html' import badge %}
+<div class="head"><div><small class="crumbs">Control</small><h1>Conciliación de saldos</h1></div>
+<div class="row-actions"><a class="btn primary" href="{{ url_for('admin.conciliacion', ejecutar=1) }}">Ejecutar conciliación</a><a class="btn secondary" href="{{ url_for('admin.conciliacion', formato='csv') }}">CSV ↓</a></div></div>
+<div class="alert info">La conciliación solo informa: no modifica saldos. Las correcciones se hacen con «Ajustar créditos» (HU017).</div>
+{% if ejecutada %}<div class="kpis"><div class="card kpi"><small>CUENTAS REVISADAS</small><strong>{{ rows|length }}</strong></div><div class="card kpi"><small>CORRECTAS</small><strong class="pos">{{ rows|selectattr('estado','equalto','Correcto')|list|length }}</strong></div><div class="card kpi"><small>INCONSISTENTES</small><strong class="neg">{{ rows|selectattr('estado','equalto','Inconsistente')|list|length }}</strong></div></div>{% endif %}
+<div class="card table-wrap"><table><thead><tr><th>Participante</th><th class="num">Saldo registrado</th><th class="num">Saldo calculado</th><th class="num">Diferencia</th><th>Estado</th></tr></thead><tbody>
+{% for r in rows %}<tr><td>{{ r.nombre }}</td><td class="num">{{ r.saldo|creditos }}</td><td class="num">{{ r.calculado|creditos }}</td><td class="num {{ 'neg' if r.diferencia }}">{{ r.diferencia }}</td><td>{{ badge(r.estado) }}</td></tr>
+{% else %}<tr><td colspan="5" class="empty-row">No hay participantes.</td></tr>{% endfor %}</tbody></table></div>
+{% endblock %}

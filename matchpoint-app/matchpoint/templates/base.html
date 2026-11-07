@@ -13,9 +13,11 @@
   <nav>
   {% if g.user.rol == 'admin' %}
     <a href="{{ url_for('admin.torneos') }}" class="{{ 'on' if request.endpoint and ('torneo' in request.endpoint or 'evento' in request.endpoint) }}">Torneos</a>
-    <a href="{{ url_for('admin.participantes') }}" class="{{ 'on' if request.endpoint and 'participante' in request.endpoint }}">Participantes</a>
+    <a href="{{ url_for('admin.participantes') }}" class="{{ 'on' if request.endpoint and ('participante' in request.endpoint or request.endpoint == 'admin.ajustar') }}">Participantes</a>
+    <a href="{{ url_for('admin.transacciones') }}" class="{{ 'on' if request.endpoint in ('admin.transacciones','admin.conciliacion') }}">Control</a>
   {% else %}
     <a href="{{ url_for('participante.torneos') }}" class="{{ 'on' if request.endpoint in ('participante.torneos','participante.evento') }}">Torneos disponibles</a>
+    <a href="{{ url_for('participante.mis_pronosticos') }}" class="{{ 'on' if request.endpoint in ('participante.mis_pronosticos','participante.anular') }}">Mis pronósticos</a>
     <a href="{{ url_for('participante.creditos') }}" class="{{ 'on' if request.endpoint == 'participante.creditos' }}">Mis créditos</a>
   {% endif %}
   </nav>

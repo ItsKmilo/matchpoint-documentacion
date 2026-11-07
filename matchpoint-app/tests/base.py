@@ -48,3 +48,27 @@ class MatchPointTest(unittest.TestCase):
 
     def count(self, sql, *args):
         return self.con.execute(sql, args).fetchone()[0]
+
+
+class Sprint2Test(MatchPointTest):
+    """Escenario común del Sprint 2: un torneo, un evento con 3 pronósticos (Local, Local, Empate)."""
+
+    def setUp(self):
+        super().setUp()
+        self.laura = self.participante("laura.gomez", "Laura Gómez")
+        self.carlos = self.participante("carlos.ruiz", "Carlos Ruiz")
+        self.sofia = self.participante("sofia.diaz", "Sofía Díaz")
+        self.tid = self.torneo()
+        self.eid = self.evento(self.tid, costo=100, premio=250)
+        self.p_laura, _ = S.registrar_pronostico(self.con, self.laura, self.eid, "LOCAL", "s-1")
+        self.p_carlos, _ = S.registrar_pronostico(self.con, self.carlos, self.eid, "LOCAL", "s-2")
+        self.p_sofia, _ = S.registrar_pronostico(self.con, self.sofia, self.eid, "EMPATE", "s-3")
+
+    def finalizar(self, gl=2, gv=1, liquidar=True):
+        S.cerrar_evento(self.con, self.eid)
+        S.publicar_resultado(self.con, self.eid, gl, gv)
+        if liquidar:
+            S.liquidar_evento(self.con, self.eid)
+
+    def estado_p(self, pid):
+        return self.con.execute("SELECT estado FROM pronosticos WHERE id = ?", (pid,)).fetchone()[0]

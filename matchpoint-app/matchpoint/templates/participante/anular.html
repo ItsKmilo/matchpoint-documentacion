@@ -1,0 +1,10 @@
+{% extends 'base.html' %}{% block title %}Anular pronóstico{% endblock %}
+{% block content %}
+<div class="overlay"><form class="modal" method="post">
+  <h2><span class="ico danger">!</span>¿Anular pronóstico?</h2>
+  <p><b>{{ p.local }} vs {{ p.visitante }} · {{ opciones[p.opcion] }}</b></p>
+  <div class="alert ok">Se reintegrarán {{ p.costo }} créditos a tu saldo ({{ g.user.saldo|creditos }} → {{ (g.user.saldo + p.costo)|creditos }}).</div>
+  <p class="muted small">Una solicitud repetida no genera un segundo reintegro.</p>
+  <div class="actions"><a class="btn secondary" href="{{ url_for('participante.mis_pronosticos') }}">Mantener</a><button class="btn danger">Anular</button></div>
+</form></div>
+{% endblock %}

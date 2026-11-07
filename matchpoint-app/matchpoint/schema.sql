@@ -29,6 +29,8 @@ CREATE TABLE IF NOT EXISTS movimientos (
     saldo_resultante INTEGER NOT NULL CHECK (saldo_resultante >= 0),
     detalle         TEXT    NOT NULL,
     origen          TEXT,                       -- referencia al registro que lo originó (p. ej. P-0001)
+    evento_id       INTEGER REFERENCES eventos(id),   -- HU018: filtro por evento
+    autor_id        INTEGER REFERENCES usuarios(id),  -- HU017: quién hizo el ajuste
     creado_en       TEXT    NOT NULL DEFAULT (datetime('now', 'localtime'))
 );
 -- HU009 paso 3: la asignación inicial solo puede existir una vez por participante
@@ -67,6 +69,11 @@ CREATE TABLE IF NOT EXISTS eventos (
     costo           INTEGER NOT NULL CHECK (costo > 0),
     premio          INTEGER NOT NULL CHECK (premio > 0),
     estado          TEXT    NOT NULL DEFAULT 'Abierto' CHECK (estado IN ('Abierto', 'Cerrado', 'Finalizado')),
+    goles_local     INTEGER,                    -- HU014: resultado oficial
+    goles_visitante INTEGER,
+    resultado       TEXT CHECK (resultado IN ('LOCAL', 'EMPATE', 'VISITANTE')),
+    publicado_en    TEXT,
+    liquidado_en    TEXT,                       -- HU015: una sola liquidación
     creado_en       TEXT    NOT NULL DEFAULT (datetime('now', 'localtime')),
     CHECK (lower(local) <> lower(visitante)),   -- HU006 paso 4
     CHECK (cierre < inicio)                     -- HU006 paso 3
@@ -82,4 +89,15 @@ CREATE TABLE IF NOT EXISTS pronosticos (
     solicitud_id    TEXT    NOT NULL UNIQUE,    -- HU008 paso 5: idempotencia
     creado_en       TEXT    NOT NULL DEFAULT (datetime('now', 'localtime')),
     UNIQUE (evento_id, usuario_id)              -- HU008 paso 2: un pronóstico por evento
+);
+
+-- HU016: historial de correcciones de resultado (nunca se borra)
+CREATE TABLE IF NOT EXISTS correcciones_resultado (
+    id              INTEGER PRIMARY KEY AUTOINCREMENT,
+    evento_id       INTEGER NOT NULL REFERENCES eventos(id),
+    usuario_id      INTEGER NOT NULL REFERENCES usuarios(id),
+    anterior        TEXT    NOT NULL,
+    nuevo           TEXT    NOT NULL,
+    motivo          TEXT    NOT NULL,
+    creado_en       TEXT    NOT NULL DEFAULT (datetime('now', 'localtime'))
 );

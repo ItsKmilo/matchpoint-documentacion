@@ -29,7 +29,16 @@ def cargar_demo():
     for d, l, v in [(3, "Ingeniería FC", "Derecho United"), (5, "Medicina", "Arquitectura"), (8, "Sistemas", "Psicología")]:
         ini = base + timedelta(days=d, hours=18)
         S.crear_evento(con, t1, l, v, ini.strftime("%Y-%m-%dT%H:%M"), (ini - timedelta(minutes=30)).strftime("%Y-%m-%dT%H:%M"), 100, 250)
-    print("Demo cargada: participantes laura.gomez / carlos.ruiz (clave demo123), 2 torneos y 3 eventos.")
+    # Sprint 2: un evento con pronósticos ya cerrado, listo para publicar resultado, liquidar y corregir en la demo
+    ids = [r[0] for r in con.execute("SELECT id FROM eventos ORDER BY inicio")]
+    laura = con.execute("SELECT id FROM usuarios WHERE usuario = 'laura.gomez'").fetchone()[0]
+    carlos = con.execute("SELECT id FROM usuarios WHERE usuario = 'carlos.ruiz'").fetchone()[0]
+    S.registrar_pronostico(con, laura, ids[2], "LOCAL", "demo-1")
+    S.registrar_pronostico(con, carlos, ids[2], "EMPATE", "demo-2")
+    S.registrar_pronostico(con, carlos, ids[1], "VISITANTE", "demo-3")
+    S.cerrar_evento(con, ids[2])
+    print("Demo cargada: participantes laura.gomez / carlos.ruiz (clave demo123), 2 torneos y 3 eventos "
+          "(Sistemas vs Psicología ya cerrado con 2 pronósticos, listo para publicar resultado y liquidar).")
 
 
 if __name__ == "__main__":
