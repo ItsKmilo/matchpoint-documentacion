@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#071d36">
+  <meta name="description" content="Trabajo académico de la Universidad Manuela Beltrán. MatchPoint: documentación académica de la fase inicial. Team Canvas, visión del producto, mapa de 20 historias de usuario con paso a paso y mockups, y Product Backlog en 2 sprints. Nexo Digital Labs.">
+  <title>Retrospectiva Sprint 2 · MatchPoint</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>window.MP_RETRO={sprint:"Sprint 2",tecnica:"velero"};</script>
+  <script src="assets/js/retro.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+<header class="site-header" id="cabecera">
+  <div class="header-inner container-wide">
+    <a class="brand" href="index.html#inicio" aria-label="MatchPoint, ir al inicio">
+      <span class="brand-mark"><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M9 6h14v8a7 7 0 0 1-14 0V6Z" stroke="currentColor" stroke-width="2.3"/><path d="M9 9H5v3a5 5 0 0 0 5 5M23 9h4v3a5 5 0 0 1-5 5M16 21v5m-6 0h12" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><path d="m16 9 1.1 2.3 2.5.3-1.8 1.7.4 2.4-2.2-1.2-2.2 1.2.4-2.4-1.8-1.7 2.5-.3L16 9Z" fill="currentColor"/></svg></span>
+      <span class="brand-name">Match<span>Point</span><small>DOCUMENTACIÓN ACADÉMICA · UMB</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Navegación principal">
+      <a href="index.html#equipo">Equipo</a><a href="index.html#vision">Visión</a><a href="index.html#mapa">Mapa de historias</a><a href="index.html#backlog">Backlog</a><a href="index.html#historias">HU y mockups</a><a href="index.html#entregas">Sprints</a><a href="tablero.html">Tablero</a><a href="entrega-sprint1.html">Entrega Sprint 1</a><a href="entrega-sprint2.html">Entrega Sprint 2</a><a href="index.html#evidencias">PDF y evidencias</a>
+      <a class="nav-download" href="index.html#archivos">Ver archivos <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+</header>
+<main id="contenido">
+  <section class="section tb-hero"><div class="container-wide">
+    <div class="section-heading heading-split"><div><span class="section-label">RETROSPECTIVA · SPRINT 2</span><h2>Retrospectiva<br><em>Velero.</em></h2></div>
+    <p>Cada integrante escribe notas en las cuatro zonas del velero: viento, anclas, rocas e isla. Luego el equipo agrupa, vota y acuerda de 2 a 3 acciones con responsable para cerrar el proyecto.</p></div>
+    <p class="tb-source" id="rt-source"></p>
+    <div class="tb-edit" id="rt-edit"></div>
+  </div></section>
+
+  <section class="section section-tinted"><div class="container-wide">
+    <div class="section-subheading"><div><span class="section-label">TABLERO</span><h3>Las cuatro zonas del velero</h3></div></div>
+    <div class="starfish" id="rt-board"></div>
+  </div></section>
+
+  <section class="section"><div class="container-wide">
+    <div class="section-subheading"><div><span class="section-label">RESULTADO</span><h3>Acciones acordadas para cerrar el proyecto</h3></div></div>
+    <form class="tb-form" id="rt-form-accion" hidden><label class="wide">Acción<input name="accion" required placeholder="Qué vamos a hacer distinto"></label><label>Responsable<input name="resp" required placeholder="Nombre"></label><label>Para cuándo<input name="fecha" type="date" required></label><button class="btn btn-dark" type="submit">Agregar acción</button></form>
+    <div class="table-scroll"><table class="backlog-table ent-table"><thead><tr><th>Acción</th><th>Responsable</th><th>Para cuándo</th><th>Registrada por</th></tr></thead><tbody id="rt-acciones"></tbody></table></div>
+  </div></section>
+
+  <section class="section section-tinted"><div class="container-wide">
+    <div class="section-subheading"><div><span class="section-label">INVESTIGACIÓN</span><h3>Tres técnicas de retrospectiva</h3></div></div>
+    <div class="table-scroll"><table class="backlog-table ent-table"><thead><tr><th>Técnica</th><th>Categorías</th><th>Sirve para</th><th>Fuente</th></tr></thead><tbody>
+      <tr><td><b>Starfish (estrella de mar)</b></td><td>Empezar a hacer · Dejar de hacer · Seguir haciendo · Hacer más · Hacer menos</td><td>Pasar directo a acciones concretas; las cinco puntas ya están escritas como cambios de comportamiento.</td><td><a href="https://moqups.com/templates/business-strategy/starfish-retrospective/" target="_blank" rel="noopener">Moqups</a></td></tr>
+      <tr><td><b>Velero (sailboat)</b></td><td>Viento (lo que impulsa) · Anclas (lo que frena) · Rocas (riesgos por delante) · Isla (la meta)</td><td>Hablar de riesgos y obstáculos con una metáfora visual atada al objetivo del proyecto.</td><td><a href="https://projectmanagers.net/sprint-retrospective-examples" target="_blank" rel="noopener">ProjectManagers.net</a></td></tr>
+      <tr><td><b>4L</b></td><td>Liked / Loved (lo que gustó) · Learned (lo aprendido) · Lacked / Loathed (lo que faltó o no funcionó) · Longed for (lo que se deseó)</td><td>Reflexionar sobre el aprendizaje del equipo; útil en equipos nuevos.</td><td><a href="https://www.atlassian.com/de/team-playbook/plays/4-ls-retrospective-technique" target="_blank" rel="noopener">Atlassian</a></td></tr>
+    </tbody></table></div>
+    <p class="timeline-note"><b>Por qué Velero en el Sprint 2:</b> en el Sprint 1 ya usamos Starfish; cambiar de técnica evita respuestas repetidas. Como es el último sprint, el velero ayuda a mirar riesgos (rocas) y la meta del producto (isla), no solo el proceso. <a href="retro.html">Ver la retrospectiva Starfish del Sprint 1</a>.</p>
+    <div class="section-subheading"><div><span class="section-label">CÓMO SE HACE LA SESIÓN · 30 MINUTOS</span><h3>Agenda</h3></div></div>
+    <ol class="ent-steps"><li><b>Apertura (3 min).</b> El Scrum Master recuerda la regla: se habla de procesos, no de personas.</li><li><b>Escritura en silencio (8 min).</b> Cada uno agrega sus notas en las cuatro zonas desde su cuenta.</li><li><b>Lectura y agrupación (7 min).</b> Cada quien lee sus notas; se juntan las repetidas.</li><li><b>Votación (4 min).</b> Cada integrante elige las 2 notas que más importan.</li><li><b>Acciones (8 min).</b> De las más votadas salen 2 o 3 acciones con responsable y fecha para la entrega final.</li></ol>
+  </div></section>
+</main>
+<footer class="site-footer"><div class="container-wide footer-content"><div class="footer-project-brand"><div class="footer-umb"><img src="assets/img/umb-logo-original.png" alt="Logo UMB" width="45" height="63" loading="lazy"></div><div><a class="footer-brand" href="#contenido">Match<span>Point</span></a><p>Documentación académica · Fase de inicio<br>Caso del enunciado: Nexo Digital Labs</p></div></div><div><span>INTEGRANTES</span><p>Santiago Solano · Maicol Rubiano<br>Diego Romero · Camilo Bastidas</p></div><a href="#contenido" class="back-top">Volver arriba ↑</a></div></footer>
+<script>(()=>{const m=document.querySelector('.menu-toggle'),n=document.querySelector('#site-nav');m?.addEventListener('click',()=>{const o=n.classList.toggle('open');m.setAttribute('aria-expanded',String(o));});})();</script>
+</body>
+</html>

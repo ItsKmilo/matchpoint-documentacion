@@ -1,16 +1,24 @@
-/* Tablero de retrospectiva Starfish (Sprint 1).
+/* Tablero de retrospectiva (Starfish en el Sprint 1, Velero en el Sprint 2).
    Las notas y acciones son comentarios del issue con la etiqueta «Retrospectiva» del repositorio:
    quedan con autor, fecha y hora. Cualquiera lo ve; el equipo escribe tras «Activar edición»
    (el mismo token del tablero del sprint). Sin librerías externas. */
 (()=>{
   'use strict';
   const REPO='ItsKmilo/matchpoint-documentacion',API=`https://api.github.com/repos/${REPO}`,KEY='mp-tablero-token';
-  const PUNTAS=[
-    {k:'Empezar a hacer',d:'Lo que no hacemos y deberíamos empezar.',c:'#2563eb'},
-    {k:'Dejar de hacer',d:'Lo que no aporta o nos frena.',c:'#dc2626'},
-    {k:'Seguir haciendo',d:'Lo que funcionó y se mantiene.',c:'#16a34a'},
-    {k:'Hacer más',d:'Lo que funcionó y conviene aumentar.',c:'#7c3aed'},
-    {k:'Hacer menos',d:'Lo que aporta poco para lo que cuesta.',c:'#d97706'}];
+  const CFG=window.MP_RETRO||{sprint:'Sprint 1',tecnica:'starfish'};
+  const TECNICAS={
+    starfish:[
+      {k:'Empezar a hacer',d:'Lo que no hacemos y deberíamos empezar.',c:'#2563eb'},
+      {k:'Dejar de hacer',d:'Lo que no aporta o nos frena.',c:'#dc2626'},
+      {k:'Seguir haciendo',d:'Lo que funcionó y se mantiene.',c:'#16a34a'},
+      {k:'Hacer más',d:'Lo que funcionó y conviene aumentar.',c:'#7c3aed'},
+      {k:'Hacer menos',d:'Lo que aporta poco para lo que cuesta.',c:'#d97706'}],
+    velero:[
+      {k:'Viento',d:'Lo que nos impulsó durante el sprint.',c:'#16a34a'},
+      {k:'Anclas',d:'Lo que nos frenó o retrasó.',c:'#dc2626'},
+      {k:'Rocas',d:'Riesgos que vemos por delante.',c:'#d97706'},
+      {k:'Isla',d:'La meta: cómo se ve el proyecto terminado.',c:'#2563eb'}]};
+  const PUNTAS=TECNICAS[CFG.tecnica]||TECNICAS.starfish;
   const $=s=>document.querySelector(s);
   const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const fh=iso=>new Date(iso).toLocaleString('es-CO',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'America/Bogota'});
@@ -33,7 +41,7 @@
   async function load(){
     try{
       const issues=await gh('/issues?state=all&labels=Retrospectiva&per_page=10');
-      st.issue=issues.find(i=>/Sprint 1/i.test(i.title))||issues[0]||null;
+      st.issue=issues.find(i=>i.title.toLowerCase().includes(CFG.sprint.toLowerCase()))||null;
       st.notas=[];st.acciones=[];
       if(st.issue){(await gh(`/issues/${st.issue.number}/comments?per_page=100`)).forEach(parse);}
       st.live=true;
@@ -48,7 +56,7 @@
         <form class="tb-login" id="rt-login" hidden><label>Token de GitHub<input name="token" type="password" autocomplete="off" required placeholder="ghp_…"></label><button class="btn btn-primary" type="submit">Entrar</button>
         <details><summary>¿Cómo obtengo el token?</summary><ol><li>Entra a <a href="https://github.com/settings/tokens/new?scopes=public_repo&description=Tablero%20MatchPoint" target="_blank" rel="noopener">GitHub → Generate new token (classic)</a>.</li><li>Deja marcado solo <code>public_repo</code> y pulsa <b>Generate token</b>.</li><li>Pégalo aquí. Se guarda solo en este navegador.</li></ol></details></form>`;
     if(st.msg){const m=document.createElement('p');m.className='tb-msg';m.textContent=st.msg;$('#rt-edit').append(m);}
-    $('#rt-board').innerHTML=PUNTAS.map((p,i)=>{const ns=st.notas.filter(n=>n.punta.toLowerCase()===p.k.toLowerCase());
+    $('#rt-board').className='starfish'+(PUNTAS.length===4?' four':'');$('#rt-board').innerHTML=PUNTAS.map((p,i)=>{const ns=st.notas.filter(n=>n.punta.toLowerCase()===p.k.toLowerCase());
       return `<div class="sf-col" style="--c:${p.c}"><div class="sf-head"><span class="sf-n">${i+1}</span><div><b>${p.k}</b><small>${p.d}</small></div><em>${ns.length}</em></div>
       ${ns.map(n=>`<div class="sf-note"><p>${E(n.texto).replace(/\n/g,'<br>')}</p><small>@${E(n.autor)} · ${fh(n.t)}</small></div>`).join('')||'<p class="kempty">Sin notas todavía</p>'}
       ${edit?`<form class="sf-add" data-punta="${p.k}"><textarea name="texto" rows="2" required placeholder="Nueva nota…"></textarea><button class="btn btn-dark" type="submit">Agregar</button></form>`:''}</div>`;}).join('');

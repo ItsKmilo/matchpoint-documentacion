@@ -1,4 +1,4 @@
-/* Tablero del Sprint 1 de MatchPoint.
+/* Tablero de los sprints 1 y 2 de MatchPoint.
    - Cualquiera lo ve en vivo (lee los issues públicos del repositorio).
    - El equipo, después de «Activar edición», arrastra las tarjetas entre columnas y registra
      seguimiento y sesiones desde esta misma página. Todo se guarda en GitHub con autor y hora.
@@ -18,10 +18,10 @@
   menu?.addEventListener('click',()=>{const o=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(o));});
 
   const S=D.sprint;
-  $('#tb-objetivo').textContent=`${S.nombre}. Inicio: ${f(S.inicio)} · Entrega de avance: ${f(S.entrega_avance)}. ${S.objetivo}`;
+  const cab=k=>{const X=(D.sprints||{})[k]||S;$('#tb-objetivo').textContent=`${X.nombre}. Inicio: ${f(X.inicio)} · Entrega: ${f(X.entrega_avance)}. ${X.objetivo}`;};
   $('#tb-roles').innerHTML=Object.entries(S.roles).map(([r,n])=>`<div><small>${E(r.toUpperCase())}</small><strong>${E(n)}</strong></div>`).join('');
 
-  const state={H:D.historias.map(h=>({...h})),seg:[],ses:[],live:false,token:store.get(),user:null,msg:''};
+  const state={sprint:'Sprint 2',H:D.historias.map(h=>({...h})),seg:[],ses:[],live:false,token:store.get(),user:null,msg:''};
   const base=[...D.entradas].reverse().map(e=>({t:e.fecha,cuando:f(e.fecha),tipo:e.tipo,autor:'',texto:e.texto}));
 
   /* ---------------- GitHub ---------------- */
@@ -36,11 +36,11 @@
   const comment=(n,body)=>gh(`/issues/${n}/comments`,{method:'POST',body:JSON.stringify({body})});
 
   function load(){
-    return Promise.all([gh('/issues?state=all&labels=Sprint%201,Historia%20de%20usuario&per_page=100'),gh(`/issues/${ISSUE_SEG}/comments?per_page=100`),gh(`/issues/${ISSUE_SES}/comments?per_page=100`)])
+    return Promise.all([gh('/issues?state=all&labels=Historia%20de%20usuario&per_page=100'),gh(`/issues/${ISSUE_SEG}/comments?per_page=100`),gh(`/issues/${ISSUE_SES}/comments?per_page=100`)])
     .then(([issues,seg,ses])=>{
       const byId=Object.fromEntries(D.historias.map(h=>[h.id,h]));
       const H=issues.map(i=>{const id=(i.title.match(/HU\d{3}/)||[''])[0],b=byId[id]||{},labels=i.labels.map(l=>l.name);
-        return {...b,id,name:b.name||i.title,number:i.number,labels,url:i.html_url,
+        return {...b,id,name:b.name||i.title,number:i.number,labels,url:i.html_url,sprint:labels.includes('Sprint 2')?'Sprint 2':(labels.includes('Sprint 1')?'Sprint 1':b.sprint),
           sp:+((i.title.match(/\((\d+) SP\)/)||[0,b.sp||0])[1]),
           priority:['Must','Should','Could'].find(p=>labels.includes(p))||b.priority,
           estado:i.state==='closed'?'Terminado':(ESTADOS.find(e=>labels.includes(e))||'Por hacer')};})
@@ -56,9 +56,10 @@
 
   /* ---------------- Render ---------------- */
   function render(){
-    const H=state.H,total=H.reduce((a,h)=>a+h.sp,0)||1,sum=st=>H.filter(h=>st.includes(h.estado)).reduce((a,h)=>a+h.sp,0);
+    cab(state.sprint);
+    const H=state.H.filter(h=>h.sprint===state.sprint),total=H.reduce((a,h)=>a+h.sp,0)||1,sum=st=>H.filter(h=>st.includes(h.estado)).reduce((a,h)=>a+h.sp,0);
     const done=sum(['Terminado']),impl=sum(['En revisión','Terminado']),edit=!!state.user;
-    $('#tb-kpis').innerHTML=[['HISTORIAS',H.length],['PUNTOS (SP)',total],['SP IMPLEMENTADOS',impl],['SP TERMINADOS',done],['PRUEBAS OK',D.historias.reduce((a,h)=>a+h.pruebas,0)]].map(([a,b])=>`<div><span>${a}</span><strong>${b}</strong></div>`).join('');
+    $('#tb-kpis').innerHTML=[['HISTORIAS',H.length],['PUNTOS (SP)',total],['SP IMPLEMENTADOS',impl],['SP TERMINADOS',done],['PRUEBAS OK',H.reduce((a,h)=>a+h.pruebas,0)]].map(([a,b])=>`<div><span>${a}</span><strong>${b}</strong></div>`).join('');
     $('#tb-bar-done').style.width=(done/total*100)+'%';$('#tb-bar-impl').style.width=((impl-done)/total*100)+'%';
     $('#tb-source').innerHTML=state.live?`● En vivo · actualizado ${fh(new Date().toISOString())}`:'Mostrando la última copia guardada. Recarga en unos minutos para ver los cambios más recientes.';
     $('#tb-edit').innerHTML=edit
@@ -112,6 +113,7 @@
   }
 
   document.addEventListener('click',e=>{
+    const sb=e.target.closest('.tb-sprints [data-sprint]');if(sb){state.sprint=sb.dataset.sprint;document.querySelectorAll('.tb-sprints button').forEach(b=>{const on=b===sb;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));});render();}
     if(e.target.closest('#tb-login-open')){$('#tb-login').hidden=false;$('#tb-login input').focus();}
     if(e.target.closest('#tb-logout')){state.user=null;state.token='';store.set('');state.msg='';render();}
     const mv=e.target.closest('[data-mv]');if(mv)mover(mv.dataset.mv,+mv.dataset.to);

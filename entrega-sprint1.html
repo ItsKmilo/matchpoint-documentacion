@@ -22,7 +22,7 @@
     </a>
     <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Abrir menú"><span></span><span></span><span></span></button>
     <nav id="site-nav" class="site-nav" aria-label="Navegación principal">
-      <a href="index.html#equipo">Equipo</a><a href="index.html#vision">Visión</a><a href="index.html#mapa">Mapa de historias</a><a href="index.html#backlog">Backlog</a><a href="index.html#historias">HU y mockups</a><a href="index.html#entregas">Sprints</a><a href="tablero.html">Tablero Sprint 1</a><a href="entrega-sprint1.html">Entrega Sprint 1</a><a href="index.html#evidencias">PDF y evidencias</a>
+      <a href="index.html#equipo">Equipo</a><a href="index.html#vision">Visión</a><a href="index.html#mapa">Mapa de historias</a><a href="index.html#backlog">Backlog</a><a href="index.html#historias">HU y mockups</a><a href="index.html#entregas">Sprints</a><a href="tablero.html">Tablero</a><a href="entrega-sprint1.html">Entrega Sprint 1</a><a href="entrega-sprint2.html">Entrega Sprint 2</a><a href="index.html#evidencias">PDF y evidencias</a>
       <a class="nav-download" href="index.html#archivos">Ver archivos <span aria-hidden="true">↗</span></a>
     </nav>
   </div>
@@ -69,15 +69,13 @@ python -m unittest discover -s tests -t . -v</pre>
     </div>
     <div class="table-scroll"><table class="backlog-table ent-table"><thead><tr><th>Integrante</th><th>Rol</th><th>HU a su cargo</th><th>Archivos principales</th></tr></thead><tbody>
       <tr><td><b>Santiago Solano</b></td><td>Scrum Master</td><td>Seguimiento y calidad del sprint</td><td><code>tests/</code>, tablero del sprint</td></tr>
-      <tr><td><b>Maicol Rubiano</b></td><td>Backend Developer</td><td>HU001, HU006, HU008</td><td><code>auth.py</code>, <code>services.py</code></td></tr>
-      <tr><td><b>Diego Romero</b></td><td>Frontend Developer</td><td>HU002, HU003, HU004, HU007, HU010</td><td><code>templates/</code>, <code>static/</code>, <code>admin.py</code>, <code>participante.py</code></td></tr>
-      <tr><td><b>Camilo Bastidas</b></td><td>Database Administrator</td><td>HU005, HU009</td><td><code>schema.sql</code>, <code>db.py</code>, <code>services.py</code></td></tr>
+<tr><td><b>Maicol Rubiano</b></td><td>Backend Developer</td><td>HU001, HU006, HU008</td><td><code>auth.py</code>, <code>services.py</code></td></tr><tr><td><b>Diego Romero</b></td><td>Frontend Developer</td><td>HU002, HU003, HU004, HU007, HU010</td><td><code>templates/</code>, <code>static/</code>, <code>admin.py</code>, <code>participante.py</code></td></tr><tr><td><b>Camilo Bastidas</b></td><td>Database Administrator</td><td>HU005, HU009</td><td><code>schema.sql</code>, <code>db.py</code>, <code>services.py</code></td></tr>
     </tbody></table></div>
   </div></section>
 
   <section class="section" id="review"><div class="container-wide">
     <div class="section-subheading"><div><span class="section-label">02 / SPRINT REVIEW</span><h3>Video de la review</h3></div></div>
-    <div id="ent-video" class="ent-video"></div>
+    <div id="ent-video" class="ent-video" data-k=""></div>
     <div class="section-subheading"><div><span class="section-label">GUION · MÁXIMO 8 MINUTOS · CÁMARAS ENCENDIDAS</span><h3>Quién presenta qué</h3></div></div>
     <div class="table-scroll"><table class="backlog-table ent-table"><thead><tr><th>Tiempo</th><th>Presenta</th><th>Qué muestra en la app</th><th>HU</th></tr></thead><tbody><tr><td><b>0:00 – 0:45</b></td><td>Santiago Solano · Scrum Master</td><td>Presenta al equipo y el objetivo del Sprint 1. Muestra el tablero: 10 HU, 39 SP y su estado.</td><td>—</td></tr><tr><td><b>0:45 – 2:45</b></td><td>Maicol Rubiano · Backend</td><td>Inicio de sesión (contraseña errada, admin, participante sin permiso → 403). Programa un evento con una fecha límite inválida y luego válida. Registra un pronóstico y muestra que el doble clic no cobra dos veces.</td><td>HU001, HU006, HU008</td></tr><tr><td><b>2:45 – 5:15</b></td><td>Diego Romero · Frontend / PO</td><td>Registra un participante (correo duplicado → error). Crea un torneo (fecha de fin anterior → error) y lo edita mostrando el historial. Como participante, filtra eventos por estado y abre «Mis créditos» con el saldo verificado.</td><td>HU002, HU003, HU004, HU007, HU010</td></tr><tr><td><b>5:15 – 6:45</b></td><td>Camilo Bastidas · DBA</td><td>Intenta eliminar un torneo con eventos (no se deja) y elimina uno vacío con su confirmación. Muestra los 1.000 créditos iniciales del nuevo participante y explica las reglas de la base (saldo ≥ 0, un pronóstico por evento).</td><td>HU005, HU009</td></tr><tr><td><b>6:45 – 7:45</b></td><td>Santiago Solano · Scrum Master</td><td>Corre las pruebas (59 OK) y cierra: qué HU aceptó el Product Owner y qué sigue en el Sprint 2.</td><td>—</td></tr></tbody></table></div>
     <p class="timeline-note">Cada integrante comparte pantalla mientras presenta, con la cámara encendida. Antes de grabar: <code>python run.py --reset --demo</code> para empezar con datos limpios.</p>
